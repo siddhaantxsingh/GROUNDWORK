@@ -1,0 +1,14 @@
+dev fusion {'dense_weight': 0.3, 'ndcg@10': 0.6287}
+dev fusion {'dense_weight': 0.5, 'ndcg@10': 0.6373}
+dev fusion {'dense_weight': 0.7, 'ndcg@10': 0.6679}
+test bm25 (tuned) 0.6271 0.5655 0.825 {'p50': 0.2, 'p95': 0.42, 'p99': 0.44}
+test dense lsa-384 0.5045 0.4202 0.775 {'p50': 2.1, 'p95': 2.62, 'p99': 3.09}
+test hybrid rrf (lsa) 0.5921 0.5192 0.825 {'p50': 3.33, 'p95': 4.34, 'p99': 5.21}
+test bm25 + feature rerank 0.6698 0.609 0.8625 {'p50': 4.84, 'p95': 6.6, 'p99': 9.03}
+test dense nomic-embed-text-v1.5 0.6827 0.6083 0.925 {'p50': 3663.92, 'p95': 4270.65, 'p99': 6291.55}
+test hybrid rrf (nomic) 0.7 0.6346 0.9125 {'p50': 11.75, 'p95': 21.11, 'p99': 24.15}
+test hybrid weighted w=0.7 (nomic) 0.6979 0.6294 0.9125 {'p50': 11.85, 'p95': 19.94, 'p99': 27.73}
+test hybrid weighted w=0.7 (nomic) + feature rerank 0.7103 0.6462 0.9125 {'p50': 26.6, 'p95': 44.13, 'p99': 49.77}
+query embedding {'run': 1, 'queries': 30, 'loadavg': '9.33 10.17 12.83', 'p50_ms': 3769.9, 'p95_ms': 4171.8}
+query embedding {'run': 2, 'queries': 30, 'loadavg': '9.95 10.13 12.52', 'p50_ms': 3428.0, 'p95_ms': 3809.3}
+query embedding {'run': 3, 'queries': 30, 'loadavg': '10.29 10.15 12.30', 'p50_ms': 3408.0, 'p95_ms': 3984.4}

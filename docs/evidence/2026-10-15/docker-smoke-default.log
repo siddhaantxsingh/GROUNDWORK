@@ -1,0 +1,26 @@
+{"database":"ok","redis":"ok"}
+{"id":"6fbc8d72-2cf2-4d46-a85e-8514f7a4dac6","name":"Turbine Manual","media_type":"text/markdown","pages":1,"chunks":2,"created":true,"empty_pages":[]}
+{
+ "answer": "The gearbox must be lubricated every 500 operating hours [1].",
+ "provider": "extractive",
+ "abstained": false,
+ "citations": [
+  {
+   "sentence": 0,
+   "sources": [
+    1
+   ]
+  }
+ ],
+ "grounding": {
+  "sentences": 1,
+  "supported": 1,
+  "uncited": 0,
+  "invalid_citations": 0,
+  "total_citations": 1,
+  "groundedness": 1.0,
+  "citation_precision": 1.0,
+  "unsupported_sentences": []
+ }
+}
+SMOKE OK (groundwork:test)

@@ -1,0 +1,634 @@
+{"id": "ba245dfb03cc", "text": "Metaclass for defining Abstract Base Classes (ABCs).", "split": "dev", "qualname": "abc.ABCMeta"}
+{"id": "ee1a83691c8f", "text": "Recalculate the set of abstract methods of an abstract class.", "split": "test", "qualname": "abc.update_abstractmethods"}
+{"id": "350c06d7c671", "text": "Information about how to convert command line strings to Python objects.", "split": "test", "qualname": "argparse.Action"}
+{"id": "b3687fe203c9", "text": "Object for parsing command line strings into Python objects.", "split": "test", "qualname": "argparse.ArgumentParser"}
+{"id": "3dcd786751e3", "text": "Factory for creating file object types", "split": "test", "qualname": "argparse.FileType"}
+{"id": "6e5faf33d23c", "text": "A :class:`NodeVisitor` subclass that walks the abstract syntax tree and allows modification of nodes.", "split": "dev", "qualname": "ast.NodeTransformer"}
+{"id": "97b2879aedfe", "text": "A node visitor base class that walks the abstract syntax tree and calls a visitor function for every node found.", "split": "dev", "qualname": "ast.NodeVisitor"}
+{"id": "cbcc2e19f64c", "text": "Return a formatted dump of the tree in node.", "split": "dev", "qualname": "ast.dump"}
+{"id": "4449937bffc6", "text": "When you compile a node tree with compile(), the compiler expects lineno and col_offset attributes for every node that supports them.", "split": "dev", "qualname": "ast.fix_missing_locations"}
+{"id": "4c1440d17301", "text": "Return the docstring for the given node or None if no docstring can be found.", "split": "test", "qualname": "ast.get_docstring"}
+{"id": "ee3f2b500356", "text": "Get source code segment of the *source* that generated *node*.", "split": "dev", "qualname": "ast.get_source_segment"}
+{"id": "4d217004c246", "text": "Evaluate an expression node or a string containing only a Python expression.", "split": "dev", "qualname": "ast.literal_eval"}
+{"id": "8fbb612178f9", "text": "Register a function to be executed upon normal program termination", "split": "test", "qualname": "atexit.register"}
+{"id": "efd35a44cc1b", "text": "Decode the Ascii85 encoded bytes-like object or ASCII string b.", "split": "test", "qualname": "base64.a85decode"}
+{"id": "fa32c7f70106", "text": "Encode bytes-like object b using Ascii85 and return a bytes object.", "split": "dev", "qualname": "base64.a85encode"}
+{"id": "c1f39dc48716", "text": "Decode the Base16 encoded bytes-like object or ASCII string s.", "split": "dev", "qualname": "base64.b16decode"}
+{"id": "460816b21786", "text": "Decode the base32 encoded bytes-like object or ASCII string s.", "split": "dev", "qualname": "base64.b32decode"}
+{"id": "e77bdc6f5e27", "text": "Decode the base32hex encoded bytes-like object or ASCII string s.", "split": "test", "qualname": "base64.b32hexdecode"}
+{"id": "db72b3ab1a82", "text": "Decode the Base64 encoded bytes-like object or ASCII string s.", "split": "dev", "qualname": "base64.b64decode"}
+{"id": "53ffc306ee54", "text": "Encode the bytes-like object s using Base64 and return a bytes object.", "split": "dev", "qualname": "base64.b64encode"}
+{"id": "18d5e13f3d65", "text": "Encode bytes-like object b in base85 format and return a bytes object.", "split": "test", "qualname": "base64.b85encode"}
+{"id": "b508e391aeee", "text": "Decode bytes encoded with the standard Base64 alphabet.", "split": "dev", "qualname": "base64.standard_b64decode"}
+{"id": "a7d7bc91bd98", "text": "Decode bytes using the URL- and filesystem-safe Base64 alphabet.", "split": "dev", "qualname": "base64.urlsafe_b64decode"}
+{"id": "b762acf4c145", "text": "Encode bytes using the URL- and filesystem-safe Base64 alphabet.", "split": "test", "qualname": "base64.urlsafe_b64encode"}
+{"id": "24856ea34ba0", "text": "Return a string with information about a stack entry.", "split": "dev", "qualname": "bdb.Bdb.format_stack_entry"}
+{"id": "3fd5316c67ec", "text": "Dispatch a trace function for debugged frames based on the event.", "split": "dev", "qualname": "bdb.Bdb.trace_dispatch"}
+{"id": "6a276dc005cd", "text": "Return True if break should happen here.", "split": "test", "qualname": "bdb.checkfuncname"}
+{"id": "9d00685a2766", "text": "Return (active breakpoint, delete temporary flag) or (None, None) as breakpoint to act upon.", "split": "dev", "qualname": "bdb.effective"}
+{"id": "29bc42f59808", "text": "Decode a line of base64 data.", "split": "dev", "qualname": "binascii.a2b_base64"}
+{"id": "3652a206ad66", "text": "Encode a string using quoted-printable encoding.", "split": "dev", "qualname": "binascii.b2a_qp"}
+{"id": "7cf4a64c784c", "text": "Return an ASCII-only representation of an object.", "split": "dev", "qualname": "builtins.ascii"}
+{"id": "40bfb021a415", "text": "Returns True when the argument is true, False otherwise.", "split": "test", "qualname": "builtins.bool"}
+{"id": "6ef6df06e0df", "text": "Decode the bytearray using the codec registered for encoding.", "split": "test", "qualname": "builtins.bytearray.decode"}
+{"id": "c742d38e0c5d", "text": "Return True if the bytearray ends with the specified suffix, False otherwise.", "split": "test", "qualname": "builtins.bytearray.endswith"}
+{"id": "62dd24454fb0", "text": "Create a string of hexadecimal numbers from a bytearray object.", "split": "dev", "qualname": "builtins.bytearray.hex"}
+{"id": "95f6aa47be9f", "text": "Remove and return a single item from B.", "split": "test", "qualname": "builtins.bytearray.pop"}
+{"id": "2dad844a1755", "text": "Return True if the bytearray starts with the specified prefix, False otherwise.", "split": "test", "qualname": "builtins.bytearray.startswith"}
+{"id": "845eff6ce41a", "text": "Decode the bytes using the codec registered for encoding.", "split": "dev", "qualname": "builtins.bytes.decode"}
+{"id": "f1ffc75d4449", "text": "Return True if the bytes ends with the specified suffix, False otherwise.", "split": "test", "qualname": "builtins.bytes.endswith"}
+{"id": "4bfbd660d704", "text": "Create a string of hexadecimal numbers from a bytes object.", "split": "dev", "qualname": "builtins.bytes.hex"}
+{"id": "b3579c0dd584", "text": "Concatenate any number of bytes objects.", "split": "dev", "qualname": "builtins.bytes.join"}
+{"id": "bf010ba4ac38", "text": "Return True if the bytes starts with the specified prefix, False otherwise.", "split": "dev", "qualname": "builtins.bytes.startswith"}
+{"id": "36c1c9a9710e", "text": "Convert a function to be a class method.", "split": "dev", "qualname": "builtins.classmethod"}
+{"id": "d3fa2a2c6b07", "text": "Compile source into a code object that can be executed by exec() or eval().", "split": "test", "qualname": "builtins.compile"}
+{"id": "4e57ac4d0bcc", "text": "Create a complex number from a string or numbers.", "split": "dev", "qualname": "builtins.complex"}
+{"id": "9410e7e4b82d", "text": "If called without an argument, return the names in the current scope.", "split": "test", "qualname": "builtins.dir"}
+{"id": "c3b0f75c0c64", "text": "Evaluate the given source in the context of globals and locals.", "split": "dev", "qualname": "builtins.eval"}
+{"id": "95497bdb8542", "text": "Execute the given source in the context of globals and locals.", "split": "dev", "qualname": "builtins.exec"}
+{"id": "79358776aad7", "text": "Return a pair of integers, whose ratio is exactly equal to the original float.", "split": "test", "qualname": "builtins.float.as_integer_ratio"}
+{"id": "de1d03e76a00", "text": "Get a named attribute from an object.", "split": "dev", "qualname": "builtins.getattr"}
+{"id": "66ff426b4ab1", "text": "Read a string from standard input.", "split": "test", "qualname": "builtins.input"}
+{"id": "c5e4c12c13d4", "text": "Convert a number or string to an integer, or return 0 if no arguments are given.", "split": "dev", "qualname": "builtins.int"}
+{"id": "2ba29ab157e0", "text": "Return the integer represented by the given array of bytes.", "split": "dev", "qualname": "builtins.int.from_bytes"}
+{"id": "9115aa6d6332", "text": "Return an array of bytes representing an integer.", "split": "dev", "qualname": "builtins.int.to_bytes"}
+{"id": "b5676dde7c69", "text": "Return whether an object is an instance of a class or of a subclass thereof.", "split": "test", "qualname": "builtins.isinstance"}
+{"id": "f29822ca75a3", "text": "Return whether 'cls' is derived from another class or is the same class.", "split": "test", "qualname": "builtins.issubclass"}
+{"id": "254933423707", "text": "Get an iterator from an object.", "split": "test", "qualname": "builtins.iter"}
+{"id": "ba23315ee3c7", "text": "Sort the list in ascending order and return None.", "split": "test", "qualname": "builtins.list.sort"}
+{"id": "a23186af178f", "text": "Return a dictionary containing the current scope's local variables.", "split": "test", "qualname": "builtins.locals"}
+{"id": "cedef9d807c6", "text": "With a single iterable argument, return its biggest item.", "split": "dev", "qualname": "builtins.max"}
+{"id": "8760e5864356", "text": "Return the data in the buffer as a str of hexadecimal numbers.", "split": "dev", "qualname": "builtins.memoryview.hex"}
+{"id": "55d01cd57f68", "text": "Return the data in the buffer as a byte string.", "split": "dev", "qualname": "builtins.memoryview.tobytes"}
+{"id": "ebfb9b8d4ef1", "text": "With a single iterable argument, return its smallest item.", "split": "test", "qualname": "builtins.min"}
+{"id": "859d611f7e7f", "text": "Return the ordinal value of a character.", "split": "test", "qualname": "builtins.ord"}
+{"id": "8dbbcc114312", "text": "Prints the values to a stream, or to sys.stdout by default.", "split": "dev", "qualname": "builtins.print"}
+{"id": "f9fe06a312c6", "text": "Round a number to a given precision in decimal digits.", "split": "dev", "qualname": "builtins.round"}
+{"id": "253de091e8e5", "text": "Return a new list containing all items from the iterable in ascending order.", "split": "test", "qualname": "builtins.sorted"}
+{"id": "542c91175286", "text": "Create a new string object from the given object.", "split": "dev", "qualname": "builtins.str"}
+{"id": "2cadb8f1801d", "text": "Encode the string using the codec registered for encoding.", "split": "test", "qualname": "builtins.str.encode"}
+{"id": "b581c76e884d", "text": "Return True if the string ends with the specified suffix, False otherwise.", "split": "test", "qualname": "builtins.str.endswith"}
+{"id": "6f628a8ea1d5", "text": "Return True if the string starts with the specified prefix, False otherwise.", "split": "test", "qualname": "builtins.str.startswith"}
+{"id": "f86ae1657b50", "text": "Replace each character in the string using the given translation table.", "split": "dev", "qualname": "builtins.str.translate"}
+{"id": "e1392054c0c8", "text": "The zip object yields n-length tuples, where n is the number of iterables passed as positional arguments to zip().", "split": "dev", "qualname": "builtins.zip"}
+{"id": "a6538c6cf3b8", "text": "A file object providing transparent bzip2 (de)compression.", "split": "dev", "qualname": "bz2.BZ2File"}
+{"id": "cdba10d2a5c7", "text": "Read a list of lines of uncompressed bytes from the file.", "split": "test", "qualname": "bz2.BZ2File.readlines"}
+{"id": "d42c5d473087", "text": "Write a byte string to the file.", "split": "test", "qualname": "bz2.BZ2File.write"}
+{"id": "d469a1736300", "text": "Write a sequence of byte strings to the file.", "split": "dev", "qualname": "bz2.BZ2File.writelines"}
+{"id": "3eb9104f7911", "text": "Open a bzip2-compressed file in binary or text mode.", "split": "test", "qualname": "bz2.open"}
+{"id": "b8d362642440", "text": "Builds a profiler object using the specified timer function.", "split": "dev", "qualname": "cProfile.Profile"}
+{"id": "d63a492e36f6", "text": "Return the data for the specified year ready for formatting.", "split": "dev", "qualname": "calendar.Calendar.yeardatescalendar"}
+{"id": "57658f4ab131", "text": "Determine whether two complex numbers are close in value.", "split": "test", "qualname": "cmath.isclose"}
+{"id": "a257205f0677", "text": "A simple framework for writing line-oriented command interpreters.", "split": "test", "qualname": "cmd.Cmd"}
+{"id": "0d76af868884", "text": "Closely emulate the interactive Python console.", "split": "dev", "qualname": "code.InteractiveConsole.interact"}
+{"id": "c4baa18e04d3", "text": "Push a line to the interpreter.", "split": "test", "qualname": "code.InteractiveConsole.push"}
+{"id": "da7a5f24f190", "text": "Write a prompt and read a line.", "split": "dev", "qualname": "code.InteractiveConsole.raw_input"}
+{"id": "14928da3aec3", "text": "Compile and run some source in the interpreter.", "split": "test", "qualname": "code.InteractiveInterpreter.runsource"}
+{"id": "9b5af121eb23", "text": "Display the syntax error that just occurred.", "split": "test", "qualname": "code.InteractiveInterpreter.showsyntaxerror"}
+{"id": "38adafaba2a2", "text": "Closely emulate the interactive Python interpreter.", "split": "dev", "qualname": "code.interact"}
+{"id": "0956ae6a070a", "text": "Defines the interface for stateless encoders/decoders.", "split": "dev", "qualname": "codecs.Codec"}
+{"id": "d8ea9384aab5", "text": "Decodes the object input and returns a tuple (output object, length consumed).", "split": "test", "qualname": "codecs.Codec.decode"}
+{"id": "c61714ab2ad2", "text": "Encodes the object input and returns a tuple (output object, length consumed).", "split": "dev", "qualname": "codecs.Codec.encode"}
+{"id": "941998dd1271", "text": "Return a wrapped version of file which provides transparent encoding translation.", "split": "test", "qualname": "codecs.EncodedFile"}
+{"id": "eb2b1e0f9556", "text": "An IncrementalDecoder decodes an input in multiple steps.", "split": "dev", "qualname": "codecs.IncrementalDecoder"}
+{"id": "8abc9290dfce", "text": "Return the current state of the decoder.", "split": "dev", "qualname": "codecs.IncrementalDecoder.getstate"}
+{"id": "870c2d823a39", "text": "An IncrementalEncoder encodes an input in multiple steps.", "split": "test", "qualname": "codecs.IncrementalEncoder"}
+{"id": "536c0dea4b7d", "text": "Decodes data from the stream self.stream and returns the resulting object.", "split": "test", "qualname": "codecs.StreamReader.read"}
+{"id": "e96fc632b7a0", "text": "Read all lines available on the input stream and return them as a list.", "split": "dev", "qualname": "codecs.StreamReader.readlines"}
+{"id": "d3be961ad0c2", "text": "StreamRecoder instances translate data from one encoding to another.", "split": "dev", "qualname": "codecs.StreamRecoder"}
+{"id": "01854f5398a9", "text": "Creates an encoding map from a decoding map.", "split": "test", "qualname": "codecs.make_encoding_map"}
+{"id": "f218c22098cc", "text": "Open an encoded file using the given mode and return a wrapped version providing transparent encoding/decoding.", "split": "dev", "qualname": "codecs.open"}
+{"id": "37e5617a2243", "text": "Compile a command and determine whether it is incomplete.", "split": "test", "qualname": "codeop.compile_command"}
+{"id": "f621ef1d91b2", "text": "A ChainMap groups multiple dicts (or other mappings) together to create a single, updateable view.", "split": "dev", "qualname": "collections.ChainMap"}
+{"id": "ca1995b2fa44", "text": "Dict subclass for counting hashable items.", "split": "dev", "qualname": "collections.Counter"}
+{"id": "1c75a7739389", "text": "Iterator over elements repeating each as many times as its count.", "split": "test", "qualname": "collections.Counter.elements"}
+{"id": "3f0e2d71569a", "text": "Like dict.update() but subtracts counts instead of replacing them.", "split": "dev", "qualname": "collections.Counter.subtract"}
+{"id": "fe09d7dcfd73", "text": "Like dict.update() but add counts instead of replacing them.", "split": "test", "qualname": "collections.Counter.update"}
+{"id": "c357bebe990a", "text": "defaultdict(default_factory=None, /, [...]) --> dict with default factory", "split": "dev", "qualname": "collections.defaultdict"}
+{"id": "1b656a528464", "text": "Returns a new subclass of tuple with named fields.", "split": "dev", "qualname": "collections.namedtuple"}
+{"id": "a7cff0fbeea8", "text": "Byte-compile all modules in the given directory tree.", "split": "dev", "qualname": "compileall.compile_dir"}
+{"id": "8eff934a7410", "text": "Interpolation as implemented in the classic ConfigParser.", "split": "dev", "qualname": "configparser.BasicInterpolation"}
+{"id": "bb84dda65a3b", "text": "Enables reuse of get*() methods between the parser and section proxies.", "split": "test", "qualname": "configparser.ConverterMapping"}
+{"id": "e91143985e2e", "text": "Raised when a section is repeated in an input source.", "split": "dev", "qualname": "configparser.DuplicateSectionError"}
+{"id": "7c65e144c8f3", "text": "Get an option value for a given section.", "split": "test", "qualname": "configparser.RawConfigParser.get"}
+{"id": "c56684920004", "text": "Return a list of (name, value) tuples for each option in a section.", "split": "dev", "qualname": "configparser.RawConfigParser.items"}
+{"id": "ad20e4524dbd", "text": "Read and parse a filename or an iterable of filenames.", "split": "test", "qualname": "configparser.RawConfigParser.read"}
+{"id": "43cf5e2f5936", "text": "Like read() but the argument must be a file-like object.", "split": "dev", "qualname": "configparser.RawConfigParser.read_file"}
+{"id": "a83122f9165c", "text": "Write an .ini-format representation of the configuration state.", "split": "dev", "qualname": "configparser.RawConfigParser.write"}
+{"id": "8d99bb465f9e", "text": "Async context manager for dynamic management of a stack of exit callbacks.", "split": "dev", "qualname": "contextlib.AsyncExitStack"}
+{"id": "e5956864e2d6", "text": "Registers a coroutine function with the standard __aexit__ method signature.", "split": "dev", "qualname": "contextlib.AsyncExitStack.push_async_exit"}
+{"id": "3297edb3c000", "text": "Context manager for dynamic management of a stack of exit callbacks.", "split": "dev", "qualname": "contextlib.ExitStack"}
+{"id": "9cbf1716f380", "text": "Context manager that does no additional processing.", "split": "dev", "qualname": "contextlib.nullcontext"}
+{"id": "cdfca244787b", "text": "Context manager for temporarily redirecting stdout to another file.", "split": "test", "qualname": "contextlib.redirect_stdout"}
+{"id": "46bf1fc00275", "text": "Context manager to suppress specified exceptions", "split": "test", "qualname": "contextlib.suppress"}
+{"id": "4f8496fd0494", "text": "Returns a dialect (or None) corresponding to the sample", "split": "dev", "qualname": "csv.Sniffer.sniff"}
+{"id": "d6e5e53b3415", "text": "An instance of this class represents a loaded dll/shared library, exporting functions using the standard C calling convention (named 'cdecl' on Windows).", "split": "test", "qualname": "ctypes.CDLL"}
+{"id": "893c11a44ecd", "text": "CFUNCTYPE(restype, *argtypes, use_errno=False, use_last_error=False) -> function prototype.", "split": "test", "qualname": "ctypes.CFUNCTYPE"}
+{"id": "d21cf131563e", "text": "Return the fields of a dataclass instance as a new dictionary mapping field names to field values.", "split": "dev", "qualname": "dataclasses.asdict"}
+{"id": "517d6868ce12", "text": "Return the fields of a dataclass instance as a new tuple of field values.", "split": "dev", "qualname": "dataclasses.astuple"}
+{"id": "c1b07c15b177", "text": "Add dunder methods based on the fields defined in the class.", "split": "test", "qualname": "dataclasses.dataclass"}
+{"id": "aac5b504f9f2", "text": "Return an object to identify dataclass fields.", "split": "dev", "qualname": "dataclasses.field"}
+{"id": "410bdaf96cce", "text": "Return a new dynamically created dataclass.", "split": "dev", "qualname": "dataclasses.make_dataclass"}
+{"id": "f8a0e67bb596", "text": "[sep] -> string in ISO 8601 format, YYYY-MM-DDT[HH[:MM[:SS[.mmm[uuu]]]]][+HH:MM]. sep is used to separate the year from the time, and defaults to 'T'.", "split": "dev", "qualname": "datetime.datetime.isoformat"}
+{"id": "56ac4ccc3feb", "text": "Return string in ISO 8601 format, [HH[:MM[:SS[.mmm[uuu]]]]][+HH:MM].", "split": "test", "qualname": "datetime.time.isoformat"}
+{"id": "2df181df6c57", "text": "Open or create database at path given by *file*.", "split": "test", "qualname": "dbm.open"}
+{"id": "e106ac20be50", "text": "Guess which db package to use to open a db file.", "split": "dev", "qualname": "dbm.whichdb"}
+{"id": "74beb1d098ce", "text": "The context affects almost all operations and controls rounding, Over/Underflow, raising of exceptions and much more.", "split": "dev", "qualname": "decimal.Context"}
+{"id": "95954401daea", "text": "Applies the logical operation 'and' between each operand's digits.", "split": "dev", "qualname": "decimal.Context.logical_and"}
+{"id": "4f18cc1fd38c", "text": "Applies the logical operation 'or' between each operand's digits.", "split": "dev", "qualname": "decimal.Context.logical_or"}
+{"id": "abf8c499a892", "text": "Applies the logical operation 'xor' between each operand's digits.", "split": "dev", "qualname": "decimal.Context.logical_xor"}
+{"id": "6fac42f99d02", "text": "Compare two operands using their abstract representation rather than their numerical value.", "split": "dev", "qualname": "decimal.Decimal.compare_total"}
+{"id": "317c791783b0", "text": "Compare two operands using their abstract representation rather than their value as in compare_total(), but ignoring the sign of each operand.", "split": "dev", "qualname": "decimal.Decimal.compare_total_mag"}
+{"id": "61d7c4f9aac0", "text": "Return a copy of the first operand with the sign set to be the same as the sign of the second operand.", "split": "dev", "qualname": "decimal.Decimal.copy_sign"}
+{"id": "67b76cdf89d7", "text": "Class method that converts a float to a decimal number, exactly.", "split": "test", "qualname": "decimal.Decimal.from_float"}
+{"id": "3101acb24768", "text": "For a non-zero number, return the adjusted exponent of the operand as a Decimal instance.", "split": "dev", "qualname": "decimal.Decimal.logb"}
+{"id": "70e6cac3a4bc", "text": "If the two operands are unequal, return the number closest to the first operand in the direction of the second operand.", "split": "dev", "qualname": "decimal.Decimal.next_toward"}
+{"id": "0f8b034cd5bf", "text": "Return a string describing the class of the operand.", "split": "test", "qualname": "decimal.Decimal.number_class"}
+{"id": "6812a2e6948c", "text": "Return a value equal to the first operand after rounding and having the exponent of the second operand.", "split": "dev", "qualname": "decimal.Decimal.quantize"}
+{"id": "956675584e03", "text": "Return the remainder from dividing self by other.", "split": "test", "qualname": "decimal.Decimal.remainder_near"}
+{"id": "5d1227b4d614", "text": "Return the result of rotating the digits of the first operand by an amount specified by the second operand.", "split": "dev", "qualname": "decimal.Decimal.rotate"}
+{"id": "bd780ea423db", "text": "Test whether self and other have the same exponent or whether both are NaN.", "split": "test", "qualname": "decimal.Decimal.same_quantum"}
+{"id": "f57c1b062f9e", "text": "Return the result of shifting the digits of the first operand by an amount specified by the second operand.", "split": "dev", "qualname": "decimal.Decimal.shift"}
+{"id": "cc07fd969bda", "text": "Round to the nearest integer, signaling Inexact or Rounded as appropriate if rounding occurs.", "split": "dev", "qualname": "decimal.Decimal.to_integral_exact"}
+{"id": "6612bbe6861b", "text": "Round to the nearest integer without signaling Inexact or Rounded.", "split": "test", "qualname": "decimal.Decimal.to_integral_value"}
+{"id": "129d2bda6236", "text": "Differ is a class for comparing sequences of lines of text, and producing human-readable differences or deltas.", "split": "dev", "qualname": "difflib.Differ"}
+{"id": "7dc5a6ff7f18", "text": "Compare two sequences of lines; generate the resulting delta.", "split": "dev", "qualname": "difflib.Differ.compare"}
+{"id": "a0049fee8dc8", "text": "For producing HTML side by side comparison with change highlights.", "split": "dev", "qualname": "difflib.HtmlDiff"}
+{"id": "83c1e7cd4002", "text": "Returns HTML file of side by side comparison with change highlights", "split": "dev", "qualname": "difflib.HtmlDiff.make_file"}
+{"id": "4796d6ccf9df", "text": "Returns HTML table of side by side comparison with change highlights", "split": "test", "qualname": "difflib.HtmlDiff.make_table"}
+{"id": "52daa039d100", "text": "SequenceMatcher is a flexible class for comparing pairs of sequences of any type, so long as the sequence elements are hashable.", "split": "dev", "qualname": "difflib.SequenceMatcher"}
+{"id": "13bcb2495340", "text": "Find longest matching block in a[alo:ahi] and b[blo:bhi].", "split": "dev", "qualname": "difflib.SequenceMatcher.find_longest_match"}
+{"id": "8061e5c2488f", "text": "Isolate change clusters by eliminating ranges with no changes.", "split": "test", "qualname": "difflib.SequenceMatcher.get_grouped_opcodes"}
+{"id": "1117d3a6a1ce", "text": "Return list of triples describing matching subsequences.", "split": "dev", "qualname": "difflib.SequenceMatcher.get_matching_blocks"}
+{"id": "c0bf8d916296", "text": "Return list of 5-tuples describing how to turn a into b.", "split": "dev", "qualname": "difflib.SequenceMatcher.get_opcodes"}
+{"id": "7dc1a0139db7", "text": "Return a measure of the sequences' similarity (float in [0,1]).", "split": "test", "qualname": "difflib.SequenceMatcher.ratio"}
+{"id": "a25fbc6cb3f5", "text": "Set the first sequence to be compared.", "split": "test", "qualname": "difflib.SequenceMatcher.set_seq1"}
+{"id": "52f6338a867a", "text": "Set the second sequence to be compared.", "split": "dev", "qualname": "difflib.SequenceMatcher.set_seq2"}
+{"id": "31c0aa080f93", "text": "Compare two sequences of lines; generate the delta as a context diff.", "split": "test", "qualname": "difflib.context_diff"}
+{"id": "aa7463416111", "text": "Compare `a` and `b`, two sequences of lines represented as bytes rather than str.", "split": "test", "qualname": "difflib.diff_bytes"}
+{"id": "e5e16168231f", "text": "Use SequenceMatcher to return list of the best \"good enough\" matches.", "split": "test", "qualname": "difflib.get_close_matches"}
+{"id": "cbfe1c57093f", "text": "Compare `a` and `b` (lists of strings); return a `Differ`-style delta.", "split": "test", "qualname": "difflib.ndiff"}
+{"id": "072eb86ea641", "text": "Generate one of the two sequences that generated a delta.", "split": "test", "qualname": "difflib.restore"}
+{"id": "85ce125cd6d8", "text": "Compare two sequences of lines; generate the delta as a unified diff.", "split": "dev", "qualname": "difflib.unified_diff"}
+{"id": "8a231c0adb1d", "text": "The bytecode operations of a piece of code", "split": "test", "qualname": "dis.Bytecode"}
+{"id": "b4f1a360da45", "text": "Disassemble classes, methods, functions, and other compiled objects.", "split": "test", "qualname": "dis.dis"}
+{"id": "56d2b18640b0", "text": "Iterator for the opcodes in methods, functions or code", "split": "dev", "qualname": "dis.get_instructions"}
+{"id": "506c3ee75ea8", "text": "Run doc tests but raise an exception as soon as there is a failure.", "split": "dev", "qualname": "doctest.DebugRunner"}
+{"id": "0c5204079151", "text": "A unittest suite for one or more doctest files.", "split": "test", "qualname": "doctest.DocFileSuite"}
+{"id": "90a58881dd4f", "text": "A collection of doctest examples that should be run in a single namespace.", "split": "test", "qualname": "doctest.DocTest"}
+{"id": "e431caf43cd1", "text": "Run the test case without results and without catching exceptions", "split": "test", "qualname": "doctest.DocTestCase.debug"}
+{"id": "17949a24daa1", "text": "Return a list of the DocTests that are defined by the given object's docstring, or by any of its contained objects' docstrings.", "split": "test", "qualname": "doctest.DocTestFinder.find"}
+{"id": "140498726a46", "text": "Extract all doctest examples from the given string, and return them as a list of `Example` objects.", "split": "dev", "qualname": "doctest.DocTestParser.get_examples"}
+{"id": "87c55eaf133f", "text": "A class used to run DocTest test cases, and accumulate statistics.", "split": "test", "qualname": "doctest.DocTestRunner"}
+{"id": "0ab9ce8243dd", "text": "Run the examples in `test`, and display the results using the writer function `out`.", "split": "test", "qualname": "doctest.DocTestRunner.run"}
+{"id": "6b521636d04c", "text": "Convert doctest tests for a module to a unittest test suite.", "split": "dev", "qualname": "doctest.DocTestSuite"}
+{"id": "855d1d504881", "text": "A single doctest example, consisting of source code and expected output. `Example` defines the following attributes:", "split": "test", "qualname": "doctest.Example"}
+{"id": "9cde9c9c00cd", "text": "Return True iff the actual output from an example (`got`) matches the expected output (`want`).", "split": "test", "qualname": "doctest.OutputChecker.check_output"}
+{"id": "78ee2f8244f5", "text": "Test examples in the given object's docstring (`f`), using `globs` as globals.", "split": "test", "qualname": "doctest.run_docstring_examples"}
+{"id": "66d9fca82154", "text": "Extract script from text with examples.", "split": "dev", "qualname": "doctest.script_from_examples"}
+{"id": "ebdf44cab315", "text": "Test examples in the given file.", "split": "test", "qualname": "doctest.testfile"}
+{"id": "55f3d7456a34", "text": "m=None, name=None, globs=None, verbose=None, report=True, optionflags=0, extraglobs=None, raise_on_error=False, exclude_empty=False", "split": "dev", "qualname": "doctest.testmod"}
+{"id": "ef1e84d7028c", "text": "Extract the test sources from a doctest docstring as a script.", "split": "dev", "qualname": "doctest.testsource"}
+{"id": "fe04096c77c5", "text": "Create a collection of name/value pairs.", "split": "test", "qualname": "enum.Enum"}
+{"id": "09083c313054", "text": "This is a descriptor, used to define attributes that act differently when accessed through an enum member and through an enum class.", "split": "dev", "qualname": "enum.property"}
+{"id": "8b23624cf4e5", "text": "Perform the operation cmd on file descriptor fd.", "split": "test", "qualname": "fcntl.fcntl"}
+{"id": "013173a7ad0a", "text": "Perform the operation request on file descriptor fd.", "split": "dev", "qualname": "fcntl.ioctl"}
+{"id": "890fcd05bc45", "text": "A wrapper around the fcntl() locking calls.", "split": "test", "qualname": "fcntl.lockf"}
+{"id": "f896ed0e61cb", "text": "Compare common files in two directories.", "split": "test", "qualname": "filecmp.cmpfiles"}
+{"id": "c56c4f93202c", "text": "A class that manages the comparison of 2 directories.", "split": "dev", "qualname": "filecmp.dircmp"}
+{"id": "6dc867be2b21", "text": "Class FileInput is the implementation of the module; its methods filename(), lineno(), fileline(), isfirstline(), isstdin(), fileno(), nextfile() and close() correspond to the functions of the same name in the module.", "split": "test", "qualname": "fileinput.FileInput"}
+{"id": "1cae6978dbfa", "text": "Return the line number in the current file.", "split": "dev", "qualname": "fileinput.filelineno"}
+{"id": "c857565d3d4c", "text": "Return an instance of the FileInput class, which can be iterated.", "split": "dev", "qualname": "fileinput.input"}
+{"id": "26db32daa9d1", "text": "Return the cumulative line number of the line that has just been read.", "split": "test", "qualname": "fileinput.lineno"}
+{"id": "b6d30e282314", "text": "Close the current file so that the next iteration will read the first line from the next file (if any); lines not read from the file will not count towards the cumulative line count.", "split": "dev", "qualname": "fileinput.nextfile"}
+{"id": "5c48ce229672", "text": "List a directory in long form.", "split": "dev", "qualname": "ftplib.FTP.dir"}
+{"id": "3f479c87a872", "text": "List a directory in a standardized format by using MLSD command (RFC-3659).", "split": "dev", "qualname": "ftplib.FTP.mlsd"}
+{"id": "b2e983545eca", "text": "Initiate a transfer over the data connection.", "split": "dev", "qualname": "ftplib.FTP.ntransfercmd"}
+{"id": "b192f7d37817", "text": "Store a file in binary mode.", "split": "test", "qualname": "ftplib.FTP.storbinary"}
+{"id": "c2aed8c18c10", "text": "Store a file in line mode.", "split": "dev", "qualname": "ftplib.FTP.storlines"}
+{"id": "3220d8ad038b", "text": "A FTP subclass which adds TLS support to FTP as described in RFC-4217.", "split": "test", "qualname": "ftplib.FTP_TLS"}
+{"id": "f053c696b828", "text": "Update a wrapper function to look like the wrapped function", "split": "dev", "qualname": "functools.update_wrapper"}
+{"id": "beb1c0b4540e", "text": "Decorator factory to apply update_wrapper() to a wrapper function", "split": "dev", "qualname": "functools.wraps"}
+{"id": "93353745d026", "text": "Freeze all current tracked objects and ignore them for future collections.", "split": "dev", "qualname": "gc.freeze"}
+{"id": "21e3b4678f00", "text": "Return a list of objects tracked by the collector (excluding the list returned).", "split": "dev", "qualname": "gc.get_objects"}
+{"id": "47883d04b938", "text": "Set the garbage collection debugging flags.", "split": "dev", "qualname": "gc.set_debug"}
+{"id": "d448090f3d88", "text": "Parses command line options and parameter list. args is the argument list to be parsed, without the leading reference to the running program.", "split": "dev", "qualname": "getopt.getopt"}
+{"id": "d2f647d0e62d", "text": "This function works like getopt(), except that GNU style scanning mode is used by default.", "split": "test", "qualname": "getopt.gnu_getopt"}
+{"id": "dca7ace31775", "text": "Get the username from the environment or password database.", "split": "test", "qualname": "getpass.getuser"}
+{"id": "c11032333887", "text": "Return a list of paths matching a `pathname` pattern.", "split": "test", "qualname": "glob.glob"}
+{"id": "fd97afd68605", "text": "Return an iterator which yields the paths matching a `pathname` pattern.", "split": "test", "qualname": "glob.iglob"}
+{"id": "5389c072091a", "text": "Translate a pathname with shell wildcards to a regular expression.", "split": "dev", "qualname": "glob.translate"}
+{"id": "1504df5de24b", "text": "Subclass of ValueError raised by TopologicalSorter.prepare if cycles exist in the working graph.", "split": "test", "qualname": "graphlib.CycleError"}
+{"id": "fb7bb047e124", "text": "Add a new node and its predecessors to the graph.", "split": "dev", "qualname": "graphlib.TopologicalSorter.add"}
+{"id": "d79641ad13ac", "text": "Marks a set of nodes returned by \"get_ready\" as processed.", "split": "dev", "qualname": "graphlib.TopologicalSorter.done"}
+{"id": "b350848db305", "text": "Return a tuple of all the nodes that are ready.", "split": "test", "qualname": "graphlib.TopologicalSorter.get_ready"}
+{"id": "db6c066ccbfb", "text": "Return ``True`` if more progress can be made and ``False`` otherwise.", "split": "test", "qualname": "graphlib.TopologicalSorter.is_active"}
+{"id": "ec9620193411", "text": "Mark the graph as finished and check for cycles in the graph.", "split": "test", "qualname": "graphlib.TopologicalSorter.prepare"}
+{"id": "196c77cfea71", "text": "Returns an iterable of nodes in a topological order.", "split": "test", "qualname": "graphlib.TopologicalSorter.static_order"}
+{"id": "170f232de364", "text": "Compress data in one shot and return the compressed string.", "split": "dev", "qualname": "gzip.compress"}
+{"id": "118cc44b7014", "text": "Open a gzip-compressed file in binary or text mode.", "split": "dev", "qualname": "gzip.open"}
+{"id": "c7ce05d06bd2", "text": "Hash the contents of a file-like object.", "split": "dev", "qualname": "hashlib.file_digest"}
+{"id": "1b05a5c2ff14", "text": "Merge multiple sorted inputs into a single sorted output.", "split": "dev", "qualname": "heapq.merge"}
+{"id": "7b3dad9d0316", "text": "Return the hash value of this hashing object.", "split": "dev", "qualname": "hmac.HMAC.digest"}
+{"id": "de11358d7aaa", "text": "Create a new hashing object and return it.", "split": "dev", "qualname": "hmac.new"}
+{"id": "f7f97c0caed3", "text": "Replace special characters \"&\", \"<\" and \">\" to HTML-safe sequences.", "split": "test", "qualname": "html.escape"}
+{"id": "38f8b4efaad3", "text": "Convert all named and numeric character references (e.g. &gt;, &#62;, &x3e;) in the string s to the corresponding unicode characters.", "split": "test", "qualname": "html.unescape"}
+{"id": "b918fbae18ad", "text": "HTTP status codes and reason phrases", "split": "test", "qualname": "http.HTTPStatus"}
+{"id": "ad80d28e2643", "text": "Authenticate command - requires response processing.", "split": "test", "qualname": "imaplib.IMAP4.authenticate"}
+{"id": "ded87c65e014", "text": "IMAP4 client class over SSL connection", "split": "dev", "qualname": "imaplib.IMAP4_SSL"}
+{"id": "30b748713005", "text": "Convert date_time to IMAP4 INTERNALDATE representation.", "split": "test", "qualname": "imaplib.Time2Internaldate"}
+{"id": "5fe50209bae6", "text": "Represents a parameter in a function signature.", "split": "dev", "qualname": "inspect.Parameter"}
+{"id": "fa35735ae0e4", "text": "A Signature object represents the overall signature of a function.", "split": "dev", "qualname": "inspect.Signature"}
+{"id": "0e89e54f3306", "text": "Create a string representation of the Signature object.", "split": "dev", "qualname": "inspect.Signature.format"}
+{"id": "330acf04986a", "text": "Return the entire source file and starting line number for an object.", "split": "dev", "qualname": "inspect.findsource"}
+{"id": "500eb7f5add9", "text": "Format an argument spec from the 4 values returned by getargvalues.", "split": "test", "qualname": "inspect.formatargvalues"}
+{"id": "85757395aeea", "text": "Compute the annotations dict for an object.", "split": "dev", "qualname": "inspect.get_annotations"}
+{"id": "bea9a465091f", "text": "Get information about the arguments accepted by a code object.", "split": "test", "qualname": "inspect.getargs"}
+{"id": "2aedc635a84c", "text": "Get information about arguments passed into a particular frame.", "split": "dev", "qualname": "inspect.getargvalues"}
+{"id": "a3a916cc5971", "text": "Get current state of an asynchronous generator object.", "split": "test", "qualname": "inspect.getasyncgenstate"}
+{"id": "c0d3fd216214", "text": "Retrieve attributes without triggering dynamic lookup via the descriptor protocol, __getattr__ or __getattribute__.", "split": "dev", "qualname": "inspect.getattr_static"}
+{"id": "50fd38c7c0f6", "text": "Get the mapping of arguments to values.", "split": "dev", "qualname": "inspect.getcallargs"}
+{"id": "1da7f3b51544", "text": "Arrange the given list of classes into a hierarchy of nested lists.", "split": "dev", "qualname": "inspect.getclasstree"}
+{"id": "d4417db357d9", "text": "Get the mapping of free variables to their current values.", "split": "test", "qualname": "inspect.getclosurevars"}
+{"id": "19e34d62839f", "text": "Get current state of a coroutine object.", "split": "test", "qualname": "inspect.getcoroutinestate"}
+{"id": "b3490abbdd43", "text": "Get the documentation string for an object.", "split": "test", "qualname": "inspect.getdoc"}
+{"id": "3c5850c699bf", "text": "Get information about a frame or traceback object.", "split": "test", "qualname": "inspect.getframeinfo"}
+{"id": "c8ee891b17c3", "text": "Get the names and default values of a callable object's parameters.", "split": "test", "qualname": "inspect.getfullargspec"}
+{"id": "22d48c3b3cf7", "text": "Get current state of a generator-iterator.", "split": "test", "qualname": "inspect.getgeneratorstate"}
+{"id": "4ac9a1f8c4b8", "text": "Return all members of an object as (name, value) pairs sorted by name without triggering dynamic lookup via the descriptor protocol, __getattr__ or __getattribute__.", "split": "dev", "qualname": "inspect.getmembers_static"}
+{"id": "fa47ba5c4d1f", "text": "Return the text of the source code for an object.", "split": "test", "qualname": "inspect.getsource"}
+{"id": "f1579b00e7bb", "text": "Return a list of source lines and starting line number for an object.", "split": "test", "qualname": "inspect.getsourcelines"}
+{"id": "c1c13ee9d21b", "text": "Return true if the object is a built-in function or method.", "split": "test", "qualname": "inspect.isbuiltin"}
+{"id": "fc53138b9ef0", "text": "Return true if the object is a code object.", "split": "dev", "qualname": "inspect.iscode"}
+{"id": "abb01bf16644", "text": "Return true if the object is a data descriptor.", "split": "dev", "qualname": "inspect.isdatadescriptor"}
+{"id": "0f50392e5a7d", "text": "Return true if the object is a frame object.", "split": "test", "qualname": "inspect.isframe"}
+{"id": "f96c806cc49c", "text": "Return true if the object is a user-defined function.", "split": "dev", "qualname": "inspect.isfunction"}
+{"id": "4eac6b2c7b9c", "text": "Return true if the object is a generator.", "split": "dev", "qualname": "inspect.isgenerator"}
+{"id": "9c7b0d1f7e50", "text": "Return true if the object is a method descriptor.", "split": "dev", "qualname": "inspect.ismethoddescriptor"}
+{"id": "29eab9c649a9", "text": "Return true if the object is a traceback.", "split": "test", "qualname": "inspect.istraceback"}
+{"id": "75212409525c", "text": "Get the object wrapped by *func*.", "split": "dev", "qualname": "inspect.unwrap"}
+{"id": "8377bf5cecfd", "text": "Base class for buffered IO objects.", "split": "test", "qualname": "io.BufferedIOBase"}
+{"id": "08c8f8b17738", "text": "The abstract base class for all I/O classes.", "split": "dev", "qualname": "io.IOBase"}
+{"id": "28bcd34aead6", "text": "Collapse a list of IP objects.", "split": "dev", "qualname": "ipaddress.collapse_addresses"}
+{"id": "cde3a397d7b9", "text": "Return a key suitable for sorting between networks and addresses.", "split": "test", "qualname": "ipaddress.get_mixed_type_key"}
+{"id": "f18826684dc9", "text": "Summarize a network range given the first and last IP addresses.", "split": "test", "qualname": "ipaddress.summarize_address_range"}
+{"id": "b54c86949f4f", "text": "Represent an address as 4 packed bytes in network (big-endian) order.", "split": "test", "qualname": "ipaddress.v4_int_to_packed"}
+{"id": "40e10a741bed", "text": "Batch data into tuples of length n.", "split": "test", "qualname": "itertools.batched"}
+{"id": "c1435f1dd2d4", "text": "make an iterator that returns consecutive keys and groups from the iterable", "split": "dev", "qualname": "itertools.groupby"}
+{"id": "aec7b488d8d8", "text": "islice(iterable, stop) --> islice object islice(iterable, start, stop[, step]) --> islice object", "split": "dev", "qualname": "itertools.islice"}
+{"id": "ae0b1305975f", "text": "Return a zip_longest object whose .__next__() method returns a tuple where the i-th element comes from the i-th iterable argument.", "split": "test", "qualname": "itertools.zip_longest"}
+{"id": "1ea499ad1392", "text": "Serialize ``obj`` as a JSON formatted stream to ``fp`` (a ``.write()``-supporting file-like object).", "split": "dev", "qualname": "json.dump"}
+{"id": "d8214d520ff6", "text": "Serialize ``obj`` to a JSON formatted ``str``.", "split": "dev", "qualname": "json.dumps"}
+{"id": "b67042da2076", "text": "Deserialize ``fp`` (a ``.read()``-supporting file-like object containing a JSON document) to a Python object.", "split": "dev", "qualname": "json.load"}
+{"id": "bd83a570a5ca", "text": "Deserialize ``s`` (a ``str``, ``bytes`` or ``bytearray`` instance containing a JSON document) to a Python object.", "split": "dev", "qualname": "json.loads"}
+{"id": "c3a51e675255", "text": "Seed the cache for filename with module_globals.", "split": "test", "qualname": "linecache.lazycache"}
+{"id": "ab60abce8775", "text": "Tries to determine the default locale settings and returns them as tuple (language code, encoding).", "split": "test", "qualname": "locale.getdefaultlocale"}
+{"id": "3b20f3b377d5", "text": "Returns the current setting for the given locale category as tuple (language code, encoding).", "split": "test", "qualname": "locale.getlocale"}
+{"id": "9199d4f8ab1d", "text": "Returns a normalized locale code for the given locale name.", "split": "test", "qualname": "locale.normalize"}
+{"id": "b7d50d35fc9d", "text": "Set the locale for the given category.", "split": "test", "qualname": "locale.setlocale"}
+{"id": "cef3565511a3", "text": "Filter instances are used to perform arbitrary filtering of LogRecords.", "split": "test", "qualname": "logging.Filter"}
+{"id": "9899912b1d15", "text": "Determine if a record is loggable by consulting all the filters.", "split": "test", "qualname": "logging.Filterer.filter"}
+{"id": "b618b4aa6d40", "text": "Formatter instances are used to convert a LogRecord to text.", "split": "dev", "qualname": "logging.Formatter"}
+{"id": "d1f3b75fa44d", "text": "Format the specified record as text.", "split": "test", "qualname": "logging.Formatter.format"}
+{"id": "398fa96a398d", "text": "This method is provided as an extension point for specialized formatting of stack information.", "split": "test", "qualname": "logging.Formatter.formatStack"}
+{"id": "25258ff5d65a", "text": "Return the creation time of the specified LogRecord as formatted text.", "split": "dev", "qualname": "logging.Formatter.formatTime"}
+{"id": "9cf40f57da42", "text": "Handler instances dispatch logging events to specific destinations.", "split": "dev", "qualname": "logging.Handler"}
+{"id": "7fae4661b43d", "text": "Tidy up any resources used by the handler.", "split": "test", "qualname": "logging.Handler.close"}
+{"id": "b763be3e5324", "text": "Conditionally emit the specified logging record.", "split": "dev", "qualname": "logging.Handler.handle"}
+{"id": "1841a1f7ae0c", "text": "Handle errors which occur during an emit() call.", "split": "dev", "qualname": "logging.Handler.handleError"}
+{"id": "04268ba3c56b", "text": "A LogRecord instance represents an event being logged.", "split": "test", "qualname": "logging.LogRecord"}
+{"id": "5debb0924186", "text": "Instances of the Logger class represent a single logging channel.", "split": "dev", "qualname": "logging.Logger"}
+{"id": "ad9d7988e8ca", "text": "Pass a record to all relevant handlers.", "split": "dev", "qualname": "logging.Logger.callHandlers"}
+{"id": "93c250b35b4d", "text": "Get a logger which is a descendant to this one.", "split": "test", "qualname": "logging.Logger.getChild"}
+{"id": "8a6b8200a0a6", "text": "See if this logger has any handlers configured.", "split": "dev", "qualname": "logging.Logger.hasHandlers"}
+{"id": "d5788d1be7b6", "text": "Process the logging message and keyword arguments passed in to a logging call to insert contextual information.", "split": "dev", "qualname": "logging.LoggerAdapter.process"}
+{"id": "32e0ba404a0a", "text": "Get a logger with the specified name (channel name), creating it if it doesn't yet exist.", "split": "dev", "qualname": "logging.Manager.getLogger"}
+{"id": "6aeabe13ebe4", "text": "Do basic configuration for the logging system.", "split": "dev", "qualname": "logging.basicConfig"}
+{"id": "a350c9739966", "text": "Return the textual or numeric representation of logging level 'level'.", "split": "dev", "qualname": "logging.getLevelName"}
+{"id": "76aba1828592", "text": "A file object providing transparent LZMA (de)compression.", "split": "dev", "qualname": "lzma.LZMAFile"}
+{"id": "997157752124", "text": "Write a bytes object to the file.", "split": "dev", "qualname": "lzma.LZMAFile.write"}
+{"id": "2647abcde124", "text": "Open an LZMA-compressed file in binary or text mode.", "split": "dev", "qualname": "lzma.open"}
+{"id": "eac7a1ec1081", "text": "Write the value on the open file.", "split": "test", "qualname": "marshal.dump"}
+{"id": "7ea610a7cbed", "text": "Return the bytes object that would be written to a file by dump(value, file).", "split": "test", "qualname": "marshal.dumps"}
+{"id": "8c7789092aef", "text": "Read one value from the open file and return it.", "split": "test", "qualname": "marshal.load"}
+{"id": "94aa5a9ac841", "text": "Number of ways to choose k items from n items without repetition and without order.", "split": "test", "qualname": "math.comb"}
+{"id": "23d857ac2f1f", "text": "Return the Euclidean distance between two points p and q.", "split": "test", "qualname": "math.dist"}
+{"id": "b499871059ce", "text": "Return the mantissa and exponent of x, as pair (m, e).", "split": "dev", "qualname": "math.frexp"}
+{"id": "b553b34c10c5", "text": "Multidimensional Euclidean distance from the origin to a point.", "split": "test", "qualname": "math.hypot"}
+{"id": "88db4db06e50", "text": "Determine whether two floating-point numbers are close in value.", "split": "dev", "qualname": "math.isclose"}
+{"id": "2606ff07111e", "text": "Return the floating-point value the given number of steps after x towards y.", "split": "dev", "qualname": "math.nextafter"}
+{"id": "1a3335ebbdee", "text": "Number of ways to choose k items from n items without repetition and with order.", "split": "dev", "qualname": "math.perm"}
+{"id": "d6036a5b9e24", "text": "Calculate the product of all the elements in the input iterable.", "split": "dev", "qualname": "math.prod"}
+{"id": "32d601161000", "text": "Difference between x and the closest integer multiple of y.", "split": "dev", "qualname": "math.remainder"}
+{"id": "3bcee9991a21", "text": "Guess the type of a file which is either a URL or a path-like object.", "split": "test", "qualname": "mimetypes.MimeTypes.guess_type"}
+{"id": "de3a6abf9b70", "text": "Guess the type of a file based on its URL.", "split": "dev", "qualname": "mimetypes.guess_type"}
+{"id": "436ee733fd1b", "text": "Windows: mmap(fileno, length[, tagname[, access[, offset]]])", "split": "test", "qualname": "mmap.mmap"}
+{"id": "7057a4b2ba56", "text": "Return two lists, one with modules that are certainly missing and one with modules that *may* be missing.", "split": "dev", "qualname": "modulefinder.ModuleFinder.any_missing_maybe"}
+{"id": "53ebee89ce20", "text": "Complex defines the operations that work on the builtin complex type.", "split": "dev", "qualname": "numbers.Complex"}
+{"id": "23fb1f98f031", "text": "Return a callable object that fetches the given attribute(s) from its operand.", "split": "test", "qualname": "operator.attrgetter"}
+{"id": "7d6e1f2ba7da", "text": "Abstract base class for formatting option help.", "split": "dev", "qualname": "optparse.HelpFormatter"}
+{"id": "3ae02248ef12", "text": "Class attributes: standard_option_list : [Option] list of standard options that will be accepted by all instances of this parser class (intended to be overridden by subclasses).", "split": "dev", "qualname": "optparse.OptionParser"}
+{"id": "885cb4717e93", "text": "Check that the supplied option values and leftover arguments are valid.", "split": "test", "qualname": "optparse.OptionParser.check_values"}
+{"id": "66d1b582ca14", "text": "Declare that you are done with this OptionParser.", "split": "dev", "qualname": "optparse.OptionParser.destroy"}
+{"id": "8ece41348049", "text": "Set parsing to stop on the first non-option.", "split": "test", "qualname": "optparse.OptionParser.disable_interspersed_args"}
+{"id": "851fc299c306", "text": "parse_args(args : [string] = sys.argv[1:], values : Values = None) -> (values : Values, args : [string])", "split": "dev", "qualname": "optparse.OptionParser.parse_args"}
+{"id": "6fc1657d0995", "text": "Print the usage message for the current program (self.usage) to 'file' (default stdout).", "split": "test", "qualname": "optparse.OptionParser.print_usage"}
+{"id": "c2a781a360b3", "text": "Super-mkdir; create a leaf directory and all intermediate ones.", "split": "test", "qualname": "os.makedirs"}
+{"id": "18e6d4e7daad", "text": "Super-rmdir; remove a leaf directory and all empty intermediate ones.", "split": "test", "qualname": "os.removedirs"}
+{"id": "161f3ebbf153", "text": "Super-rename; create directories as necessary and delete any left empty.", "split": "test", "qualname": "os.renames"}
+{"id": "8ae97f3ab3cf", "text": "Execute file with arguments from args in a subprocess with the supplied environment.", "split": "test", "qualname": "os.spawnle"}
+{"id": "456d9ec742b5", "text": "Execute file with arguments from args in a subprocess with the specified environment.", "split": "test", "qualname": "os.spawnve"}
+{"id": "9fdef81a8438", "text": "Execute file (which is looked for along $PATH) with arguments from args in a subprocess.", "split": "dev", "qualname": "os.spawnvp"}
+{"id": "e80cc1248947", "text": "stat_result: Result from stat, fstat, or lstat.", "split": "test", "qualname": "os.stat_result"}
+{"id": "3d1c5de311b6", "text": "statvfs_result: Result from statvfs or fstatvfs.", "split": "dev", "qualname": "os.statvfs_result"}
+{"id": "184a54660c61", "text": "Helper function for break/clear parsing -- may be overridden.", "split": "test", "qualname": "pdb.Pdb.lookupmodule"}
+{"id": "a7f654385664", "text": "Enter post-mortem debugging of the given *traceback*, or *exception* object.", "split": "dev", "qualname": "pdb.post_mortem"}
+{"id": "8ac33fb29beb", "text": "Execute the *statement* (given as a string or a code object) under debugger control.", "split": "test", "qualname": "pdb.run"}
+{"id": "9ba747e6f734", "text": "Enter the debugger at the calling stack frame.", "split": "dev", "qualname": "pdb.set_trace"}
+{"id": "826e96acabb3", "text": "Encode a long to a two's complement little-endian binary string.", "split": "test", "qualname": "pickle.encode_long"}
+{"id": "9238148adeda", "text": "Produce a symbolic disassembly of a pickle.", "split": "dev", "qualname": "pickletools.dis"}
+{"id": "617eab7f7e47", "text": "Generate all the opcodes in a pickle.", "split": "test", "qualname": "pickletools.genops"}
+{"id": "2ddac28d1b80", "text": ">>> import io >>> read_stringnl(io.BytesIO(b\"'abcd'\\nefg\\n\")) 'abcd'", "split": "dev", "qualname": "pickletools.read_stringnl"}
+{"id": "8bceaf0c794d", "text": "Get a resource from a package.", "split": "test", "qualname": "pkgutil.get_data"}
+{"id": "89c269339adb", "text": "Retrieve a finder for the given path item", "split": "test", "qualname": "pkgutil.get_importer"}
+{"id": "1749c7eee319", "text": "Get a \"loader\" object for module_or_name", "split": "test", "qualname": "pkgutil.get_loader"}
+{"id": "ce696d693b14", "text": "Yield finders for the given module name", "split": "dev", "qualname": "pkgutil.iter_importers"}
+{"id": "bfa627cb4cd1", "text": "Yields ModuleInfo for all submodules on path, or, if path is None, all top-level modules on sys.path.", "split": "test", "qualname": "pkgutil.iter_modules"}
+{"id": "8e74384aba99", "text": "Resolve a name to an object.", "split": "test", "qualname": "pkgutil.resolve_name"}
+{"id": "72702df71027", "text": "Yields ModuleInfo for all modules recursively on path, or, if path is None, all accessible modules.", "split": "test", "qualname": "pkgutil.walk_packages"}
+{"id": "32615570f7d3", "text": "Queries the given executable (defaults to the Python interpreter binary) for various architecture information.", "split": "test", "qualname": "platform.architecture"}
+{"id": "67a1daf3d372", "text": "Tries to determine the libc version that the file executable (which defaults to the Python interpreter) is linked against.", "split": "dev", "qualname": "platform.libc_ver"}
+{"id": "91ae4221ece1", "text": "Returns a single string identifying the underlying platform with as much useful information as possible (but no more :).", "split": "test", "qualname": "platform.platform"}
+{"id": "7a6ef0227105", "text": "Returns the (true) processor name, e.g.", "split": "test", "qualname": "platform.processor"}
+{"id": "97be659477e7", "text": "This class supports both the minimal and optional command sets.", "split": "test", "qualname": "poplib.POP3"}
+{"id": "429e4e8b752f", "text": "Return message digest (unique id) list.", "split": "test", "qualname": "poplib.POP3.uidl"}
+{"id": "4b159f260951", "text": "POP3 client class over SSL connection", "split": "test", "qualname": "poplib.POP3_SSL"}
+{"id": "efe800ef6208", "text": "Use the real uid/gid to test for access to a path.", "split": "dev", "qualname": "posix.access"}
+{"id": "f6a6dd34fdb5", "text": "Change the current working directory to the specified path.", "split": "test", "qualname": "posix.chdir"}
+{"id": "c9e68cb9fa8a", "text": "Change the access permissions of a file.", "split": "dev", "qualname": "posix.chmod"}
+{"id": "31d539332353", "text": "Copy count bytes from one file descriptor to another.", "split": "test", "qualname": "posix.copy_file_range"}
+{"id": "3691b11f1f19", "text": "Change the access permissions of the file given by file descriptor fd.", "split": "test", "qualname": "posix.fchmod"}
+{"id": "eeb1c52edeb0", "text": "Fork a new process with a new pseudo-terminal as controlling tty.", "split": "dev", "qualname": "posix.forkpty"}
+{"id": "58801f32b563", "text": "Return the file system path representation of the object.", "split": "test", "qualname": "posix.fspath"}
+{"id": "4140ebd0f49c", "text": "Return the size of the terminal window as (columns, lines).", "split": "dev", "qualname": "posix.get_terminal_size"}
+{"id": "db0a21761574", "text": "Return average recent system load information.", "split": "dev", "qualname": "posix.getloadavg"}
+{"id": "9afbf61213da", "text": "Return the value of extended attribute attribute on path.", "split": "dev", "qualname": "posix.getxattr"}
+{"id": "24f23f705ceb", "text": "Create a hard link to a file.", "split": "test", "qualname": "posix.link"}
+{"id": "0bb7e37fbf57", "text": "Return a list containing the names of the files in the directory.", "split": "test", "qualname": "posix.listdir"}
+{"id": "bd67c44194cc", "text": "Return a list of extended attributes on path.", "split": "dev", "qualname": "posix.listxattr"}
+{"id": "509ba2b969a3", "text": "Apply, test or remove a POSIX lock on an open file descriptor.", "split": "test", "qualname": "posix.lockf"}
+{"id": "0c1731a78a28", "text": "Prepare the tty of which fd is a file descriptor for a new login session.", "split": "dev", "qualname": "posix.login_tty"}
+{"id": "e11c8bab4d58", "text": "Set the position of a file descriptor.", "split": "dev", "qualname": "posix.lseek"}
+{"id": "a85812dab36c", "text": "Create a \"fifo\" (a POSIX named pipe).", "split": "dev", "qualname": "posix.mkfifo"}
+{"id": "a7a241a422a3", "text": "Create a node in the file system.", "split": "test", "qualname": "posix.mknod"}
+{"id": "09bc650abb73", "text": "Open a file for low level IO.", "split": "test", "qualname": "posix.open"}
+{"id": "d780864025d9", "text": "Return the configuration limit name for the file or directory path.", "split": "test", "qualname": "posix.pathconf"}
+{"id": "85c5463ac9f7", "text": "Announce an intention to access data in a specific pattern.", "split": "test", "qualname": "posix.posix_fadvise"}
+{"id": "84f2fb01c66c", "text": "Open and return a file descriptor for a master pseudo-terminal device.", "split": "dev", "qualname": "posix.posix_openpt"}
+{"id": "b3641a962ce6", "text": "Reads from a file descriptor into a number of mutable bytes-like objects.", "split": "dev", "qualname": "posix.preadv"}
+{"id": "ede66b88f98d", "text": "Return the name of the slave pseudo-terminal device.", "split": "test", "qualname": "posix.ptsname"}
+{"id": "cb36933ac05d", "text": "Write bytes to a file descriptor starting at a particular offset.", "split": "test", "qualname": "posix.pwrite"}
+{"id": "534a9f186bbd", "text": "Writes the contents of bytes-like objects to a file descriptor at a given offset.", "split": "test", "qualname": "posix.pwritev"}
+{"id": "51751f407455", "text": "Return a string representing the path to which the symbolic link points.", "split": "test", "qualname": "posix.readlink"}
+{"id": "7f894d3b9873", "text": "Read from a file descriptor fd into an iterable of buffers.", "split": "test", "qualname": "posix.readv"}
+{"id": "a83465442d15", "text": "Register callables to be called when forking a new process.", "split": "test", "qualname": "posix.register_at_fork"}
+{"id": "4d8c5eaab298", "text": "Remove a file (same as unlink()).", "split": "dev", "qualname": "posix.remove"}
+{"id": "c2166aa1c63d", "text": "Remove extended attribute attribute on path.", "split": "test", "qualname": "posix.removexattr"}
+{"id": "75c3023e6b6c", "text": "Rename a file or directory, overwriting the destination.", "split": "dev", "qualname": "posix.replace"}
+{"id": "9cc2a660c49f", "text": "Return an iterator of DirEntry objects for given path.", "split": "test", "qualname": "posix.scandir"}
+{"id": "b8b8065144f3", "text": "Set extended attribute attribute on path to value.", "split": "test", "qualname": "posix.setxattr"}
+{"id": "73d45aad28f2", "text": "Transfer count bytes from one pipe to a descriptor or vice versa.", "split": "dev", "qualname": "posix.splice"}
+{"id": "4382eb93ecef", "text": "Perform a stat system call on the given path.", "split": "test", "qualname": "posix.stat"}
+{"id": "6236bfc41252", "text": "Perform a statvfs system call on the given path.", "split": "dev", "qualname": "posix.statvfs"}
+{"id": "994b29a87e17", "text": "Create a symbolic link pointing to src named dst.", "split": "test", "qualname": "posix.symlink"}
+{"id": "48bcb39da6c1", "text": "Create and return a timer file descriptor.", "split": "test", "qualname": "posix.timerfd_create"}
+{"id": "cab87f48582b", "text": "Alter a timer file descriptor's internal timer in seconds.", "split": "test", "qualname": "posix.timerfd_settime"}
+{"id": "c58c8906a644", "text": "Alter a timer file descriptor's internal timer in nanoseconds.", "split": "dev", "qualname": "posix.timerfd_settime_ns"}
+{"id": "c26cdcd201fa", "text": "Remove a file (same as remove()).", "split": "dev", "qualname": "posix.unlink"}
+{"id": "f26e8f843ea7", "text": "Set the access and modified time of path.", "split": "test", "qualname": "posix.utime"}
+{"id": "0d411da10e79", "text": "Returns the result of waiting for a process or processes.", "split": "test", "qualname": "posix.waitid"}
+{"id": "a282a0ea4bb0", "text": "Convert a wait status to an exit code.", "split": "dev", "qualname": "posix.waitstatus_to_exitcode"}
+{"id": "6e746d7afa94", "text": "Join two or more pathname components, inserting '/' as needed.", "split": "dev", "qualname": "posixpath.join"}
+{"id": "78edbf08e5b9", "text": "This class is used for creating reports from data generated by the Profile class.", "split": "test", "qualname": "pstats.Stats"}
+{"id": "9a65857ccdaf", "text": "This method returns an instance of StatsProfile, which contains a mapping of function names to instances of FunctionProfile.", "split": "test", "qualname": "pstats.Stats.get_stats_profile"}
+{"id": "1a8bb3563218", "text": "This class provides a generic function for comparing any two tuples.", "split": "dev", "qualname": "pstats.TupleComp"}
+{"id": "e49c9b4ecabf", "text": "Exception raised when an error occurs while attempting to compile the file.", "split": "test", "qualname": "py_compile.PyCompileError"}
+{"id": "79093ddc781c", "text": "Byte-compile one Python source file to Python bytecode.", "split": "dev", "qualname": "py_compile.compile"}
+{"id": "54920e52f08f", "text": "Import a module; handle errors; return None if the module isn't found.", "split": "test", "qualname": "pydoc.safeimport"}
+{"id": "1d9e992fa2be", "text": "Return the input which generated the current event as bytes.", "split": "dev", "qualname": "pyexpat.XMLParserType.GetInputContext"}
+{"id": "e4e11ec87e72", "text": "Sets the number of output bytes needed to activate protection against billion laughs attacks.", "split": "dev", "qualname": "pyexpat.XMLParserType.SetBillionLaughsAttackProtectionActivationThreshold"}
+{"id": "2517122c8832", "text": "Sets the maximum tolerated amplification factor for protection against billion laughs attacks.", "split": "dev", "qualname": "pyexpat.XMLParserType.SetBillionLaughsAttackProtectionMaximumAmplification"}
+{"id": "7d84dea015b3", "text": "Allows the application to provide an artificial external subset if one is not specified as part of the document instance.", "split": "test", "qualname": "pyexpat.XMLParserType.UseForeignDTD"}
+{"id": "3b8ca880b836", "text": "Return True if the queue is empty, False otherwise (not reliable!).", "split": "dev", "qualname": "queue.Queue.empty"}
+{"id": "611740bd7da4", "text": "Return True if the queue is full, False otherwise (not reliable!).", "split": "dev", "qualname": "queue.Queue.full"}
+{"id": "0dc45166d227", "text": "Remove and return an item from the queue.", "split": "test", "qualname": "queue.Queue.get"}
+{"id": "7dd1a89a0539", "text": "Blocks until all items in the Queue have been gotten and processed.", "split": "test", "qualname": "queue.Queue.join"}
+{"id": "c02ab027522e", "text": "Put an item into the queue.", "split": "dev", "qualname": "queue.Queue.put"}
+{"id": "e22b98b8f40c", "text": "Shut-down the queue, making queue gets and puts raise ShutDown.", "split": "dev", "qualname": "queue.Queue.shutdown"}
+{"id": "ef87df9a8811", "text": "Indicate that a formerly enqueued task is complete.", "split": "test", "qualname": "queue.Queue.task_done"}
+{"id": "0790bb79b3d5", "text": "Read 'input', apply quoted-printable encoding, and write to 'output'.", "split": "test", "qualname": "quopri.encode"}
+{"id": "83f9de34d392", "text": "Decide whether a particular byte ordinal needs to be quoted.", "split": "dev", "qualname": "quopri.needsquoting"}
+{"id": "46d7bd4673c2", "text": "Random number generator base class used by bound module functions.", "split": "dev", "qualname": "random.Random"}
+{"id": "5d9205651e98", "text": "Chooses k unique random elements from a population sequence.", "split": "dev", "qualname": "random.Random.sample"}
+{"id": "30af32547fb0", "text": "Initialize internal state from a seed.", "split": "dev", "qualname": "random.Random.seed"}
+{"id": "1c7b1a80ba4a", "text": "Get a random number in the range [a, b) or [a, b] depending on rounding.", "split": "dev", "qualname": "random.Random.uniform"}
+{"id": "70780a17101b", "text": "Return a list of all non-overlapping matches in the string.", "split": "test", "qualname": "re.findall"}
+{"id": "aa3d1cf2c412", "text": "Split the source string by the occurrences of the pattern, returning a list containing the resulting substrings.", "split": "dev", "qualname": "re.split"}
+{"id": "eb51ca2b71cf", "text": "Set or remove the completer function.", "split": "test", "qualname": "readline.set_completer"}
+{"id": "295b8f206781", "text": "Compute matches when text contains a dot.", "split": "test", "qualname": "rlcompleter.Completer.attr_matches"}
+{"id": "4b35e71159bf", "text": "Execute a module's code without importing it.", "split": "test", "qualname": "runpy.run_module"}
+{"id": "1217fa6ef177", "text": "Execute code located at the specified filesystem location.", "split": "test", "qualname": "runpy.run_path"}
+{"id": "6ffbb85edca3", "text": "Execute events until the queue is empty.", "split": "test", "qualname": "sched.scheduler.run"}
+{"id": "5d7f5b2c7620", "text": "Return a random text string, in hexadecimal.", "split": "dev", "qualname": "secrets.token_hex"}
+{"id": "f8384f49b68d", "text": "Wait for events on the epoll file descriptor.", "split": "test", "qualname": "select.epoll.poll"}
+{"id": "f398d717886e", "text": "Registers a new fd or raises an OSError if the fd is already registered.", "split": "dev", "qualname": "select.epoll.register"}
+{"id": "301ab4c27c47", "text": "Wait until one or more file descriptors are ready for some kind of I/O.", "split": "test", "qualname": "select.select"}
+{"id": "ca77315f9e49", "text": "Change a registered file object monitored events or attached data.", "split": "test", "qualname": "selectors.BaseSelector.modify"}
+{"id": "a0823948252a", "text": "Perform the actual selection, until some monitored file objects are ready or a timeout expires.", "split": "dev", "qualname": "selectors.BaseSelector.select"}
+{"id": "00958caa2142", "text": "Shelf implementation using the \"BSD\" db interface.", "split": "dev", "qualname": "shelve.BsdDbShelf"}
+{"id": "2136d4c27618", "text": "Open a persistent dictionary for reading and writing.", "split": "dev", "qualname": "shelve.open"}
+{"id": "750db7884567", "text": "Change owner user and group of the given path.", "split": "test", "qualname": "shutil.chown"}
+{"id": "68f5eba67dbe", "text": "Copy data and mode bits (\"cp src dst\").", "split": "dev", "qualname": "shutil.copy"}
+{"id": "d0bc6bb1884b", "text": "Copy data from src to dst in the most efficient way possible.", "split": "test", "qualname": "shutil.copyfile"}
+{"id": "9079068251db", "text": "Copy mode bits from src to dst.", "split": "test", "qualname": "shutil.copymode"}
+{"id": "e2c4b243f527", "text": "Recursively copy a directory tree and return the destination directory.", "split": "test", "qualname": "shutil.copytree"}
+{"id": "132830bdf02c", "text": "Get the size of the terminal window.", "split": "dev", "qualname": "shutil.get_terminal_size"}
+{"id": "ac3b71de6f3c", "text": "Create an archive file (eg. zip or tar).", "split": "dev", "qualname": "shutil.make_archive"}
+{"id": "ee9e2916e458", "text": "Recursively move a file or directory to another location.", "split": "dev", "qualname": "shutil.move"}
+{"id": "983cc432f039", "text": "Return the current action for the given signal.", "split": "test", "qualname": "signal.getsignal"}
+{"id": "3c9c53c824fa", "text": "Set the action for the given signal.", "split": "dev", "qualname": "signal.signal"}
+{"id": "77803795dfcc", "text": "struct_siginfo: Result from sigwaitinfo or sigtimedwait.", "split": "dev", "qualname": "signal.struct_siginfo"}
+{"id": "ca86b2326543", "text": "Check if user site directory is safe for inclusion", "split": "test", "qualname": "site.check_enableusersite"}
+{"id": "3ffdd920a516", "text": "Returns a list containing all global site-packages directories.", "split": "dev", "qualname": "site.getsitepackages"}
+{"id": "1eaccc3ac95c", "text": "Returns the `user base` directory path.", "split": "dev", "qualname": "site.getuserbase"}
+{"id": "2f27addf71c3", "text": "Configure readline completion on interactive prompts.", "split": "test", "qualname": "site.register_readline"}
+{"id": "81f029543415", "text": "LMTP - Local Mail Transfer Protocol", "split": "test", "qualname": "smtplib.LMTP"}
+{"id": "43d2a4956cf2", "text": "This class manages a connection to an SMTP or ESMTP server.", "split": "dev", "qualname": "smtplib.SMTP"}
+{"id": "199a64757d0f", "text": "Authentication command - requires response processing.", "split": "test", "qualname": "smtplib.SMTP.auth"}
+{"id": "04089a8694e9", "text": "Connect to a host on a given port.", "split": "test", "qualname": "smtplib.SMTP.connect"}
+{"id": "bf9df8397e43", "text": "SMTP 'DATA' command -- sends message data to server.", "split": "test", "qualname": "smtplib.SMTP.data"}
+{"id": "0d4655d38949", "text": "Call self.ehlo() and/or self.helo() if needed.", "split": "test", "qualname": "smtplib.SMTP.ehlo_or_helo_if_needed"}
+{"id": "c3252f2167ea", "text": "Get a reply from the server.", "split": "dev", "qualname": "smtplib.SMTP.getreply"}
+{"id": "739be09ddd38", "text": "Log in on an SMTP server that requires authentication.", "split": "dev", "qualname": "smtplib.SMTP.login"}
+{"id": "782f421befe1", "text": "Converts message to a bytestring and passes it to sendmail.", "split": "test", "qualname": "smtplib.SMTP.send_message"}
+{"id": "ce4e9798f52a", "text": "This command performs an entire mail transaction.", "split": "dev", "qualname": "smtplib.SMTP.sendmail"}
+{"id": "b36a21083de6", "text": "Puts the connection to the SMTP server into TLS mode.", "split": "dev", "qualname": "smtplib.SMTP.starttls"}
+{"id": "f9a5de25d8fd", "text": "The command or option is not supported by the SMTP server.", "split": "test", "qualname": "smtplib.SMTPNotSupportedError"}
+{"id": "06ee6e91b9a8", "text": "Base class for all exceptions that include an SMTP error code.", "split": "dev", "qualname": "smtplib.SMTPResponseException"}
+{"id": "c9497fa577a0", "text": "Not connected to any SMTP server.", "split": "dev", "qualname": "smtplib.SMTPServerDisconnected"}
+{"id": "7ad54a675c0e", "text": "This is a subclass derived from SMTP that connects over an SSL encrypted socket (to use this class you need a socket module that was compiled with SSL support).", "split": "dev", "qualname": "smtplib.SMTP_SSL"}
+{"id": "8901c2e3a69c", "text": "Read up to len(b) bytes into the writable buffer *b* and return the number of bytes read.", "split": "dev", "qualname": "socket.SocketIO.readinto"}
+{"id": "8253d14b71f7", "text": "Write the given bytes or bytearray object *b* to the socket and return the number of bytes written.", "split": "test", "qualname": "socket.SocketIO.write"}
+{"id": "e60607af5928", "text": "Connect to *address* and return the socket object.", "split": "dev", "qualname": "socket.create_connection"}
+{"id": "b5fc569a8f02", "text": "Convenience function which creates a SOCK_STREAM type socket bound to *address* (a 2-tuple (host, port)) and return the socket object.", "split": "dev", "qualname": "socket.create_server"}
+{"id": "275898908363", "text": "Resolve host and port into list of address info entries.", "split": "test", "qualname": "socket.getaddrinfo"}
+{"id": "b901f03486c5", "text": "Get fully qualified domain name from name.", "split": "test", "qualname": "socket.getfqdn"}
+{"id": "6b494b3d12b8", "text": "Send a file until EOF is reached by using high-performance os.sendfile() and return the total number of bytes which were sent. *file* must be a regular file object opened in binary mode.", "split": "dev", "qualname": "socket.socket.sendfile"}
+{"id": "e294f3a54c97", "text": "Base class for request handler classes.", "split": "test", "qualname": "socketserver.BaseRequestHandler"}
+{"id": "853c7bae4687", "text": "Base class for various socket-based server classes.", "split": "test", "qualname": "socketserver.TCPServer"}
+{"id": "c4740e01ad26", "text": "Read data at the current offset position.", "split": "dev", "qualname": "sqlite3.Blob.read"}
+{"id": "fa62e171756b", "text": "Set the current access position to offset.", "split": "test", "qualname": "sqlite3.Blob.seek"}
+{"id": "4669d9819c94", "text": "Creates or redefines an aggregate window function.", "split": "dev", "qualname": "sqlite3.Connection.create_window_function"}
+{"id": "e06e416899e5", "text": "Serialize a database into a byte string.", "split": "test", "qualname": "sqlite3.Connection.serialize"}
+{"id": "5a766fc507ff", "text": "This class implements an interface on top of a low-level SSL object as implemented by OpenSSL.", "split": "test", "qualname": "ssl.SSLObject"}
+{"id": "4ae5bcae2566", "text": "Return the time in seconds since the Epoch, given the timestring representing the \"notBefore\" or \"notAfter\" date from a certificate in ``\"%b %d %H:%M:%S %Y %Z\"`` strptime format (C locale).", "split": "dev", "qualname": "ssl.cert_time_to_seconds"}
+{"id": "7c7bf5b6fb90", "text": "Retrieve the certificate from the server at the specified address, and return it as a PEM-encoded string.", "split": "dev", "qualname": "ssl.get_server_certificate"}
+{"id": "4fa7f6c9c395", "text": "Inverse cumulative distribution function. x : P(X <= x) = p", "split": "test", "qualname": "statistics.NormalDist.inv_cdf"}
+{"id": "87beb93af694", "text": "Compute the overlapping coefficient (OVL) between two normal distributions.", "split": "dev", "qualname": "statistics.NormalDist.overlap"}
+{"id": "d98c3d8198ec", "text": "Divide into *n* continuous intervals with equal probability.", "split": "dev", "qualname": "statistics.NormalDist.quantiles"}
+{"id": "16d9cb21a55e", "text": "Convert data to floats and compute the arithmetic mean.", "split": "dev", "qualname": "statistics.fmean"}
+{"id": "464c6f653676", "text": "Convert data to floats and compute the geometric mean.", "split": "dev", "qualname": "statistics.geometric_mean"}
+{"id": "c0c9d30463b7", "text": "Return the harmonic mean of data.", "split": "test", "qualname": "statistics.harmonic_mean"}
+{"id": "ec1ed827a281", "text": "Kernel Density Estimation: Create a continuous probability density function or cumulative distribution function from discrete samples.", "split": "test", "qualname": "statistics.kde"}
+{"id": "8ff25414f032", "text": "Return a function that makes a random selection from the estimated probability density function created by kde(data, h, kernel).", "split": "dev", "qualname": "statistics.kde_random"}
+{"id": "d8b39a021d39", "text": "Slope and intercept for simple linear regression.", "split": "test", "qualname": "statistics.linear_regression"}
+{"id": "554e89a5b3fb", "text": "Return the sample arithmetic mean of data.", "split": "test", "qualname": "statistics.mean"}
+{"id": "9839db59c743", "text": "Return the median (middle value) of numeric data.", "split": "test", "qualname": "statistics.median"}
+{"id": "162d0eb13aa2", "text": "Estimates the median for numeric data binned around the midpoints of consecutive, fixed-width intervals.", "split": "dev", "qualname": "statistics.median_grouped"}
+{"id": "53d0079ef080", "text": "Return the high median of data.", "split": "dev", "qualname": "statistics.median_high"}
+{"id": "63fa1594ac16", "text": "Return the low median of numeric data.", "split": "dev", "qualname": "statistics.median_low"}
+{"id": "90eac83ffe4e", "text": "Return the most common data point from discrete or nominal data.", "split": "dev", "qualname": "statistics.mode"}
+{"id": "fb90504c74d7", "text": "Return a list of the most frequently occurring values.", "split": "test", "qualname": "statistics.multimode"}
+{"id": "ddeec5a2db2d", "text": "Return the population variance of ``data``.", "split": "test", "qualname": "statistics.pvariance"}
+{"id": "85c7a9c1d9ab", "text": "Divide *data* into *n* continuous intervals with equal probability.", "split": "test", "qualname": "statistics.quantiles"}
+{"id": "faf653f25607", "text": "Return the sample variance of data.", "split": "test", "qualname": "statistics.variance"}
+{"id": "6db5bdbc81f3", "text": "Split the argument into words using split, capitalize each word using capitalize, and join the capitalized words using join.", "split": "test", "qualname": "string.capwords"}
+{"id": "3319c3194b02", "text": "A process that has finished running.", "split": "dev", "qualname": "subprocess.CompletedProcess"}
+{"id": "29e729f104d0", "text": "Execute a child program in a new process.", "split": "dev", "qualname": "subprocess.Popen"}
+{"id": "655ece8521e4", "text": "Interact with process: Send data to stdin and close it.", "split": "dev", "qualname": "subprocess.Popen.communicate"}
+{"id": "385d8fad044c", "text": "Run command with arguments and return its output.", "split": "dev", "qualname": "subprocess.check_output"}
+{"id": "d2e385e62dfa", "text": "Return output (stdout or stderr) of executing cmd in a shell.", "split": "dev", "qualname": "subprocess.getoutput"}
+{"id": "6f14b7a856d9", "text": "Return (exitcode, output) of executing cmd in a shell.", "split": "test", "qualname": "subprocess.getstatusoutput"}
+{"id": "ed0dc73cff25", "text": "Translate a sequence of arguments into a command line string, using the same rules as the MS C runtime:", "split": "test", "qualname": "subprocess.list2cmdline"}
+{"id": "fa040df5f894", "text": "Run command with arguments and return a CompletedProcess instance.", "split": "dev", "qualname": "subprocess.run"}
+{"id": "b602512a2b19", "text": "Returns *True* if name binding introduces new namespace.", "split": "test", "qualname": "symtable.Symbol.is_namespace"}
+{"id": "c368caa29539", "text": "Call func(*args), while tracing is enabled.", "split": "test", "qualname": "sys.call_tracing"}
+{"id": "227453f6d944", "text": "Exit the interpreter by raising SystemExit(status).", "split": "dev", "qualname": "sys.exit"}
+{"id": "4ee9d30fe2aa", "text": "Return the current value of the recursion limit.", "split": "dev", "qualname": "sys.getrecursionlimit"}
+{"id": "07360eb024cb", "text": "Enable or disable origin tracking for coroutine objects in this thread.", "split": "test", "qualname": "sys.set_coroutine_origin_tracking_depth"}
+{"id": "f28ad24985ed", "text": "Set the flags used by the interpreter for dlopen calls.", "split": "test", "qualname": "sys.setdlopenflags"}
+{"id": "11422b733aba", "text": "Set the ideal thread switching delay inside the Python interpreter.", "split": "dev", "qualname": "sys.setswitchinterval"}
+{"id": "d93d09d3f573", "text": "Expand Makefile-style variables -- \"${foo}\" or \"$(foo)\" -- in 'string' according to 'vars' (a dictionary mapping variable names to values).", "split": "test", "qualname": "sysconfig.expand_makefile_vars"}
+{"id": "4bbf1d8339a7", "text": "With no arguments, return a dictionary of all configuration variables relevant for the current platform.", "split": "test", "qualname": "sysconfig.get_config_vars"}
+{"id": "b394eac2e479", "text": "Return a string that identifies the current platform.", "split": "test", "qualname": "sysconfig.get_platform"}
+{"id": "1e52a3a6ac18", "text": "If file_or_dir is a directory and not a symbolic link, then recursively descend the directory tree named by file_or_dir, checking all .py files along the way.", "split": "dev", "qualname": "tabnanny.check"}
+{"id": "083654bf0f8a", "text": "Add the file `name' to the archive. `name' may be any type of file (directory, fifo, symbolic link, etc.).", "split": "dev", "qualname": "tarfile.TarFile.add"}
+{"id": "b92dfdeb74e6", "text": "Add the TarInfo object `tarinfo' to the archive.", "split": "dev", "qualname": "tarfile.TarFile.addfile"}
+{"id": "96d02cd5c75d", "text": "Extract all members from the archive to the current working directory and set owner, modification time and permissions on directories afterwards. `path' specifies a different directory to extract to. `members' is optional and must be a subset of the list returned by getmembers().", "split": "test", "qualname": "tarfile.TarFile.extractall"}
+{"id": "3b73bfa3e8c6", "text": "Extract a member from the archive as a file object. `member' may be a filename or a TarInfo object.", "split": "dev", "qualname": "tarfile.TarFile.extractfile"}
+{"id": "e2393a4a5c33", "text": "Return a TarInfo object for member `name'.", "split": "test", "qualname": "tarfile.TarFile.getmember"}
+{"id": "794e8e721dd6", "text": "Create a TarInfo object from the result of os.stat or equivalent on an existing file.", "split": "dev", "qualname": "tarfile.TarFile.gettarinfo"}
+{"id": "6cc4fd6b1271", "text": "Print a table of contents to sys.stdout.", "split": "test", "qualname": "tarfile.TarFile.list"}
+{"id": "0defddc83b7c", "text": "Make a (symbolic) link called targetpath.", "split": "dev", "qualname": "tarfile.TarFile.makelink_with_filter"}
+{"id": "2670c87b1305", "text": "Open a tar archive for reading, writing or appending.", "split": "test", "qualname": "tarfile.TarFile.open"}
+{"id": "da9654443630", "text": "Calculate the checksum for a member's header by summing up all characters except for the chksum field which is treated as if it was filled with spaces.", "split": "dev", "qualname": "tarfile.calc_chksums"}
+{"id": "20f49e0798fb", "text": "Create and return a temporary directory.", "split": "test", "qualname": "tempfile.TemporaryDirectory"}
+{"id": "c2ddfa4f4969", "text": "User-callable function to create and return a unique temporary directory.", "split": "test", "qualname": "tempfile.mkdtemp"}
+{"id": "fd006882fe59", "text": "User-callable function to create and return a unique temporary file.", "split": "test", "qualname": "tempfile.mkstemp"}
+{"id": "0cdf873795c4", "text": "User-callable function to return a unique temporary file name.", "split": "dev", "qualname": "tempfile.mktemp"}
+{"id": "ace4638b03cc", "text": "Get the tty attributes for file descriptor fd.", "split": "dev", "qualname": "termios.tcgetattr"}
+{"id": "c52245af1304", "text": "Set the tty attributes for file descriptor fd.", "split": "dev", "qualname": "termios.tcsetattr"}
+{"id": "623a2103ae5d", "text": "Remove any common leading whitespace from every line in `text`.", "split": "test", "qualname": "textwrap.dedent"}
+{"id": "a70c128eb3f2", "text": "Fill a single paragraph of text, returning a new string.", "split": "dev", "qualname": "textwrap.fill"}
+{"id": "f5e012dd5a0d", "text": "Adds 'prefix' to the beginning of selected lines in 'text'.", "split": "test", "qualname": "textwrap.indent"}
+{"id": "59938514a0fc", "text": "Collapse and truncate the given text to fit in the given width.", "split": "dev", "qualname": "textwrap.shorten"}
+{"id": "a9c6f6d5ff9b", "text": "Wrap a single paragraph of text, returning a list of wrapped lines.", "split": "test", "qualname": "textwrap.wrap"}
+{"id": "9abf31fbf168", "text": "Class that implements a condition variable.", "split": "dev", "qualname": "threading.Condition"}
+{"id": "2d17df43cc9a", "text": "Wake up one or more threads waiting on this condition, if any.", "split": "dev", "qualname": "threading.Condition.notify"}
+{"id": "5e07f454b839", "text": "Wait until notified or until a timeout occurs.", "split": "test", "qualname": "threading.Condition.wait"}
+{"id": "dfef3318d813", "text": "Wait until a condition evaluates to True.", "split": "test", "qualname": "threading.Condition.wait_for"}
+{"id": "51855f85abcb", "text": "Block until the internal flag is true.", "split": "test", "qualname": "threading.Event.wait"}
+{"id": "49e7ba623e17", "text": "Factory function that returns a new reentrant lock.", "split": "test", "qualname": "threading.RLock"}
+{"id": "8f78b55a2aeb", "text": "Acquire a semaphore, decrementing the internal counter by one.", "split": "test", "qualname": "threading.Semaphore.acquire"}
+{"id": "5e7675ec7689", "text": "A class that represents a thread of control.", "split": "test", "qualname": "threading.Thread"}
+{"id": "a4107640364e", "text": "Return a list of all Thread objects currently alive.", "split": "dev", "qualname": "threading.enumerate"}
+{"id": "0d510765dd83", "text": "Convert seconds since the Epoch to a time tuple expressing UTC (a.k.a.", "split": "test", "qualname": "time.gmtime"}
+{"id": "e28641d7d1b4", "text": "Convert a time tuple in local time to seconds since the Epoch.", "split": "dev", "qualname": "time.mktime"}
+{"id": "d6b460f9ec7b", "text": "Convert a time tuple to a string according to a format specification.", "split": "test", "qualname": "time.strftime"}
+{"id": "a04a115a831b", "text": "Parse a string to a time tuple according to a format specification.", "split": "test", "qualname": "time.strptime"}
+{"id": "6608618147dc", "text": "The time value as returned by gmtime(), localtime(), and strptime(), and accepted by asctime(), mktime() and strftime().", "split": "dev", "qualname": "time.struct_time"}
+{"id": "e5ebba8f604d", "text": "Initialize, or reinitialize, the local timezone to the value stored in os.environ['TZ'].", "split": "test", "qualname": "time.tzset"}
+{"id": "b9050da1dcd8", "text": "Class for timing execution speed of small code snippets.", "split": "dev", "qualname": "timeit.Timer"}
+{"id": "977a7a5289a8", "text": "Return the number of loops and time taken so that total time >= 0.2.", "split": "dev", "qualname": "timeit.Timer.autorange"}
+{"id": "e76fac20f28f", "text": "Helper to print a traceback from the timed code.", "split": "test", "qualname": "timeit.Timer.print_exc"}
+{"id": "6522f57ca768", "text": "Time 'number' executions of the main statement.", "split": "dev", "qualname": "timeit.Timer.timeit"}
+{"id": "a9fd0e8fa0fc", "text": "Main program, used when run as a script.", "split": "dev", "qualname": "timeit.main"}
+{"id": "35713b5dcbe2", "text": "The detect_encoding() function is used to detect the encoding that should be used to decode a Python source file.", "split": "dev", "qualname": "tokenize.detect_encoding"}
+{"id": "f90574eda52a", "text": "The tokenize() generator requires one argument, readline, which must be a callable object which provides the same interface as the readline() method of built-in file objects.", "split": "dev", "qualname": "tokenize.tokenize"}
+{"id": "f6dc9c1348e9", "text": "Transform tokens back into Python source code.", "split": "test", "qualname": "tokenize.untokenize"}
+{"id": "89fd595ddbd9", "text": "Information about a single frame from a traceback.", "split": "test", "qualname": "traceback.FrameSummary"}
+{"id": "bca24d7fff8e", "text": "Create a StackSummary from a traceback or stack object.", "split": "dev", "qualname": "traceback.StackSummary.extract"}
+{"id": "802c8d1e389c", "text": "Format the stack ready for printing.", "split": "dev", "qualname": "traceback.StackSummary.format"}
+{"id": "4dfcfca153e1", "text": "Format the exception part of the traceback.", "split": "test", "qualname": "traceback.TracebackException.format_exception_only"}
+{"id": "f9619fcbd942", "text": "Extract the raw traceback from the current stack frame.", "split": "dev", "qualname": "traceback.extract_stack"}
+{"id": "a43e64146f1b", "text": "Return a StackSummary object representing a list of pre-processed entries from traceback.", "split": "test", "qualname": "traceback.extract_tb"}
+{"id": "d0282fa15c49", "text": "Format a stack trace and the exception information.", "split": "test", "qualname": "traceback.format_exception"}
+{"id": "2a233419af4a", "text": "Format the exception part of a traceback.", "split": "dev", "qualname": "traceback.format_exception_only"}
+{"id": "d159f86b47f7", "text": "Format a list of tuples or FrameSummary objects for printing.", "split": "test", "qualname": "traceback.format_list"}
+{"id": "6806469d4bef", "text": "Print exception up to 'limit' stack trace entries from 'tb' to 'file'.", "split": "test", "qualname": "traceback.print_exception"}
+{"id": "b6c2b140176e", "text": "Print a stack trace from its invocation point.", "split": "dev", "qualname": "traceback.print_stack"}
+{"id": "95b58116456b", "text": "Print up to 'limit' stack trace entries from the traceback 'tb'.", "split": "test", "qualname": "traceback.print_tb"}
+{"id": "12af74cb05d0", "text": "Route attribute access on a class to __getattr__.", "split": "dev", "qualname": "types.DynamicClassAttribute"}
+{"id": "5dfb9d4f03c6", "text": "Return the class's \"original\" bases prior to modification by `__mro_entries__`.", "split": "dev", "qualname": "types.get_original_bases"}
+{"id": "f12e148eedfb", "text": "Call the __prepare__ method of the appropriate metaclass.", "split": "test", "qualname": "types.prepare_class"}
+{"id": "01aaf107d7e6", "text": "Special type indicating an unconstrained type.", "split": "dev", "qualname": "typing.Any"}
+{"id": "ab7887d7221c", "text": "Abstract base class for generic types.", "split": "dev", "qualname": "typing.Generic"}
+{"id": "ee5e3d51b8fc", "text": "Generic base class for TextIO and BinaryIO.", "split": "dev", "qualname": "typing.IO"}
+{"id": "081931bbfdb2", "text": "NewType creates simple unique types with almost zero runtime overhead.", "split": "dev", "qualname": "typing.NewType"}
+{"id": "f15cbd87b6f2", "text": "The args for a ParamSpec object.", "split": "dev", "qualname": "typing.ParamSpecArgs"}
+{"id": "1172d914b735", "text": "The kwargs for a ParamSpec object.", "split": "test", "qualname": "typing.ParamSpecKwargs"}
+{"id": "ba22ed79397d", "text": "Statically assert that a line of code is unreachable.", "split": "test", "qualname": "typing.assert_never"}
+{"id": "98f22d6326c5", "text": "Ask a static type checker to confirm that the value is of the given type.", "split": "test", "qualname": "typing.assert_type"}
+{"id": "e9bcc6f58225", "text": "Cast a value to a type.", "split": "test", "qualname": "typing.cast"}
+{"id": "81014360af35", "text": "Decorator to mark an object as providing dataclass-like behavior.", "split": "test", "qualname": "typing.dataclass_transform"}
+{"id": "86d4e90e8a8a", "text": "Decorator to indicate final methods and final classes.", "split": "dev", "qualname": "typing.final"}
+{"id": "65ef1098306d", "text": "Get type arguments with all substitutions performed.", "split": "test", "qualname": "typing.get_args"}
+{"id": "c6309ef135bb", "text": "Get the unsubscripted version of a type.", "split": "test", "qualname": "typing.get_origin"}
+{"id": "986738dc60c5", "text": "Return the set of members defined in a Protocol.", "split": "test", "qualname": "typing.get_protocol_members"}
+{"id": "fb0b9dc6d4d7", "text": "Return type hints for an object.", "split": "test", "qualname": "typing.get_type_hints"}
+{"id": "fe1e89099914", "text": "Return True if the given type is a Protocol.", "split": "dev", "qualname": "typing.is_protocol"}
+{"id": "ce66705bb06f", "text": "Decorator to indicate that annotations are not type hints.", "split": "test", "qualname": "typing.no_type_check"}
+{"id": "07bd83b86893", "text": "Indicate that a method is intended to override a method in a base class.", "split": "test", "qualname": "typing.override"}
+{"id": "eb5bdbf7fc55", "text": "Ask a static type checker to reveal the inferred type of an expression.", "split": "test", "qualname": "typing.reveal_type"}
+{"id": "a8d739801140", "text": "Mark a protocol class as a runtime protocol.", "split": "dev", "qualname": "typing.runtime_checkable"}
+{"id": "1c9c38571247", "text": "Instances of the UUID class represent UUIDs as specified in RFC 4122.", "split": "test", "qualname": "uuid.UUID"}
+{"id": "27caca5e3840", "text": "Get the hardware address as a 48-bit positive integer.", "split": "dev", "qualname": "uuid.getnode"}
+{"id": "2874eeda854f", "text": "Generate a UUID from a host ID, sequence number, and the current time.", "split": "test", "qualname": "uuid.uuid1"}
+{"id": "b7a6465cc0c5", "text": "A context manager that copies and restores the warnings filter upon exiting the context.", "split": "test", "qualname": "warnings.catch_warnings"}
+{"id": "035c5fd9a84f", "text": "Indicate that a class, function or overload is deprecated.", "split": "test", "qualname": "warnings.deprecated"}
+{"id": "1cf2f9f4d42a", "text": "Insert an entry into the list of warnings filters (at the front).", "split": "dev", "qualname": "warnings.filterwarnings"}
+{"id": "169251264f69", "text": "Insert a simple entry into the list of warnings filters (at the front).", "split": "test", "qualname": "warnings.simplefilter"}
+{"id": "0af0d38fcd83", "text": "Specialized reference that includes a key corresponding to the value.", "split": "test", "qualname": "weakref.KeyedRef"}
+{"id": "ec40e4e703fb", "text": "Mapping class that references keys weakly.", "split": "test", "qualname": "weakref.WeakKeyDictionary"}
+{"id": "6beb3a3fa9ba", "text": "Return a list of weak references to the keys.", "split": "dev", "qualname": "weakref.WeakKeyDictionary.keyrefs"}
+{"id": "31a335bbe5bf", "text": "Return an iterator that yields the weak references to the values.", "split": "test", "qualname": "weakref.WeakValueDictionary.itervaluerefs"}
+{"id": "f0637b5982dd", "text": "Return a list of weak references to the values.", "split": "test", "qualname": "weakref.WeakValueDictionary.valuerefs"}
+{"id": "7b0817c969a7", "text": "Class for finalization of weakrefable objects", "split": "test", "qualname": "weakref.finalize"}
+{"id": "db8686d83f8b", "text": "Display url using the default browser.", "split": "test", "qualname": "webbrowser.open"}
+{"id": "a66e83d05b08", "text": "Create an application archive from SOURCE.", "split": "dev", "qualname": "zipapp.create_archive"}
+{"id": "4fc3c383aa48", "text": "Run the zipapp command line interface.", "split": "dev", "qualname": "zipapp.main"}
+{"id": "2ed145401745", "text": "Add all files from \"pathname\" to the ZIP archive.", "split": "test", "qualname": "zipfile.PyZipFile.writepy"}
+{"id": "6d91dcd65fe9", "text": "Class with methods to open, read, write, close, list zip files.", "split": "test", "qualname": "zipfile.ZipFile"}
+{"id": "9615c3870965", "text": "Write a file into the archive.", "split": "test", "qualname": "zipfile.ZipFile.writestr"}
+{"id": "297ff08c9907", "text": "Construct an appropriate ZipInfo for a file on the filesystem.", "split": "test", "qualname": "zipfile.ZipInfo.from_file"}
+{"id": "e24db7030261", "text": "Load the module specified by 'fullname'.", "split": "test", "qualname": "zipimport.zipimporter.load_module"}

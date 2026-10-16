@@ -1,0 +1,19 @@
+# Built and smoke-tested on 2026-10-14: scripts/docker_smoke.sh (logs in docs/evidence/2026-10-14/).
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment: { POSTGRES_PASSWORD: "${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}", POSTGRES_DB: groundwork }
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck: { test: ["CMD-SHELL", "pg_isready -U postgres"], interval: 5s }
+  redis:
+    image: redis:7
+  api:
+    build: .
+    depends_on: { db: { condition: service_healthy }, redis: { condition: service_started } }
+    environment:
+      GW_DATABASE_URL: "postgresql://postgres:${POSTGRES_PASSWORD}@db:5432/groundwork"
+      GW_REDIS_URL: redis://redis:6379/0
+      GW_API_KEYS: "${GW_API_KEYS:?set GW_API_KEYS}"
+    ports: ["${GW_PORT:-8080}:8080"]
+    read_only: true
+volumes: { pgdata: {} }

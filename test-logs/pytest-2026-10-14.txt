@@ -1,0 +1,16 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-9.1.1, pluggy-1.6.0
+rootdir: /home/claude/projects/p15/groundwork
+configfile: pyproject.toml
+testpaths: tests
+plugins: anyio-4.15.1, asyncio-1.4.0, hypothesis-6.169.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 72 items
+
+tests/test_api.py ............                                           [ 16%]
+tests/test_audit_regressions.py .....................                    [ 45%]
+tests/test_core.py ........................                              [ 79%]
+tests/test_generation_safety.py ............                             [ 95%]
+tests/test_regression.py ...                                             [100%]
+
+============================= 72 passed in 39.29s ==============================

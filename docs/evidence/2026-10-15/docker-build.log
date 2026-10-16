@@ -1,0 +1,214 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2.00kB 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.6s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [build 1/6] FROM docker.io/library/python:3.12-slim@sha256:a6e34c598f2467ed0e9a8d349809fcd8b5c603269512df273a0bb1784edc11b1
+#4 resolve docker.io/library/python:3.12-slim@sha256:a6e34c598f2467ed0e9a8d349809fcd8b5c603269512df273a0bb1784edc11b1 0.0s done
+#4 CACHED
+
+#5 [internal] load build context
+#5 transferring context: 2.43kB done
+#5 DONE 0.0s
+
+#6 [stage-1 2/5] RUN if [ "0" = "1" ]; then apt-get update && apt-get install -y --no-install-recommends libgomp1     && rm -rf /var/lib/apt/lists/*; fi     && useradd --create-home --uid 10001 app
+#6 ...
+
+#7 [build 2/6] RUN if [ "0" = "1" ]; then apt-get update && apt-get install -y --no-install-recommends build-essential cmake     && rm -rf /var/lib/apt/lists/*; fi
+#7 DONE 0.6s
+
+#8 [build 3/6] WORKDIR /src
+#8 DONE 0.1s
+
+#6 [stage-1 2/5] RUN if [ "0" = "1" ]; then apt-get update && apt-get install -y --no-install-recommends libgomp1     && rm -rf /var/lib/apt/lists/*; fi     && useradd --create-home --uid 10001 app
+#6 DONE 0.7s
+
+#9 [build 4/6] COPY pyproject.toml ./
+#9 DONE 0.1s
+
+#10 [build 5/6] COPY groundwork ./groundwork
+#10 DONE 0.1s
+
+#11 [build 6/6] RUN --mount=type=secret,id=ca,required=false     if [ -s /run/secrets/ca ]; then export PIP_CERT=/run/secrets/ca; fi     && if [ "0" = "1" ]; then EXTRA="[local]"; else EXTRA=""; fi     && pip wheel --no-cache-dir --wheel-dir /wheels ".${EXTRA}"
+#11 10.65 Processing /src
+#11 10.68   Installing build dependencies: started
+#11 22.80   Installing build dependencies: finished with status 'done'
+#11 22.80   Getting requirements to build wheel: started
+#11 24.66   Getting requirements to build wheel: finished with status 'done'
+#11 24.66   Preparing metadata (pyproject.toml): started
+#11 25.83   Preparing metadata (pyproject.toml): finished with status 'done'
+#11 26.31 Collecting fastapi>=0.110 (from groundwork==0.1.0)
+#11 27.02   Downloading fastapi-0.143.1-py3-none-any.whl.metadata (26 kB)
+#11 27.21 Collecting uvicorn>=0.29 (from groundwork==0.1.0)
+#11 27.74   Downloading uvicorn-0.54.0-py3-none-any.whl.metadata (6.6 kB)
+#11 27.81 Collecting python-multipart>=0.0.9 (from groundwork==0.1.0)
+#11 28.28   Downloading python_multipart-0.0.32-py3-none-any.whl.metadata (2.1 kB)
+#11 28.45 Collecting psycopg>=3.1 (from psycopg[binary]>=3.1->groundwork==0.1.0)
+#11 29.19   Downloading psycopg-3.3.6-py3-none-any.whl.metadata (4.4 kB)
+#11 29.31 Collecting pgvector>=0.2 (from groundwork==0.1.0)
+#11 30.08   Downloading pgvector-0.5.1-py3-none-any.whl.metadata (19 kB)
+#11 30.29 Collecting redis>=5 (from groundwork==0.1.0)
+#11 30.91   Downloading redis-8.1.0-py3-none-any.whl.metadata (16 kB)
+#11 32.02 Collecting numpy>=1.26 (from groundwork==0.1.0)
+#11 32.53   Downloading numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+#11 33.04 Collecting scipy>=1.11 (from groundwork==0.1.0)
+#11 33.52   Downloading scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+#11 33.77 Collecting pypdf>=4 (from groundwork==0.1.0)
+#11 34.19   Downloading pypdf-6.20.1-py3-none-any.whl.metadata (7.6 kB)
+#11 34.36 Collecting httpx>=0.27 (from groundwork==0.1.0)
+#11 34.76   Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+#11 35.03 Collecting starlette>=0.46.0 (from fastapi>=0.110->groundwork==0.1.0)
+#11 35.38   Downloading starlette-1.8.0-py3-none-any.whl.metadata (6.6 kB)
+#11 36.20 Collecting pydantic>=2.9.0 (from fastapi>=0.110->groundwork==0.1.0)
+#11 36.61   Downloading pydantic-2.14.1-py3-none-any.whl.metadata (133 kB)
+#11 36.84 Collecting typing-extensions>=4.8.0 (from fastapi>=0.110->groundwork==0.1.0)
+#11 37.34   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#11 37.47 Collecting typing-inspection>=0.4.2 (from fastapi>=0.110->groundwork==0.1.0)
+#11 37.91   Downloading typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)
+#11 38.02 Collecting annotated-doc>=0.0.2 (from fastapi>=0.110->groundwork==0.1.0)
+#11 38.49   Downloading annotated_doc-0.0.5-py3-none-any.whl.metadata (6.5 kB)
+#11 38.77 Collecting opentelemetry-api>=1.44.0 (from fastapi>=0.110->groundwork==0.1.0)
+#11 39.25   Downloading opentelemetry_api-1.45.1-py3-none-any.whl.metadata (1.4 kB)
+#11 39.45 Collecting anyio (from httpx>=0.27->groundwork==0.1.0)
+#11 39.94   Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+#11 40.08 Collecting certifi (from httpx>=0.27->groundwork==0.1.0)
+#11 40.59   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+#11 40.71 Collecting httpcore==1.* (from httpx>=0.27->groundwork==0.1.0)
+#11 41.25   Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+#11 41.41 Collecting idna (from httpx>=0.27->groundwork==0.1.0)
+#11 41.95   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+#11 41.99 Collecting h11>=0.16 (from httpcore==1.*->httpx>=0.27->groundwork==0.1.0)
+#11 42.45   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+#11 43.64 Collecting psycopg-binary==3.3.6 (from psycopg[binary]>=3.1->groundwork==0.1.0)
+#11 44.24   Downloading psycopg_binary-3.3.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.7 kB)
+#11 44.41 Collecting click>=7.0 (from uvicorn>=0.29->groundwork==0.1.0)
+#11 44.92   Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+#11 45.34 Collecting annotated-types>=0.6.0 (from pydantic>=2.9.0->fastapi>=0.110->groundwork==0.1.0)
+#11 45.77   Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+#11 49.09 Collecting pydantic-core==2.50.1 (from pydantic>=2.9.0->fastapi>=0.110->groundwork==0.1.0)
+#11 49.48   Downloading pydantic_core-2.50.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.5 kB)
+#11 50.75 Downloading fastapi-0.143.1-py3-none-any.whl (144 kB)
+#11 51.19 Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+#11 51.57 Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+#11 51.93 Downloading numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+#11 53.75    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 9.3 MB/s eta 0:00:00
+#11 54.12 Downloading pgvector-0.5.1-py3-none-any.whl (31 kB)
+#11 54.47 Downloading psycopg-3.3.6-py3-none-any.whl (215 kB)
+#11 54.84 Downloading psycopg_binary-3.3.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.2 MB)
+#11 55.43    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 8.9 MB/s eta 0:00:00
+#11 55.73 Downloading pypdf-6.20.1-py3-none-any.whl (402 kB)
+#11 56.27 Downloading python_multipart-0.0.32-py3-none-any.whl (30 kB)
+#11 56.94 Downloading redis-8.1.0-py3-none-any.whl (560 kB)
+#11 57.06    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 560.6/560.6 kB 5.2 MB/s eta 0:00:00
+#11 57.66 Downloading scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.3 MB)
+#11 64.56    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.3/35.3 MB 5.1 MB/s eta 0:00:00
+#11 64.91 Downloading uvicorn-0.54.0-py3-none-any.whl (87 kB)
+#11 65.26 Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+#11 65.64 Downloading click-8.5.0-py3-none-any.whl (125 kB)
+#11 65.99 Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+#11 66.39 Downloading opentelemetry_api-1.45.1-py3-none-any.whl (60 kB)
+#11 66.89 Downloading pydantic-2.14.1-py3-none-any.whl (488 kB)
+#11 67.75 Downloading pydantic_core-2.50.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.2 MB)
+#11 68.42    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 3.4 MB/s eta 0:00:00
+#11 69.18 Downloading starlette-1.8.0-py3-none-any.whl (79 kB)
+#11 69.83 Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+#11 70.38 Downloading idna-3.20-py3-none-any.whl (69 kB)
+#11 71.19 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#11 72.52 Downloading typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+#11 73.40 Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+#11 74.66 Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+#11 75.84 Saved /wheels/fastapi-0.143.1-py3-none-any.whl
+#11 75.85 Saved /wheels/httpx-0.28.1-py3-none-any.whl
+#11 75.85 Saved /wheels/httpcore-1.0.9-py3-none-any.whl
+#11 75.88 Saved /wheels/numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+#11 75.89 Saved /wheels/pgvector-0.5.1-py3-none-any.whl
+#11 75.90 Saved /wheels/psycopg-3.3.6-py3-none-any.whl
+#11 75.91 Saved /wheels/psycopg_binary-3.3.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+#11 75.92 Saved /wheels/pypdf-6.20.1-py3-none-any.whl
+#11 75.94 Saved /wheels/python_multipart-0.0.32-py3-none-any.whl
+#11 75.94 Saved /wheels/redis-8.1.0-py3-none-any.whl
+#11 76.06 Saved /wheels/scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+#11 76.06 Saved /wheels/uvicorn-0.54.0-py3-none-any.whl
+#11 76.06 Saved /wheels/annotated_doc-0.0.5-py3-none-any.whl
+#11 76.06 Saved /wheels/click-8.5.0-py3-none-any.whl
+#11 76.06 Saved /wheels/h11-0.16.0-py3-none-any.whl
+#11 76.06 Saved /wheels/opentelemetry_api-1.45.1-py3-none-any.whl
+#11 76.07 Saved /wheels/pydantic-2.14.1-py3-none-any.whl
+#11 76.08 Saved /wheels/pydantic_core-2.50.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#11 76.09 Saved /wheels/starlette-1.8.0-py3-none-any.whl
+#11 76.09 Saved /wheels/anyio-4.15.1-py3-none-any.whl
+#11 76.10 Saved /wheels/idna-3.20-py3-none-any.whl
+#11 76.11 Saved /wheels/typing_extensions-4.16.0-py3-none-any.whl
+#11 76.12 Saved /wheels/typing_inspection-0.4.4-py3-none-any.whl
+#11 76.12 Saved /wheels/certifi-2026.7.22-py3-none-any.whl
+#11 76.12 Saved /wheels/annotated_types-0.8.0-py3-none-any.whl
+#11 76.13 Building wheels for collected packages: groundwork
+#11 76.15   Building wheel for groundwork (pyproject.toml): started
+#11 78.52   Building wheel for groundwork (pyproject.toml): finished with status 'done'
+#11 78.53   Created wheel for groundwork: filename=groundwork-0.1.0-py3-none-any.whl size=53825 sha256=777c6409f4cd41308aa1f8289373047f8846ad8f817e2a59501fd89804b3a0bd
+#11 78.53   Stored in directory: /tmp/pip-ephem-wheel-cache-6ooo82go/wheels/be/16/c1/367c544384017c548a18cd5b8ec9d158b60362a7ae1a22dff3
+#11 78.53 Successfully built groundwork
+#11 79.39 
+#11 79.39 [notice] A new release of pip is available: 25.0.1 -> 26.2.1
+#11 79.39 [notice] To update, run: pip install --upgrade pip
+#11 DONE 81.8s
+
+#12 [stage-1 3/5] COPY --from=build /wheels /wheels
+#12 DONE 0.2s
+
+#13 [stage-1 4/5] RUN pip install --no-cache-dir --no-index /wheels/*.whl && rm -rf /wheels
+#13 11.88 Processing /wheels/annotated_doc-0.0.5-py3-none-any.whl
+#13 11.91 Processing /wheels/annotated_types-0.8.0-py3-none-any.whl
+#13 11.92 Processing /wheels/anyio-4.15.1-py3-none-any.whl
+#13 11.94 Processing /wheels/certifi-2026.7.22-py3-none-any.whl
+#13 11.97 Processing /wheels/click-8.5.0-py3-none-any.whl
+#13 11.98 Processing /wheels/fastapi-0.143.1-py3-none-any.whl
+#13 12.05 Processing /wheels/groundwork-0.1.0-py3-none-any.whl
+#13 12.06 Processing /wheels/h11-0.16.0-py3-none-any.whl
+#13 12.08 Processing /wheels/httpcore-1.0.9-py3-none-any.whl
+#13 12.11 Processing /wheels/httpx-0.28.1-py3-none-any.whl
+#13 12.14 Processing /wheels/idna-3.20-py3-none-any.whl
+#13 12.17 Processing /wheels/numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+#13 12.54 Processing /wheels/opentelemetry_api-1.45.1-py3-none-any.whl
+#13 12.55 Processing /wheels/pgvector-0.5.1-py3-none-any.whl
+#13 12.57 Processing /wheels/psycopg-3.3.6-py3-none-any.whl
+#13 12.64 Processing /wheels/psycopg_binary-3.3.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+#13 12.77 Processing /wheels/pydantic-2.14.1-py3-none-any.whl
+#13 12.86 Processing /wheels/pydantic_core-2.50.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+#13 12.93 Processing /wheels/pypdf-6.20.1-py3-none-any.whl
+#13 13.00 Processing /wheels/python_multipart-0.0.32-py3-none-any.whl
+#13 13.01 Processing /wheels/redis-8.1.0-py3-none-any.whl
+#13 13.06 Processing /wheels/scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+#13 13.71 Processing /wheels/starlette-1.8.0-py3-none-any.whl
+#13 13.73 Processing /wheels/typing_extensions-4.16.0-py3-none-any.whl
+#13 13.74 Processing /wheels/typing_inspection-0.4.4-py3-none-any.whl
+#13 13.76 Processing /wheels/uvicorn-0.54.0-py3-none-any.whl
+#13 14.35 Installing collected packages: typing-extensions, redis, python-multipart, pypdf, psycopg-binary, pgvector, numpy, idna, h11, click, certifi, annotated-types, annotated-doc, uvicorn, typing-inspection, scipy, pydantic-core, psycopg, opentelemetry-api, httpcore, anyio, starlette, pydantic, httpx, fastapi, groundwork
+#13 73.98 Successfully installed annotated-doc-0.0.5 annotated-types-0.8.0 anyio-4.15.1 certifi-2026.7.22 click-8.5.0 fastapi-0.143.1 groundwork-0.1.0 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.20 numpy-2.5.4 opentelemetry-api-1.45.1 pgvector-0.5.1 psycopg-3.3.6 psycopg-binary-3.3.6 pydantic-2.14.1 pydantic-core-2.50.1 pypdf-6.20.1 python-multipart-0.0.32 redis-8.1.0 scipy-1.18.1 starlette-1.8.0 typing-extensions-4.16.0 typing-inspection-0.4.4 uvicorn-0.54.0
+#13 73.98 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#13 DONE 75.0s
+
+#14 [stage-1 5/5] WORKDIR /app
+#14 DONE 0.1s
+
+#15 exporting to image
+#15 exporting layers
+#15 exporting layers 19.1s done
+#15 exporting manifest sha256:9454c094b295518728025cf53963ef3df3cd4bd0e7c7d4b18168baadf11e7e37 0.0s done
+#15 exporting config sha256:a79c530239029de46f17efc6979c80ce1823567f63aab71c14acfc015a3bf3f5 0.0s done
+#15 exporting attestation manifest sha256:d0aa8fdcc4f610fa2276a7c3129f9364fdaf0b5d1eab368972002761b11a7fc0
+#15 exporting attestation manifest sha256:d0aa8fdcc4f610fa2276a7c3129f9364fdaf0b5d1eab368972002761b11a7fc0 0.0s done
+#15 exporting manifest list sha256:2a3ce3d76f8ae1c4f4dcba4efed7c80772952ae0d372ca6fcb0770fdcb68b51f 0.0s done
+#15 naming to docker.io/library/groundwork:test done
+#15 unpacking to docker.io/library/groundwork:test
+#15 unpacking to docker.io/library/groundwork:test 7.3s done
+#15 DONE 26.7s
+exit=0

@@ -1,0 +1,634 @@
+{"query_id": "ba245dfb03cc", "doc": "abc.md", "section": "abc > abc.ABCMeta(name, bases, namespace, /, **kwargs)", "relevance": 1}
+{"query_id": "ee1a83691c8f", "doc": "abc.md", "section": "abc > abc.update_abstractmethods(cls)", "relevance": 1}
+{"query_id": "350c06d7c671", "doc": "argparse.md", "section": "argparse > argparse.Action(option_strings, dest, nargs=None, const=None, default=None, type=None, choices=None, required=False, help=None, metavar=None, deprecated=False)", "relevance": 1}
+{"query_id": "b3687fe203c9", "doc": "argparse.md", "section": "argparse > argparse.ArgumentParser(prog=None, usage=None, description=None, epilog=None, parents=[], formatter_class=<class 'argparse.HelpFormatter'>, prefix_chars='-', fromfile_prefix_chars=None, argument_default=None, conflict_handler='error', add_help=True, allow_abbrev=True, exit_on_error=True)", "relevance": 1}
+{"query_id": "3dcd786751e3", "doc": "argparse.md", "section": "argparse > argparse.FileType(mode='r', bufsize=-1, encoding=None, errors=None)", "relevance": 1}
+{"query_id": "6e5faf33d23c", "doc": "ast.md", "section": "ast > ast.NodeTransformer()", "relevance": 1}
+{"query_id": "97b2879aedfe", "doc": "ast.md", "section": "ast > ast.NodeVisitor()", "relevance": 1}
+{"query_id": "cbcc2e19f64c", "doc": "ast.md", "section": "ast > ast.dump(node, annotate_fields=True, include_attributes=False, *, indent=None, show_empty=False)", "relevance": 1}
+{"query_id": "4449937bffc6", "doc": "ast.md", "section": "ast > ast.fix_missing_locations(node)", "relevance": 1}
+{"query_id": "4c1440d17301", "doc": "ast.md", "section": "ast > ast.get_docstring(node, clean=True)", "relevance": 1}
+{"query_id": "ee3f2b500356", "doc": "ast.md", "section": "ast > ast.get_source_segment(source, node, *, padded=False)", "relevance": 1}
+{"query_id": "4d217004c246", "doc": "ast.md", "section": "ast > ast.literal_eval(node_or_string)", "relevance": 1}
+{"query_id": "8fbb612178f9", "doc": "atexit.md", "section": "atexit > atexit.register(func, /, *args, **kwargs)", "relevance": 1}
+{"query_id": "efd35a44cc1b", "doc": "base64.md", "section": "base64 > base64.a85decode(b, *, foldspaces=False, adobe=False, ignorechars=b' \\t\\n\\r\\x0b')", "relevance": 1}
+{"query_id": "fa32c7f70106", "doc": "base64.md", "section": "base64 > base64.a85encode(b, *, foldspaces=False, wrapcol=0, pad=False, adobe=False)", "relevance": 1}
+{"query_id": "c1f39dc48716", "doc": "base64.md", "section": "base64 > base64.b16decode(s, casefold=False)", "relevance": 1}
+{"query_id": "460816b21786", "doc": "base64.md", "section": "base64 > base64.b32decode(s, casefold=False, map01=None)", "relevance": 1}
+{"query_id": "e77bdc6f5e27", "doc": "base64.md", "section": "base64 > base64.b32hexdecode(s, casefold=False)", "relevance": 1}
+{"query_id": "db72b3ab1a82", "doc": "base64.md", "section": "base64 > base64.b64decode(s, altchars=None, validate=False)", "relevance": 1}
+{"query_id": "53ffc306ee54", "doc": "base64.md", "section": "base64 > base64.b64encode(s, altchars=None)", "relevance": 1}
+{"query_id": "18d5e13f3d65", "doc": "base64.md", "section": "base64 > base64.b85encode(b, pad=False)", "relevance": 1}
+{"query_id": "b508e391aeee", "doc": "base64.md", "section": "base64 > base64.standard_b64decode(s)", "relevance": 1}
+{"query_id": "a7d7bc91bd98", "doc": "base64.md", "section": "base64 > base64.urlsafe_b64decode(s)", "relevance": 1}
+{"query_id": "b762acf4c145", "doc": "base64.md", "section": "base64 > base64.urlsafe_b64encode(s)", "relevance": 1}
+{"query_id": "24856ea34ba0", "doc": "bdb.md", "section": "bdb > bdb.Bdb.format_stack_entry(self, frame_lineno, lprefix=': ')", "relevance": 1}
+{"query_id": "3fd5316c67ec", "doc": "bdb.md", "section": "bdb > bdb.Bdb.trace_dispatch(self, frame, event, arg)", "relevance": 1}
+{"query_id": "6a276dc005cd", "doc": "bdb.md", "section": "bdb > bdb.checkfuncname(b, frame)", "relevance": 1}
+{"query_id": "9d00685a2766", "doc": "bdb.md", "section": "bdb > bdb.effective(file, line, frame)", "relevance": 1}
+{"query_id": "29bc42f59808", "doc": "binascii.md", "section": "binascii > binascii.a2b_base64(data, /, *, strict_mode=False)", "relevance": 1}
+{"query_id": "3652a206ad66", "doc": "binascii.md", "section": "binascii > binascii.b2a_qp(data, quotetabs=False, istext=True, header=False)", "relevance": 1}
+{"query_id": "7cf4a64c784c", "doc": "builtins.md", "section": "builtins > builtins.ascii(obj, /)", "relevance": 1}
+{"query_id": "40bfb021a415", "doc": "builtins.md", "section": "builtins > builtins.bool(object=False, /)", "relevance": 1}
+{"query_id": "6ef6df06e0df", "doc": "builtins.md", "section": "builtins > builtins.bytearray.decode(self, /, encoding='utf-8', errors='strict')", "relevance": 1}
+{"query_id": "c742d38e0c5d", "doc": "builtins.md", "section": "builtins > builtins.bytearray.endswith(...)", "relevance": 1}
+{"query_id": "62dd24454fb0", "doc": "builtins.md", "section": "builtins > builtins.bytearray.hex(...)", "relevance": 1}
+{"query_id": "95f6aa47be9f", "doc": "builtins.md", "section": "builtins > builtins.bytearray.pop(self, index=-1, /)", "relevance": 1}
+{"query_id": "2dad844a1755", "doc": "builtins.md", "section": "builtins > builtins.bytearray.startswith(...)", "relevance": 1}
+{"query_id": "845eff6ce41a", "doc": "builtins.md", "section": "builtins > builtins.bytes.decode(self, /, encoding='utf-8', errors='strict')", "relevance": 1}
+{"query_id": "f1ffc75d4449", "doc": "builtins.md", "section": "builtins > builtins.bytes.endswith(...)", "relevance": 1}
+{"query_id": "4bfbd660d704", "doc": "builtins.md", "section": "builtins > builtins.bytes.hex(...)", "relevance": 1}
+{"query_id": "b3579c0dd584", "doc": "builtins.md", "section": "builtins > builtins.bytes.join(self, iterable_of_bytes, /)", "relevance": 1}
+{"query_id": "bf010ba4ac38", "doc": "builtins.md", "section": "builtins > builtins.bytes.startswith(...)", "relevance": 1}
+{"query_id": "36c1c9a9710e", "doc": "builtins.md", "section": "builtins > builtins.classmethod(function, /)", "relevance": 1}
+{"query_id": "d3fa2a2c6b07", "doc": "builtins.md", "section": "builtins > builtins.compile(source, filename, mode, flags=0, dont_inherit=False, optimize=-1, *, _feature_version=-1)", "relevance": 1}
+{"query_id": "4e57ac4d0bcc", "doc": "builtins.md", "section": "builtins > builtins.complex(real=0, imag=0)", "relevance": 1}
+{"query_id": "9410e7e4b82d", "doc": "builtins.md", "section": "builtins > builtins.dir(...)", "relevance": 1}
+{"query_id": "c3b0f75c0c64", "doc": "builtins.md", "section": "builtins > builtins.eval(source, /, globals=None, locals=None)", "relevance": 1}
+{"query_id": "95497bdb8542", "doc": "builtins.md", "section": "builtins > builtins.exec(source, /, globals=None, locals=None, *, closure=None)", "relevance": 1}
+{"query_id": "79358776aad7", "doc": "builtins.md", "section": "builtins > builtins.float.as_integer_ratio(self, /)", "relevance": 1}
+{"query_id": "de1d03e76a00", "doc": "builtins.md", "section": "builtins > builtins.getattr(...)", "relevance": 1}
+{"query_id": "66ff426b4ab1", "doc": "builtins.md", "section": "builtins > builtins.input(prompt='', /)", "relevance": 1}
+{"query_id": "c5e4c12c13d4", "doc": "builtins.md", "section": "builtins > builtins.int(...)", "relevance": 1}
+{"query_id": "2ba29ab157e0", "doc": "builtins.md", "section": "builtins > builtins.int.from_bytes(type, /, bytes, byteorder='big', *, signed=False)", "relevance": 1}
+{"query_id": "9115aa6d6332", "doc": "builtins.md", "section": "builtins > builtins.int.to_bytes(self, /, length=1, byteorder='big', *, signed=False)", "relevance": 1}
+{"query_id": "b5676dde7c69", "doc": "builtins.md", "section": "builtins > builtins.isinstance(obj, class_or_tuple, /)", "relevance": 1}
+{"query_id": "f29822ca75a3", "doc": "builtins.md", "section": "builtins > builtins.issubclass(cls, class_or_tuple, /)", "relevance": 1}
+{"query_id": "254933423707", "doc": "builtins.md", "section": "builtins > builtins.iter(...)", "relevance": 1}
+{"query_id": "ba23315ee3c7", "doc": "builtins.md", "section": "builtins > builtins.list.sort(self, /, *, key=None, reverse=False)", "relevance": 1}
+{"query_id": "a23186af178f", "doc": "builtins.md", "section": "builtins > builtins.locals()", "relevance": 1}
+{"query_id": "cedef9d807c6", "doc": "builtins.md", "section": "builtins > builtins.max(...)", "relevance": 1}
+{"query_id": "8760e5864356", "doc": "builtins.md", "section": "builtins > builtins.memoryview.hex(...)", "relevance": 1}
+{"query_id": "55d01cd57f68", "doc": "builtins.md", "section": "builtins > builtins.memoryview.tobytes(self, /, order='C')", "relevance": 1}
+{"query_id": "ebfb9b8d4ef1", "doc": "builtins.md", "section": "builtins > builtins.min(...)", "relevance": 1}
+{"query_id": "859d611f7e7f", "doc": "builtins.md", "section": "builtins > builtins.ord(character, /)", "relevance": 1}
+{"query_id": "8dbbcc114312", "doc": "builtins.md", "section": "builtins > builtins.print(*args, sep=' ', end='\\n', file=None, flush=False)", "relevance": 1}
+{"query_id": "f9fe06a312c6", "doc": "builtins.md", "section": "builtins > builtins.round(number, ndigits=None)", "relevance": 1}
+{"query_id": "253de091e8e5", "doc": "builtins.md", "section": "builtins > builtins.sorted(iterable, /, *, key=None, reverse=False)", "relevance": 1}
+{"query_id": "542c91175286", "doc": "builtins.md", "section": "builtins > builtins.str(...)", "relevance": 1}
+{"query_id": "2cadb8f1801d", "doc": "builtins.md", "section": "builtins > builtins.str.encode(self, /, encoding='utf-8', errors='strict')", "relevance": 1}
+{"query_id": "b581c76e884d", "doc": "builtins.md", "section": "builtins > builtins.str.endswith(...)", "relevance": 1}
+{"query_id": "6f628a8ea1d5", "doc": "builtins.md", "section": "builtins > builtins.str.startswith(...)", "relevance": 1}
+{"query_id": "f86ae1657b50", "doc": "builtins.md", "section": "builtins > builtins.str.translate(self, table, /)", "relevance": 1}
+{"query_id": "e1392054c0c8", "doc": "builtins.md", "section": "builtins > builtins.zip(*iterables, strict=False)", "relevance": 1}
+{"query_id": "a6538c6cf3b8", "doc": "bz2.md", "section": "bz2 > bz2.BZ2File(filename, mode='r', *, compresslevel=9)", "relevance": 1}
+{"query_id": "cdba10d2a5c7", "doc": "bz2.md", "section": "bz2 > bz2.BZ2File.readlines(self, size=-1)", "relevance": 1}
+{"query_id": "d42c5d473087", "doc": "bz2.md", "section": "bz2 > bz2.BZ2File.write(self, data)", "relevance": 1}
+{"query_id": "d469a1736300", "doc": "bz2.md", "section": "bz2 > bz2.BZ2File.writelines(self, seq)", "relevance": 1}
+{"query_id": "3eb9104f7911", "doc": "bz2.md", "section": "bz2 > bz2.open(filename, mode='rb', compresslevel=9, encoding=None, errors=None, newline=None)", "relevance": 1}
+{"query_id": "b8d362642440", "doc": "cProfile.md", "section": "cProfile > cProfile.Profile(...)", "relevance": 1}
+{"query_id": "d63a492e36f6", "doc": "calendar.md", "section": "calendar > calendar.Calendar.yeardatescalendar(self, year, width=3)", "relevance": 1}
+{"query_id": "57658f4ab131", "doc": "cmath.md", "section": "cmath > cmath.isclose(a, b, *, rel_tol=1e-09, abs_tol=0.0)", "relevance": 1}
+{"query_id": "a257205f0677", "doc": "cmd.md", "section": "cmd > cmd.Cmd(completekey='tab', stdin=None, stdout=None)", "relevance": 1}
+{"query_id": "0d76af868884", "doc": "code.md", "section": "code > code.InteractiveConsole.interact(self, banner=None, exitmsg=None)", "relevance": 1}
+{"query_id": "c4baa18e04d3", "doc": "code.md", "section": "code > code.InteractiveConsole.push(self, line, filename=None, _symbol='single')", "relevance": 1}
+{"query_id": "da7a5f24f190", "doc": "code.md", "section": "code > code.InteractiveConsole.raw_input(self, prompt='')", "relevance": 1}
+{"query_id": "14928da3aec3", "doc": "code.md", "section": "code > code.InteractiveInterpreter.runsource(self, source, filename='<input>', symbol='single')", "relevance": 1}
+{"query_id": "9b5af121eb23", "doc": "code.md", "section": "code > code.InteractiveInterpreter.showsyntaxerror(self, filename=None, **kwargs)", "relevance": 1}
+{"query_id": "38adafaba2a2", "doc": "code.md", "section": "code > code.interact(banner=None, readfunc=None, local=None, exitmsg=None, local_exit=False)", "relevance": 1}
+{"query_id": "0956ae6a070a", "doc": "codecs.md", "section": "codecs > codecs.Codec()", "relevance": 1}
+{"query_id": "d8ea9384aab5", "doc": "codecs.md", "section": "codecs > codecs.Codec.decode(self, input, errors='strict')", "relevance": 1}
+{"query_id": "c61714ab2ad2", "doc": "codecs.md", "section": "codecs > codecs.Codec.encode(self, input, errors='strict')", "relevance": 1}
+{"query_id": "941998dd1271", "doc": "codecs.md", "section": "codecs > codecs.EncodedFile(file, data_encoding, file_encoding=None, errors='strict')", "relevance": 1}
+{"query_id": "eb2b1e0f9556", "doc": "codecs.md", "section": "codecs > codecs.IncrementalDecoder(errors='strict')", "relevance": 1}
+{"query_id": "8abc9290dfce", "doc": "codecs.md", "section": "codecs > codecs.IncrementalDecoder.getstate(self)", "relevance": 1}
+{"query_id": "870c2d823a39", "doc": "codecs.md", "section": "codecs > codecs.IncrementalEncoder(errors='strict')", "relevance": 1}
+{"query_id": "536c0dea4b7d", "doc": "codecs.md", "section": "codecs > codecs.StreamReader.read(self, size=-1, chars=-1, firstline=False)", "relevance": 1}
+{"query_id": "e96fc632b7a0", "doc": "codecs.md", "section": "codecs > codecs.StreamReader.readlines(self, sizehint=None, keepends=True)", "relevance": 1}
+{"query_id": "d3be961ad0c2", "doc": "codecs.md", "section": "codecs > codecs.StreamRecoder(stream, encode, decode, Reader, Writer, errors='strict')", "relevance": 1}
+{"query_id": "01854f5398a9", "doc": "codecs.md", "section": "codecs > codecs.make_encoding_map(decoding_map)", "relevance": 1}
+{"query_id": "f218c22098cc", "doc": "codecs.md", "section": "codecs > codecs.open(filename, mode='r', encoding=None, errors='strict', buffering=-1)", "relevance": 1}
+{"query_id": "37e5617a2243", "doc": "codeop.md", "section": "codeop > codeop.compile_command(source, filename='<input>', symbol='single')", "relevance": 1}
+{"query_id": "f621ef1d91b2", "doc": "collections.md", "section": "collections > collections.ChainMap(*maps)", "relevance": 1}
+{"query_id": "ca1995b2fa44", "doc": "collections.md", "section": "collections > collections.Counter(iterable=None, /, **kwds)", "relevance": 1}
+{"query_id": "1c75a7739389", "doc": "collections.md", "section": "collections > collections.Counter.elements(self)", "relevance": 1}
+{"query_id": "3f0e2d71569a", "doc": "collections.md", "section": "collections > collections.Counter.subtract(self, iterable=None, /, **kwds)", "relevance": 1}
+{"query_id": "fe09d7dcfd73", "doc": "collections.md", "section": "collections > collections.Counter.update(self, iterable=None, /, **kwds)", "relevance": 1}
+{"query_id": "c357bebe990a", "doc": "collections.md", "section": "collections > collections.defaultdict(...)", "relevance": 1}
+{"query_id": "1b656a528464", "doc": "collections.md", "section": "collections > collections.namedtuple(typename, field_names, *, rename=False, defaults=None, module=None)", "relevance": 1}
+{"query_id": "a7cff0fbeea8", "doc": "compileall.md", "section": "compileall > compileall.compile_dir(dir, maxlevels=None, ddir=None, force=False, rx=None, quiet=0, legacy=False, optimize=-1, workers=1, invalidation_mode=None, *, stripdir=None, prependdir=None, limit_sl_dest=None, hardlink_dupes=False)", "relevance": 1}
+{"query_id": "8eff934a7410", "doc": "configparser.md", "section": "configparser > configparser.BasicInterpolation()", "relevance": 1}
+{"query_id": "bb84dda65a3b", "doc": "configparser.md", "section": "configparser > configparser.ConverterMapping(parser)", "relevance": 1}
+{"query_id": "e91143985e2e", "doc": "configparser.md", "section": "configparser > configparser.DuplicateSectionError(section, source=None, lineno=None)", "relevance": 1}
+{"query_id": "7c65e144c8f3", "doc": "configparser.md", "section": "configparser > configparser.RawConfigParser.get(self, section, option, *, raw=False, vars=None, fallback=<object object at 0x7fc8a1920aa0>)", "relevance": 1}
+{"query_id": "c56684920004", "doc": "configparser.md", "section": "configparser > configparser.RawConfigParser.items(self, section=<object object at 0x7fc8a1920aa0>, raw=False, vars=None)", "relevance": 1}
+{"query_id": "ad20e4524dbd", "doc": "configparser.md", "section": "configparser > configparser.RawConfigParser.read(self, filenames, encoding=None)", "relevance": 1}
+{"query_id": "43cf5e2f5936", "doc": "configparser.md", "section": "configparser > configparser.RawConfigParser.read_file(self, f, source=None)", "relevance": 1}
+{"query_id": "a83122f9165c", "doc": "configparser.md", "section": "configparser > configparser.RawConfigParser.write(self, fp, space_around_delimiters=True)", "relevance": 1}
+{"query_id": "8d99bb465f9e", "doc": "contextlib.md", "section": "contextlib > contextlib.AsyncExitStack()", "relevance": 1}
+{"query_id": "e5956864e2d6", "doc": "contextlib.md", "section": "contextlib > contextlib.AsyncExitStack.push_async_exit(self, exit)", "relevance": 1}
+{"query_id": "3297edb3c000", "doc": "contextlib.md", "section": "contextlib > contextlib.ExitStack()", "relevance": 1}
+{"query_id": "9cbf1716f380", "doc": "contextlib.md", "section": "contextlib > contextlib.nullcontext(enter_result=None)", "relevance": 1}
+{"query_id": "cdfca244787b", "doc": "contextlib.md", "section": "contextlib > contextlib.redirect_stdout(new_target)", "relevance": 1}
+{"query_id": "46bf1fc00275", "doc": "contextlib.md", "section": "contextlib > contextlib.suppress(*exceptions)", "relevance": 1}
+{"query_id": "4f8496fd0494", "doc": "csv.md", "section": "csv > csv.Sniffer.sniff(self, sample, delimiters=None)", "relevance": 1}
+{"query_id": "d6e5e53b3415", "doc": "ctypes.md", "section": "ctypes > ctypes.CDLL(name, mode=0, handle=None, use_errno=False, use_last_error=False, winmode=None)", "relevance": 1}
+{"query_id": "893c11a44ecd", "doc": "ctypes.md", "section": "ctypes > ctypes.CFUNCTYPE(restype, *argtypes, **kw)", "relevance": 1}
+{"query_id": "d21cf131563e", "doc": "dataclasses.md", "section": "dataclasses > dataclasses.asdict(obj, *, dict_factory=<class 'dict'>)", "relevance": 1}
+{"query_id": "517d6868ce12", "doc": "dataclasses.md", "section": "dataclasses > dataclasses.astuple(obj, *, tuple_factory=<class 'tuple'>)", "relevance": 1}
+{"query_id": "c1b07c15b177", "doc": "dataclasses.md", "section": "dataclasses > dataclasses.dataclass(cls=None, /, *, init=True, repr=True, eq=True, order=False, unsafe_hash=False, frozen=False, match_args=True, kw_only=False, slots=False, weakref_slot=False)", "relevance": 1}
+{"query_id": "aac5b504f9f2", "doc": "dataclasses.md", "section": "dataclasses > dataclasses.field(*, default=<dataclasses._MISSING_TYPE object at 0x7fc8a078c590>, default_factory=<dataclasses._MISSING_TYPE object at 0x7fc8a078c590>, init=True, repr=True, hash=None, compare=True, metadata=None, kw_only=<dataclasses._MISSING_TYPE object at 0x7fc8a078c590>)", "relevance": 1}
+{"query_id": "410bdaf96cce", "doc": "dataclasses.md", "section": "dataclasses > dataclasses.make_dataclass(cls_name, fields, *, bases=(), namespace=None, init=True, repr=True, eq=True, order=False, unsafe_hash=False, frozen=False, match_args=True, kw_only=False, slots=False, weakref_slot=False, module=None)", "relevance": 1}
+{"query_id": "f8a0e67bb596", "doc": "datetime.md", "section": "datetime > datetime.datetime.isoformat(...)", "relevance": 1}
+{"query_id": "56ac4ccc3feb", "doc": "datetime.md", "section": "datetime > datetime.time.isoformat(...)", "relevance": 1}
+{"query_id": "2df181df6c57", "doc": "dbm.md", "section": "dbm > dbm.open(file, flag='r', mode=438)", "relevance": 1}
+{"query_id": "e106ac20be50", "doc": "dbm.md", "section": "dbm > dbm.whichdb(filename)", "relevance": 1}
+{"query_id": "74beb1d098ce", "doc": "decimal.md", "section": "decimal > decimal.Context(prec=None, rounding=None, Emin=None, Emax=None, capitals=None, clamp=None, flags=None, traps=None)", "relevance": 1}
+{"query_id": "95954401daea", "doc": "decimal.md", "section": "decimal > decimal.Context.logical_and(self, x, y, /)", "relevance": 1}
+{"query_id": "4f18cc1fd38c", "doc": "decimal.md", "section": "decimal > decimal.Context.logical_or(self, x, y, /)", "relevance": 1}
+{"query_id": "abf8c499a892", "doc": "decimal.md", "section": "decimal > decimal.Context.logical_xor(self, x, y, /)", "relevance": 1}
+{"query_id": "6fac42f99d02", "doc": "decimal.md", "section": "decimal > decimal.Decimal.compare_total(self, /, other, context=None)", "relevance": 1}
+{"query_id": "317c791783b0", "doc": "decimal.md", "section": "decimal > decimal.Decimal.compare_total_mag(self, /, other, context=None)", "relevance": 1}
+{"query_id": "61d7c4f9aac0", "doc": "decimal.md", "section": "decimal > decimal.Decimal.copy_sign(self, /, other, context=None)", "relevance": 1}
+{"query_id": "67b76cdf89d7", "doc": "decimal.md", "section": "decimal > decimal.Decimal.from_float(type, f, /)", "relevance": 1}
+{"query_id": "3101acb24768", "doc": "decimal.md", "section": "decimal > decimal.Decimal.logb(self, /, context=None)", "relevance": 1}
+{"query_id": "70e6cac3a4bc", "doc": "decimal.md", "section": "decimal > decimal.Decimal.next_toward(self, /, other, context=None)", "relevance": 1}
+{"query_id": "0f8b034cd5bf", "doc": "decimal.md", "section": "decimal > decimal.Decimal.number_class(self, /, context=None)", "relevance": 1}
+{"query_id": "6812a2e6948c", "doc": "decimal.md", "section": "decimal > decimal.Decimal.quantize(self, /, exp, rounding=None, context=None)", "relevance": 1}
+{"query_id": "956675584e03", "doc": "decimal.md", "section": "decimal > decimal.Decimal.remainder_near(self, /, other, context=None)", "relevance": 1}
+{"query_id": "5d1227b4d614", "doc": "decimal.md", "section": "decimal > decimal.Decimal.rotate(self, /, other, context=None)", "relevance": 1}
+{"query_id": "bd780ea423db", "doc": "decimal.md", "section": "decimal > decimal.Decimal.same_quantum(self, /, other, context=None)", "relevance": 1}
+{"query_id": "f57c1b062f9e", "doc": "decimal.md", "section": "decimal > decimal.Decimal.shift(self, /, other, context=None)", "relevance": 1}
+{"query_id": "cc07fd969bda", "doc": "decimal.md", "section": "decimal > decimal.Decimal.to_integral_exact(self, /, rounding=None, context=None)", "relevance": 1}
+{"query_id": "6612bbe6861b", "doc": "decimal.md", "section": "decimal > decimal.Decimal.to_integral_value(self, /, rounding=None, context=None)", "relevance": 1}
+{"query_id": "129d2bda6236", "doc": "difflib.md", "section": "difflib > difflib.Differ(linejunk=None, charjunk=None)", "relevance": 1}
+{"query_id": "7dc5a6ff7f18", "doc": "difflib.md", "section": "difflib > difflib.Differ.compare(self, a, b)", "relevance": 1}
+{"query_id": "a0049fee8dc8", "doc": "difflib.md", "section": "difflib > difflib.HtmlDiff(tabsize=8, wrapcolumn=None, linejunk=None, charjunk=<function IS_CHARACTER_JUNK at 0x7fc8a081b060>)", "relevance": 1}
+{"query_id": "83c1e7cd4002", "doc": "difflib.md", "section": "difflib > difflib.HtmlDiff.make_file(self, fromlines, tolines, fromdesc='', todesc='', context=False, numlines=5, *, charset='utf-8')", "relevance": 1}
+{"query_id": "4796d6ccf9df", "doc": "difflib.md", "section": "difflib > difflib.HtmlDiff.make_table(self, fromlines, tolines, fromdesc='', todesc='', context=False, numlines=5)", "relevance": 1}
+{"query_id": "52daa039d100", "doc": "difflib.md", "section": "difflib > difflib.SequenceMatcher(isjunk=None, a='', b='', autojunk=True)", "relevance": 1}
+{"query_id": "13bcb2495340", "doc": "difflib.md", "section": "difflib > difflib.SequenceMatcher.find_longest_match(self, alo=0, ahi=None, blo=0, bhi=None)", "relevance": 1}
+{"query_id": "8061e5c2488f", "doc": "difflib.md", "section": "difflib > difflib.SequenceMatcher.get_grouped_opcodes(self, n=3)", "relevance": 1}
+{"query_id": "1117d3a6a1ce", "doc": "difflib.md", "section": "difflib > difflib.SequenceMatcher.get_matching_blocks(self)", "relevance": 1}
+{"query_id": "c0bf8d916296", "doc": "difflib.md", "section": "difflib > difflib.SequenceMatcher.get_opcodes(self)", "relevance": 1}
+{"query_id": "7dc1a0139db7", "doc": "difflib.md", "section": "difflib > difflib.SequenceMatcher.ratio(self)", "relevance": 1}
+{"query_id": "a25fbc6cb3f5", "doc": "difflib.md", "section": "difflib > difflib.SequenceMatcher.set_seq1(self, a)", "relevance": 1}
+{"query_id": "52f6338a867a", "doc": "difflib.md", "section": "difflib > difflib.SequenceMatcher.set_seq2(self, b)", "relevance": 1}
+{"query_id": "31c0aa080f93", "doc": "difflib.md", "section": "difflib > difflib.context_diff(a, b, fromfile='', tofile='', fromfiledate='', tofiledate='', n=3, lineterm='\\n')", "relevance": 1}
+{"query_id": "aa7463416111", "doc": "difflib.md", "section": "difflib > difflib.diff_bytes(dfunc, a, b, fromfile=b'', tofile=b'', fromfiledate=b'', tofiledate=b'', n=3, lineterm=b'\\n')", "relevance": 1}
+{"query_id": "e5e16168231f", "doc": "difflib.md", "section": "difflib > difflib.get_close_matches(word, possibilities, n=3, cutoff=0.6)", "relevance": 1}
+{"query_id": "cbfe1c57093f", "doc": "difflib.md", "section": "difflib > difflib.ndiff(a, b, linejunk=None, charjunk=<function IS_CHARACTER_JUNK at 0x7fc8a081b060>)", "relevance": 1}
+{"query_id": "072eb86ea641", "doc": "difflib.md", "section": "difflib > difflib.restore(delta, which)", "relevance": 1}
+{"query_id": "85ce125cd6d8", "doc": "difflib.md", "section": "difflib > difflib.unified_diff(a, b, fromfile='', tofile='', fromfiledate='', tofiledate='', n=3, lineterm='\\n')", "relevance": 1}
+{"query_id": "8a231c0adb1d", "doc": "dis.md", "section": "dis > dis.Bytecode(x, *, first_line=None, current_offset=None, show_caches=False, adaptive=False, show_offsets=False)", "relevance": 1}
+{"query_id": "b4f1a360da45", "doc": "dis.md", "section": "dis > dis.dis(x=None, *, file=None, depth=None, show_caches=False, adaptive=False, show_offsets=False)", "relevance": 1}
+{"query_id": "56d2b18640b0", "doc": "dis.md", "section": "dis > dis.get_instructions(x, *, first_line=None, show_caches=None, adaptive=False)", "relevance": 1}
+{"query_id": "506c3ee75ea8", "doc": "doctest.md", "section": "doctest > doctest.DebugRunner(checker=None, verbose=None, optionflags=0)", "relevance": 1}
+{"query_id": "0c5204079151", "doc": "doctest.md", "section": "doctest > doctest.DocFileSuite(*paths, **kw)", "relevance": 1}
+{"query_id": "90a58881dd4f", "doc": "doctest.md", "section": "doctest > doctest.DocTest(examples, globs, name, filename, lineno, docstring)", "relevance": 1}
+{"query_id": "e431caf43cd1", "doc": "doctest.md", "section": "doctest > doctest.DocTestCase.debug(self)", "relevance": 1}
+{"query_id": "17949a24daa1", "doc": "doctest.md", "section": "doctest > doctest.DocTestFinder.find(self, obj, name=None, module=None, globs=None, extraglobs=None)", "relevance": 1}
+{"query_id": "140498726a46", "doc": "doctest.md", "section": "doctest > doctest.DocTestParser.get_examples(self, string, name='<string>')", "relevance": 1}
+{"query_id": "87c55eaf133f", "doc": "doctest.md", "section": "doctest > doctest.DocTestRunner(checker=None, verbose=None, optionflags=0)", "relevance": 1}
+{"query_id": "0ab9ce8243dd", "doc": "doctest.md", "section": "doctest > doctest.DocTestRunner.run(self, test, compileflags=None, out=None, clear_globs=True)", "relevance": 1}
+{"query_id": "6b521636d04c", "doc": "doctest.md", "section": "doctest > doctest.DocTestSuite(module=None, globs=None, extraglobs=None, test_finder=None, **options)", "relevance": 1}
+{"query_id": "855d1d504881", "doc": "doctest.md", "section": "doctest > doctest.Example(source, want, exc_msg=None, lineno=0, indent=0, options=None)", "relevance": 1}
+{"query_id": "9cde9c9c00cd", "doc": "doctest.md", "section": "doctest > doctest.OutputChecker.check_output(self, want, got, optionflags)", "relevance": 1}
+{"query_id": "78ee2f8244f5", "doc": "doctest.md", "section": "doctest > doctest.run_docstring_examples(f, globs, verbose=False, name='NoName', compileflags=None, optionflags=0)", "relevance": 1}
+{"query_id": "66d9fca82154", "doc": "doctest.md", "section": "doctest > doctest.script_from_examples(s)", "relevance": 1}
+{"query_id": "ebdf44cab315", "doc": "doctest.md", "section": "doctest > doctest.testfile(filename, module_relative=True, name=None, package=None, globs=None, verbose=None, report=True, optionflags=0, extraglobs=None, raise_on_error=False, parser=<doctest.DocTestParser object at 0x7fc8a07aec10>, encoding=None)", "relevance": 1}
+{"query_id": "55f3d7456a34", "doc": "doctest.md", "section": "doctest > doctest.testmod(m=None, name=None, globs=None, verbose=None, report=True, optionflags=0, extraglobs=None, raise_on_error=False, exclude_empty=False)", "relevance": 1}
+{"query_id": "ef1e84d7028c", "doc": "doctest.md", "section": "doctest > doctest.testsource(module, name)", "relevance": 1}
+{"query_id": "fe04096c77c5", "doc": "enum.md", "section": "enum > enum.Enum(new_class_name, /, names, *, module=None, qualname=None, type=None, start=1, boundary=None)", "relevance": 1}
+{"query_id": "09083c313054", "doc": "enum.md", "section": "enum > enum.property(fget=None, fset=None, fdel=None, doc=None)", "relevance": 1}
+{"query_id": "8b23624cf4e5", "doc": "fcntl.md", "section": "fcntl > fcntl.fcntl(fd, cmd, arg=0, /)", "relevance": 1}
+{"query_id": "013173a7ad0a", "doc": "fcntl.md", "section": "fcntl > fcntl.ioctl(fd, request, arg=0, mutate_flag=True, /)", "relevance": 1}
+{"query_id": "890fcd05bc45", "doc": "fcntl.md", "section": "fcntl > fcntl.lockf(fd, cmd, len=0, start=0, whence=0, /)", "relevance": 1}
+{"query_id": "f896ed0e61cb", "doc": "filecmp.md", "section": "filecmp > filecmp.cmpfiles(a, b, common, shallow=True)", "relevance": 1}
+{"query_id": "c56c4f93202c", "doc": "filecmp.md", "section": "filecmp > filecmp.dircmp(a, b, ignore=None, hide=None, *, shallow=True)", "relevance": 1}
+{"query_id": "6dc867be2b21", "doc": "fileinput.md", "section": "fileinput > fileinput.FileInput(files=None, inplace=False, backup='', *, mode='r', openhook=None, encoding=None, errors=None)", "relevance": 1}
+{"query_id": "1cae6978dbfa", "doc": "fileinput.md", "section": "fileinput > fileinput.filelineno()", "relevance": 1}
+{"query_id": "c857565d3d4c", "doc": "fileinput.md", "section": "fileinput > fileinput.input(files=None, inplace=False, backup='', *, mode='r', openhook=None, encoding=None, errors=None)", "relevance": 1}
+{"query_id": "26db32daa9d1", "doc": "fileinput.md", "section": "fileinput > fileinput.lineno()", "relevance": 1}
+{"query_id": "b6d30e282314", "doc": "fileinput.md", "section": "fileinput > fileinput.nextfile()", "relevance": 1}
+{"query_id": "5c48ce229672", "doc": "ftplib.md", "section": "ftplib > ftplib.FTP.dir(self, *args)", "relevance": 1}
+{"query_id": "3f479c87a872", "doc": "ftplib.md", "section": "ftplib > ftplib.FTP.mlsd(self, path='', facts=[])", "relevance": 1}
+{"query_id": "b2e983545eca", "doc": "ftplib.md", "section": "ftplib > ftplib.FTP.ntransfercmd(self, cmd, rest=None)", "relevance": 1}
+{"query_id": "b192f7d37817", "doc": "ftplib.md", "section": "ftplib > ftplib.FTP.storbinary(self, cmd, fp, blocksize=8192, callback=None, rest=None)", "relevance": 1}
+{"query_id": "c2aed8c18c10", "doc": "ftplib.md", "section": "ftplib > ftplib.FTP.storlines(self, cmd, fp, callback=None)", "relevance": 1}
+{"query_id": "3220d8ad038b", "doc": "ftplib.md", "section": "ftplib > ftplib.FTP_TLS(host='', user='', passwd='', acct='', *, context=None, timeout=<object object at 0x7fc8a19208c0>, source_address=None, encoding='utf-8')", "relevance": 1}
+{"query_id": "f053c696b828", "doc": "functools.md", "section": "functools > functools.update_wrapper(wrapper, wrapped, assigned=('__module__', '__name__', '__qualname__', '__doc__', '__annotations__', '__type_params__'), updated=('__dict__',))", "relevance": 1}
+{"query_id": "beb1c0b4540e", "doc": "functools.md", "section": "functools > functools.wraps(wrapped, assigned=('__module__', '__name__', '__qualname__', '__doc__', '__annotations__', '__type_params__'), updated=('__dict__',))", "relevance": 1}
+{"query_id": "93353745d026", "doc": "gc.md", "section": "gc > gc.freeze()", "relevance": 1}
+{"query_id": "21e3b4678f00", "doc": "gc.md", "section": "gc > gc.get_objects(generation=None)", "relevance": 1}
+{"query_id": "47883d04b938", "doc": "gc.md", "section": "gc > gc.set_debug(flags, /)", "relevance": 1}
+{"query_id": "d448090f3d88", "doc": "getopt.md", "section": "getopt > getopt.getopt(args, shortopts, longopts=[])", "relevance": 1}
+{"query_id": "d2f647d0e62d", "doc": "getopt.md", "section": "getopt > getopt.gnu_getopt(args, shortopts, longopts=[])", "relevance": 1}
+{"query_id": "dca7ace31775", "doc": "getpass.md", "section": "getpass > getpass.getuser()", "relevance": 1}
+{"query_id": "c11032333887", "doc": "glob.md", "section": "glob > glob.glob(pathname, *, root_dir=None, dir_fd=None, recursive=False, include_hidden=False)", "relevance": 1}
+{"query_id": "fd97afd68605", "doc": "glob.md", "section": "glob > glob.iglob(pathname, *, root_dir=None, dir_fd=None, recursive=False, include_hidden=False)", "relevance": 1}
+{"query_id": "5389c072091a", "doc": "glob.md", "section": "glob > glob.translate(pat, *, recursive=False, include_hidden=False, seps=None)", "relevance": 1}
+{"query_id": "1504df5de24b", "doc": "graphlib.md", "section": "graphlib > graphlib.CycleError(...)", "relevance": 1}
+{"query_id": "fb7bb047e124", "doc": "graphlib.md", "section": "graphlib > graphlib.TopologicalSorter.add(self, node, *predecessors)", "relevance": 1}
+{"query_id": "d79641ad13ac", "doc": "graphlib.md", "section": "graphlib > graphlib.TopologicalSorter.done(self, *nodes)", "relevance": 1}
+{"query_id": "b350848db305", "doc": "graphlib.md", "section": "graphlib > graphlib.TopologicalSorter.get_ready(self)", "relevance": 1}
+{"query_id": "db6c066ccbfb", "doc": "graphlib.md", "section": "graphlib > graphlib.TopologicalSorter.is_active(self)", "relevance": 1}
+{"query_id": "ec9620193411", "doc": "graphlib.md", "section": "graphlib > graphlib.TopologicalSorter.prepare(self)", "relevance": 1}
+{"query_id": "196c77cfea71", "doc": "graphlib.md", "section": "graphlib > graphlib.TopologicalSorter.static_order(self)", "relevance": 1}
+{"query_id": "170f232de364", "doc": "gzip.md", "section": "gzip > gzip.compress(data, compresslevel=9, *, mtime=None)", "relevance": 1}
+{"query_id": "118cc44b7014", "doc": "gzip.md", "section": "gzip > gzip.open(filename, mode='rb', compresslevel=9, encoding=None, errors=None, newline=None)", "relevance": 1}
+{"query_id": "c7ce05d06bd2", "doc": "hashlib.md", "section": "hashlib > hashlib.file_digest(fileobj, digest, /, *, _bufsize=262144)", "relevance": 1}
+{"query_id": "1b05a5c2ff14", "doc": "heapq.md", "section": "heapq > heapq.merge(*iterables, key=None, reverse=False)", "relevance": 1}
+{"query_id": "7b3dad9d0316", "doc": "hmac.md", "section": "hmac > hmac.HMAC.digest(self)", "relevance": 1}
+{"query_id": "de11358d7aaa", "doc": "hmac.md", "section": "hmac > hmac.new(key, msg=None, digestmod='')", "relevance": 1}
+{"query_id": "f7f97c0caed3", "doc": "html.md", "section": "html > html.escape(s, quote=True)", "relevance": 1}
+{"query_id": "38f8b4efaad3", "doc": "html.md", "section": "html > html.unescape(s)", "relevance": 1}
+{"query_id": "b918fbae18ad", "doc": "http.md", "section": "http > http.HTTPStatus(*values)", "relevance": 1}
+{"query_id": "ad80d28e2643", "doc": "imaplib.md", "section": "imaplib > imaplib.IMAP4.authenticate(self, mechanism, authobject)", "relevance": 1}
+{"query_id": "ded87c65e014", "doc": "imaplib.md", "section": "imaplib > imaplib.IMAP4_SSL(host='', port=993, *, ssl_context=None, timeout=None)", "relevance": 1}
+{"query_id": "30b748713005", "doc": "imaplib.md", "section": "imaplib > imaplib.Time2Internaldate(date_time)", "relevance": 1}
+{"query_id": "5fe50209bae6", "doc": "inspect.md", "section": "inspect > inspect.Parameter(name, kind, *, default, annotation)", "relevance": 1}
+{"query_id": "fa35735ae0e4", "doc": "inspect.md", "section": "inspect > inspect.Signature(parameters=None, *, return_annotation, __validate_parameters__=True)", "relevance": 1}
+{"query_id": "0e89e54f3306", "doc": "inspect.md", "section": "inspect > inspect.Signature.format(self, *, max_width=None)", "relevance": 1}
+{"query_id": "330acf04986a", "doc": "inspect.md", "section": "inspect > inspect.findsource(object)", "relevance": 1}
+{"query_id": "500eb7f5add9", "doc": "inspect.md", "section": "inspect > inspect.formatargvalues(args, varargs, varkw, locals, formatarg=<class 'str'>, formatvarargs=<function <lambda> at 0x7fc8a11d7c40>, formatvarkw=<function <lambda> at 0x7fc8a11d7ce0>, formatvalue=<function <lambda> at 0x7fc8a11d7d80>)", "relevance": 1}
+{"query_id": "85757395aeea", "doc": "inspect.md", "section": "inspect > inspect.get_annotations(obj, *, globals=None, locals=None, eval_str=False)", "relevance": 1}
+{"query_id": "bea9a465091f", "doc": "inspect.md", "section": "inspect > inspect.getargs(co)", "relevance": 1}
+{"query_id": "2aedc635a84c", "doc": "inspect.md", "section": "inspect > inspect.getargvalues(frame)", "relevance": 1}
+{"query_id": "a3a916cc5971", "doc": "inspect.md", "section": "inspect > inspect.getasyncgenstate(agen)", "relevance": 1}
+{"query_id": "c0d3fd216214", "doc": "inspect.md", "section": "inspect > inspect.getattr_static(obj, attr, default=<object object at 0x7fc8a1920750>)", "relevance": 1}
+{"query_id": "50fd38c7c0f6", "doc": "inspect.md", "section": "inspect > inspect.getcallargs(func, /, *positional, **named)", "relevance": 1}
+{"query_id": "1da7f3b51544", "doc": "inspect.md", "section": "inspect > inspect.getclasstree(classes, unique=False)", "relevance": 1}
+{"query_id": "d4417db357d9", "doc": "inspect.md", "section": "inspect > inspect.getclosurevars(func)", "relevance": 1}
+{"query_id": "19e34d62839f", "doc": "inspect.md", "section": "inspect > inspect.getcoroutinestate(coroutine)", "relevance": 1}
+{"query_id": "b3490abbdd43", "doc": "inspect.md", "section": "inspect > inspect.getdoc(object)", "relevance": 1}
+{"query_id": "3c5850c699bf", "doc": "inspect.md", "section": "inspect > inspect.getframeinfo(frame, context=1)", "relevance": 1}
+{"query_id": "c8ee891b17c3", "doc": "inspect.md", "section": "inspect > inspect.getfullargspec(func)", "relevance": 1}
+{"query_id": "22d48c3b3cf7", "doc": "inspect.md", "section": "inspect > inspect.getgeneratorstate(generator)", "relevance": 1}
+{"query_id": "4ac9a1f8c4b8", "doc": "inspect.md", "section": "inspect > inspect.getmembers_static(object, predicate=None)", "relevance": 1}
+{"query_id": "fa47ba5c4d1f", "doc": "inspect.md", "section": "inspect > inspect.getsource(object)", "relevance": 1}
+{"query_id": "f1579b00e7bb", "doc": "inspect.md", "section": "inspect > inspect.getsourcelines(object)", "relevance": 1}
+{"query_id": "c1c13ee9d21b", "doc": "inspect.md", "section": "inspect > inspect.isbuiltin(object)", "relevance": 1}
+{"query_id": "fc53138b9ef0", "doc": "inspect.md", "section": "inspect > inspect.iscode(object)", "relevance": 1}
+{"query_id": "abb01bf16644", "doc": "inspect.md", "section": "inspect > inspect.isdatadescriptor(object)", "relevance": 1}
+{"query_id": "0f50392e5a7d", "doc": "inspect.md", "section": "inspect > inspect.isframe(object)", "relevance": 1}
+{"query_id": "f96c806cc49c", "doc": "inspect.md", "section": "inspect > inspect.isfunction(object)", "relevance": 1}
+{"query_id": "4eac6b2c7b9c", "doc": "inspect.md", "section": "inspect > inspect.isgenerator(object)", "relevance": 1}
+{"query_id": "9c7b0d1f7e50", "doc": "inspect.md", "section": "inspect > inspect.ismethoddescriptor(object)", "relevance": 1}
+{"query_id": "29eab9c649a9", "doc": "inspect.md", "section": "inspect > inspect.istraceback(object)", "relevance": 1}
+{"query_id": "75212409525c", "doc": "inspect.md", "section": "inspect > inspect.unwrap(func, *, stop=None)", "relevance": 1}
+{"query_id": "8377bf5cecfd", "doc": "io.md", "section": "io > io.BufferedIOBase()", "relevance": 1}
+{"query_id": "08c8f8b17738", "doc": "io.md", "section": "io > io.IOBase()", "relevance": 1}
+{"query_id": "28bcd34aead6", "doc": "ipaddress.md", "section": "ipaddress > ipaddress.collapse_addresses(addresses)", "relevance": 1}
+{"query_id": "cde3a397d7b9", "doc": "ipaddress.md", "section": "ipaddress > ipaddress.get_mixed_type_key(obj)", "relevance": 1}
+{"query_id": "f18826684dc9", "doc": "ipaddress.md", "section": "ipaddress > ipaddress.summarize_address_range(first, last)", "relevance": 1}
+{"query_id": "b54c86949f4f", "doc": "ipaddress.md", "section": "ipaddress > ipaddress.v4_int_to_packed(address)", "relevance": 1}
+{"query_id": "40e10a741bed", "doc": "itertools.md", "section": "itertools > itertools.batched(iterable, n, *, strict=False)", "relevance": 1}
+{"query_id": "c1435f1dd2d4", "doc": "itertools.md", "section": "itertools > itertools.groupby(iterable, key=None)", "relevance": 1}
+{"query_id": "aec7b488d8d8", "doc": "itertools.md", "section": "itertools > itertools.islice(...)", "relevance": 1}
+{"query_id": "ae0b1305975f", "doc": "itertools.md", "section": "itertools > itertools.zip_longest(*iterables, fillvalue=None)", "relevance": 1}
+{"query_id": "1ea499ad1392", "doc": "json.md", "section": "json > json.dump(obj, fp, *, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=None, separators=None, default=None, sort_keys=False, **kw)", "relevance": 1}
+{"query_id": "d8214d520ff6", "doc": "json.md", "section": "json > json.dumps(obj, *, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=None, separators=None, default=None, sort_keys=False, **kw)", "relevance": 1}
+{"query_id": "b67042da2076", "doc": "json.md", "section": "json > json.load(fp, *, cls=None, object_hook=None, parse_float=None, parse_int=None, parse_constant=None, object_pairs_hook=None, **kw)", "relevance": 1}
+{"query_id": "bd83a570a5ca", "doc": "json.md", "section": "json > json.loads(s, *, cls=None, object_hook=None, parse_float=None, parse_int=None, parse_constant=None, object_pairs_hook=None, **kw)", "relevance": 1}
+{"query_id": "c3a51e675255", "doc": "linecache.md", "section": "linecache > linecache.lazycache(filename, module_globals)", "relevance": 1}
+{"query_id": "ab60abce8775", "doc": "locale.md", "section": "locale > locale.getdefaultlocale(envvars=('LC_ALL', 'LC_CTYPE', 'LANG', 'LANGUAGE'))", "relevance": 1}
+{"query_id": "3b20f3b377d5", "doc": "locale.md", "section": "locale > locale.getlocale(category=0)", "relevance": 1}
+{"query_id": "9199d4f8ab1d", "doc": "locale.md", "section": "locale > locale.normalize(localename)", "relevance": 1}
+{"query_id": "b7d50d35fc9d", "doc": "locale.md", "section": "locale > locale.setlocale(category, locale=None)", "relevance": 1}
+{"query_id": "cef3565511a3", "doc": "logging.md", "section": "logging > logging.Filter(name='')", "relevance": 1}
+{"query_id": "9899912b1d15", "doc": "logging.md", "section": "logging > logging.Filterer.filter(self, record)", "relevance": 1}
+{"query_id": "b618b4aa6d40", "doc": "logging.md", "section": "logging > logging.Formatter(fmt=None, datefmt=None, style='%', validate=True, *, defaults=None)", "relevance": 1}
+{"query_id": "d1f3b75fa44d", "doc": "logging.md", "section": "logging > logging.Formatter.format(self, record)", "relevance": 1}
+{"query_id": "398fa96a398d", "doc": "logging.md", "section": "logging > logging.Formatter.formatStack(self, stack_info)", "relevance": 1}
+{"query_id": "25258ff5d65a", "doc": "logging.md", "section": "logging > logging.Formatter.formatTime(self, record, datefmt=None)", "relevance": 1}
+{"query_id": "9cf40f57da42", "doc": "logging.md", "section": "logging > logging.Handler(level=0)", "relevance": 1}
+{"query_id": "7fae4661b43d", "doc": "logging.md", "section": "logging > logging.Handler.close(self)", "relevance": 1}
+{"query_id": "b763be3e5324", "doc": "logging.md", "section": "logging > logging.Handler.handle(self, record)", "relevance": 1}
+{"query_id": "1841a1f7ae0c", "doc": "logging.md", "section": "logging > logging.Handler.handleError(self, record)", "relevance": 1}
+{"query_id": "04268ba3c56b", "doc": "logging.md", "section": "logging > logging.LogRecord(name, level, pathname, lineno, msg, args, exc_info, func=None, sinfo=None, **kwargs)", "relevance": 1}
+{"query_id": "5debb0924186", "doc": "logging.md", "section": "logging > logging.Logger(name, level=0)", "relevance": 1}
+{"query_id": "ad9d7988e8ca", "doc": "logging.md", "section": "logging > logging.Logger.callHandlers(self, record)", "relevance": 1}
+{"query_id": "93c250b35b4d", "doc": "logging.md", "section": "logging > logging.Logger.getChild(self, suffix)", "relevance": 1}
+{"query_id": "8a6b8200a0a6", "doc": "logging.md", "section": "logging > logging.Logger.hasHandlers(self)", "relevance": 1}
+{"query_id": "d5788d1be7b6", "doc": "logging.md", "section": "logging > logging.LoggerAdapter.process(self, msg, kwargs)", "relevance": 1}
+{"query_id": "32e0ba404a0a", "doc": "logging.md", "section": "logging > logging.Manager.getLogger(self, name)", "relevance": 1}
+{"query_id": "6aeabe13ebe4", "doc": "logging.md", "section": "logging > logging.basicConfig(**kwargs)", "relevance": 1}
+{"query_id": "a350c9739966", "doc": "logging.md", "section": "logging > logging.getLevelName(level)", "relevance": 1}
+{"query_id": "76aba1828592", "doc": "lzma.md", "section": "lzma > lzma.LZMAFile(filename=None, mode='r', *, format=None, check=-1, preset=None, filters=None)", "relevance": 1}
+{"query_id": "997157752124", "doc": "lzma.md", "section": "lzma > lzma.LZMAFile.write(self, data)", "relevance": 1}
+{"query_id": "2647abcde124", "doc": "lzma.md", "section": "lzma > lzma.open(filename, mode='rb', *, format=None, check=-1, preset=None, filters=None, encoding=None, errors=None, newline=None)", "relevance": 1}
+{"query_id": "eac7a1ec1081", "doc": "marshal.md", "section": "marshal > marshal.dump(value, file, version=4, /, *, allow_code=True)", "relevance": 1}
+{"query_id": "7ea610a7cbed", "doc": "marshal.md", "section": "marshal > marshal.dumps(value, version=4, /, *, allow_code=True)", "relevance": 1}
+{"query_id": "8c7789092aef", "doc": "marshal.md", "section": "marshal > marshal.load(file, /, *, allow_code=True)", "relevance": 1}
+{"query_id": "94aa5a9ac841", "doc": "math.md", "section": "math > math.comb(n, k, /)", "relevance": 1}
+{"query_id": "23d857ac2f1f", "doc": "math.md", "section": "math > math.dist(p, q, /)", "relevance": 1}
+{"query_id": "b499871059ce", "doc": "math.md", "section": "math > math.frexp(x, /)", "relevance": 1}
+{"query_id": "b553b34c10c5", "doc": "math.md", "section": "math > math.hypot(...)", "relevance": 1}
+{"query_id": "88db4db06e50", "doc": "math.md", "section": "math > math.isclose(a, b, *, rel_tol=1e-09, abs_tol=0.0)", "relevance": 1}
+{"query_id": "2606ff07111e", "doc": "math.md", "section": "math > math.nextafter(x, y, /, *, steps=None)", "relevance": 1}
+{"query_id": "1a3335ebbdee", "doc": "math.md", "section": "math > math.perm(n, k=None, /)", "relevance": 1}
+{"query_id": "d6036a5b9e24", "doc": "math.md", "section": "math > math.prod(iterable, /, *, start=1)", "relevance": 1}
+{"query_id": "32d601161000", "doc": "math.md", "section": "math > math.remainder(x, y, /)", "relevance": 1}
+{"query_id": "3bcee9991a21", "doc": "mimetypes.md", "section": "mimetypes > mimetypes.MimeTypes.guess_type(self, url, strict=True)", "relevance": 1}
+{"query_id": "de3a6abf9b70", "doc": "mimetypes.md", "section": "mimetypes > mimetypes.guess_type(url, strict=True)", "relevance": 1}
+{"query_id": "436ee733fd1b", "doc": "mmap.md", "section": "mmap > mmap.mmap(...)", "relevance": 1}
+{"query_id": "7057a4b2ba56", "doc": "modulefinder.md", "section": "modulefinder > modulefinder.ModuleFinder.any_missing_maybe(self)", "relevance": 1}
+{"query_id": "53ebee89ce20", "doc": "numbers.md", "section": "numbers > numbers.Complex()", "relevance": 1}
+{"query_id": "23fb1f98f031", "doc": "operator.md", "section": "operator > operator.attrgetter(attr, /, *attrs)", "relevance": 1}
+{"query_id": "7d6e1f2ba7da", "doc": "optparse.md", "section": "optparse > optparse.HelpFormatter(indent_increment, max_help_position, width, short_first)", "relevance": 1}
+{"query_id": "3ae02248ef12", "doc": "optparse.md", "section": "optparse > optparse.OptionParser(usage=None, option_list=None, option_class=<class 'optparse.Option'>, version=None, conflict_handler='error', description=None, formatter=None, add_help_option=True, prog=None, epilog=None)", "relevance": 1}
+{"query_id": "885cb4717e93", "doc": "optparse.md", "section": "optparse > optparse.OptionParser.check_values(self, values, args)", "relevance": 1}
+{"query_id": "66d1b582ca14", "doc": "optparse.md", "section": "optparse > optparse.OptionParser.destroy(self)", "relevance": 1}
+{"query_id": "8ece41348049", "doc": "optparse.md", "section": "optparse > optparse.OptionParser.disable_interspersed_args(self)", "relevance": 1}
+{"query_id": "851fc299c306", "doc": "optparse.md", "section": "optparse > optparse.OptionParser.parse_args(self, args=None, values=None)", "relevance": 1}
+{"query_id": "6fc1657d0995", "doc": "optparse.md", "section": "optparse > optparse.OptionParser.print_usage(self, file=None)", "relevance": 1}
+{"query_id": "c2a781a360b3", "doc": "os.md", "section": "os > os.makedirs(name, mode=511, exist_ok=False)", "relevance": 1}
+{"query_id": "18e6d4e7daad", "doc": "os.md", "section": "os > os.removedirs(name)", "relevance": 1}
+{"query_id": "161f3ebbf153", "doc": "os.md", "section": "os > os.renames(old, new)", "relevance": 1}
+{"query_id": "8ae97f3ab3cf", "doc": "os.md", "section": "os > os.spawnle(mode, file, *args)", "relevance": 1}
+{"query_id": "456d9ec742b5", "doc": "os.md", "section": "os > os.spawnve(mode, file, args, env)", "relevance": 1}
+{"query_id": "9fdef81a8438", "doc": "os.md", "section": "os > os.spawnvp(mode, file, args)", "relevance": 1}
+{"query_id": "e80cc1248947", "doc": "os.md", "section": "os > os.stat_result(iterable=(), /)", "relevance": 1}
+{"query_id": "3d1c5de311b6", "doc": "os.md", "section": "os > os.statvfs_result(iterable=(), /)", "relevance": 1}
+{"query_id": "184a54660c61", "doc": "pdb.md", "section": "pdb > pdb.Pdb.lookupmodule(self, filename)", "relevance": 1}
+{"query_id": "a7f654385664", "doc": "pdb.md", "section": "pdb > pdb.post_mortem(t=None)", "relevance": 1}
+{"query_id": "8ac33fb29beb", "doc": "pdb.md", "section": "pdb > pdb.run(statement, globals=None, locals=None)", "relevance": 1}
+{"query_id": "9ba747e6f734", "doc": "pdb.md", "section": "pdb > pdb.set_trace(*, header=None)", "relevance": 1}
+{"query_id": "826e96acabb3", "doc": "pickle.md", "section": "pickle > pickle.encode_long(x)", "relevance": 1}
+{"query_id": "9238148adeda", "doc": "pickletools.md", "section": "pickletools > pickletools.dis(pickle, out=None, memo=None, indentlevel=4, annotate=0)", "relevance": 1}
+{"query_id": "617eab7f7e47", "doc": "pickletools.md", "section": "pickletools > pickletools.genops(pickle)", "relevance": 1}
+{"query_id": "2ddac28d1b80", "doc": "pickletools.md", "section": "pickletools > pickletools.read_stringnl(f, decode=True, stripquotes=True, *, encoding='latin-1')", "relevance": 1}
+{"query_id": "8bceaf0c794d", "doc": "pkgutil.md", "section": "pkgutil > pkgutil.get_data(package, resource)", "relevance": 1}
+{"query_id": "89c269339adb", "doc": "pkgutil.md", "section": "pkgutil > pkgutil.get_importer(path_item)", "relevance": 1}
+{"query_id": "1749c7eee319", "doc": "pkgutil.md", "section": "pkgutil > pkgutil.get_loader(module_or_name)", "relevance": 1}
+{"query_id": "ce696d693b14", "doc": "pkgutil.md", "section": "pkgutil > pkgutil.iter_importers(fullname='')", "relevance": 1}
+{"query_id": "bfa627cb4cd1", "doc": "pkgutil.md", "section": "pkgutil > pkgutil.iter_modules(path=None, prefix='')", "relevance": 1}
+{"query_id": "8e74384aba99", "doc": "pkgutil.md", "section": "pkgutil > pkgutil.resolve_name(name)", "relevance": 1}
+{"query_id": "72702df71027", "doc": "pkgutil.md", "section": "pkgutil > pkgutil.walk_packages(path=None, prefix='', onerror=None)", "relevance": 1}
+{"query_id": "32615570f7d3", "doc": "platform.md", "section": "platform > platform.architecture(executable='/usr/bin/python3', bits='', linkage='')", "relevance": 1}
+{"query_id": "67a1daf3d372", "doc": "platform.md", "section": "platform > platform.libc_ver(executable=None, lib='', version='', chunksize=16384)", "relevance": 1}
+{"query_id": "91ae4221ece1", "doc": "platform.md", "section": "platform > platform.platform(aliased=False, terse=False)", "relevance": 1}
+{"query_id": "7a6ef0227105", "doc": "platform.md", "section": "platform > platform.processor()", "relevance": 1}
+{"query_id": "97be659477e7", "doc": "poplib.md", "section": "poplib > poplib.POP3(host, port=110, timeout=<object object at 0x7fc8a19208c0>)", "relevance": 1}
+{"query_id": "429e4e8b752f", "doc": "poplib.md", "section": "poplib > poplib.POP3.uidl(self, which=None)", "relevance": 1}
+{"query_id": "4b159f260951", "doc": "poplib.md", "section": "poplib > poplib.POP3_SSL(host, port=995, *, timeout=<object object at 0x7fc8a19208c0>, context=None)", "relevance": 1}
+{"query_id": "efe800ef6208", "doc": "posix.md", "section": "posix > posix.access(path, mode, *, dir_fd=None, effective_ids=False, follow_symlinks=True)", "relevance": 1}
+{"query_id": "f6a6dd34fdb5", "doc": "posix.md", "section": "posix > posix.chdir(path)", "relevance": 1}
+{"query_id": "c9e68cb9fa8a", "doc": "posix.md", "section": "posix > posix.chmod(...)", "relevance": 1}
+{"query_id": "31d539332353", "doc": "posix.md", "section": "posix > posix.copy_file_range(src, dst, count, offset_src=None, offset_dst=None)", "relevance": 1}
+{"query_id": "3691b11f1f19", "doc": "posix.md", "section": "posix > posix.fchmod(fd, mode)", "relevance": 1}
+{"query_id": "eeb1c52edeb0", "doc": "posix.md", "section": "posix > posix.forkpty()", "relevance": 1}
+{"query_id": "58801f32b563", "doc": "posix.md", "section": "posix > posix.fspath(path)", "relevance": 1}
+{"query_id": "4140ebd0f49c", "doc": "posix.md", "section": "posix > posix.get_terminal_size(...)", "relevance": 1}
+{"query_id": "db0a21761574", "doc": "posix.md", "section": "posix > posix.getloadavg()", "relevance": 1}
+{"query_id": "9afbf61213da", "doc": "posix.md", "section": "posix > posix.getxattr(path, attribute, *, follow_symlinks=True)", "relevance": 1}
+{"query_id": "24f23f705ceb", "doc": "posix.md", "section": "posix > posix.link(src, dst, *, src_dir_fd=None, dst_dir_fd=None, follow_symlinks=True)", "relevance": 1}
+{"query_id": "0bb7e37fbf57", "doc": "posix.md", "section": "posix > posix.listdir(path=None)", "relevance": 1}
+{"query_id": "bd67c44194cc", "doc": "posix.md", "section": "posix > posix.listxattr(path=None, *, follow_symlinks=True)", "relevance": 1}
+{"query_id": "509ba2b969a3", "doc": "posix.md", "section": "posix > posix.lockf(fd, command, length, /)", "relevance": 1}
+{"query_id": "0c1731a78a28", "doc": "posix.md", "section": "posix > posix.login_tty(fd, /)", "relevance": 1}
+{"query_id": "e11c8bab4d58", "doc": "posix.md", "section": "posix > posix.lseek(fd, position, whence, /)", "relevance": 1}
+{"query_id": "a85812dab36c", "doc": "posix.md", "section": "posix > posix.mkfifo(path, mode=438, *, dir_fd=None)", "relevance": 1}
+{"query_id": "a7a241a422a3", "doc": "posix.md", "section": "posix > posix.mknod(path, mode=384, device=0, *, dir_fd=None)", "relevance": 1}
+{"query_id": "09bc650abb73", "doc": "posix.md", "section": "posix > posix.open(path, flags, mode=511, *, dir_fd=None)", "relevance": 1}
+{"query_id": "d780864025d9", "doc": "posix.md", "section": "posix > posix.pathconf(path, name)", "relevance": 1}
+{"query_id": "85c5463ac9f7", "doc": "posix.md", "section": "posix > posix.posix_fadvise(fd, offset, length, advice, /)", "relevance": 1}
+{"query_id": "84f2fb01c66c", "doc": "posix.md", "section": "posix > posix.posix_openpt(oflag, /)", "relevance": 1}
+{"query_id": "b3641a962ce6", "doc": "posix.md", "section": "posix > posix.preadv(fd, buffers, offset, flags=0, /)", "relevance": 1}
+{"query_id": "ede66b88f98d", "doc": "posix.md", "section": "posix > posix.ptsname(fd, /)", "relevance": 1}
+{"query_id": "cb36933ac05d", "doc": "posix.md", "section": "posix > posix.pwrite(fd, buffer, offset, /)", "relevance": 1}
+{"query_id": "534a9f186bbd", "doc": "posix.md", "section": "posix > posix.pwritev(fd, buffers, offset, flags=0, /)", "relevance": 1}
+{"query_id": "51751f407455", "doc": "posix.md", "section": "posix > posix.readlink(path, *, dir_fd=None)", "relevance": 1}
+{"query_id": "7f894d3b9873", "doc": "posix.md", "section": "posix > posix.readv(fd, buffers, /)", "relevance": 1}
+{"query_id": "a83465442d15", "doc": "posix.md", "section": "posix > posix.register_at_fork(...)", "relevance": 1}
+{"query_id": "4d8c5eaab298", "doc": "posix.md", "section": "posix > posix.remove(path, *, dir_fd=None)", "relevance": 1}
+{"query_id": "c2166aa1c63d", "doc": "posix.md", "section": "posix > posix.removexattr(path, attribute, *, follow_symlinks=True)", "relevance": 1}
+{"query_id": "75c3023e6b6c", "doc": "posix.md", "section": "posix > posix.replace(src, dst, *, src_dir_fd=None, dst_dir_fd=None)", "relevance": 1}
+{"query_id": "9cc2a660c49f", "doc": "posix.md", "section": "posix > posix.scandir(path=None)", "relevance": 1}
+{"query_id": "b8b8065144f3", "doc": "posix.md", "section": "posix > posix.setxattr(path, attribute, value, flags=0, *, follow_symlinks=True)", "relevance": 1}
+{"query_id": "73d45aad28f2", "doc": "posix.md", "section": "posix > posix.splice(src, dst, count, offset_src=None, offset_dst=None, flags=0)", "relevance": 1}
+{"query_id": "4382eb93ecef", "doc": "posix.md", "section": "posix > posix.stat(path, *, dir_fd=None, follow_symlinks=True)", "relevance": 1}
+{"query_id": "6236bfc41252", "doc": "posix.md", "section": "posix > posix.statvfs(path)", "relevance": 1}
+{"query_id": "994b29a87e17", "doc": "posix.md", "section": "posix > posix.symlink(src, dst, target_is_directory=False, *, dir_fd=None)", "relevance": 1}
+{"query_id": "48bcb39da6c1", "doc": "posix.md", "section": "posix > posix.timerfd_create(clockid, /, *, flags=0)", "relevance": 1}
+{"query_id": "cab87f48582b", "doc": "posix.md", "section": "posix > posix.timerfd_settime(fd, /, *, flags=0, initial=0.0, interval=0.0)", "relevance": 1}
+{"query_id": "c58c8906a644", "doc": "posix.md", "section": "posix > posix.timerfd_settime_ns(fd, /, *, flags=0, initial=0, interval=0)", "relevance": 1}
+{"query_id": "c26cdcd201fa", "doc": "posix.md", "section": "posix > posix.unlink(path, *, dir_fd=None)", "relevance": 1}
+{"query_id": "f26e8f843ea7", "doc": "posix.md", "section": "posix > posix.utime(...)", "relevance": 1}
+{"query_id": "0d411da10e79", "doc": "posix.md", "section": "posix > posix.waitid(idtype, id, options, /)", "relevance": 1}
+{"query_id": "a282a0ea4bb0", "doc": "posix.md", "section": "posix > posix.waitstatus_to_exitcode(status)", "relevance": 1}
+{"query_id": "6e746d7afa94", "doc": "posixpath.md", "section": "posixpath > posixpath.join(a, *p)", "relevance": 1}
+{"query_id": "78edbf08e5b9", "doc": "pstats.md", "section": "pstats > pstats.Stats(*args, stream=None)", "relevance": 1}
+{"query_id": "9a65857ccdaf", "doc": "pstats.md", "section": "pstats > pstats.Stats.get_stats_profile(self)", "relevance": 1}
+{"query_id": "1a8bb3563218", "doc": "pstats.md", "section": "pstats > pstats.TupleComp(comp_select_list)", "relevance": 1}
+{"query_id": "e49c9b4ecabf", "doc": "py_compile.md", "section": "py_compile > py_compile.PyCompileError(exc_type, exc_value, file, msg='')", "relevance": 1}
+{"query_id": "79093ddc781c", "doc": "py_compile.md", "section": "py_compile > py_compile.compile(file, cfile=None, dfile=None, doraise=False, optimize=-1, invalidation_mode=None, quiet=0)", "relevance": 1}
+{"query_id": "54920e52f08f", "doc": "pydoc.md", "section": "pydoc > pydoc.safeimport(path, forceload=0, cache={})", "relevance": 1}
+{"query_id": "1d9e992fa2be", "doc": "pyexpat.md", "section": "pyexpat > pyexpat.XMLParserType.GetInputContext(self, /)", "relevance": 1}
+{"query_id": "e4e11ec87e72", "doc": "pyexpat.md", "section": "pyexpat > pyexpat.XMLParserType.SetBillionLaughsAttackProtectionActivationThreshold(self, threshold, /)", "relevance": 1}
+{"query_id": "2517122c8832", "doc": "pyexpat.md", "section": "pyexpat > pyexpat.XMLParserType.SetBillionLaughsAttackProtectionMaximumAmplification(self, max_factor, /)", "relevance": 1}
+{"query_id": "7d84dea015b3", "doc": "pyexpat.md", "section": "pyexpat > pyexpat.XMLParserType.UseForeignDTD(self, flag=True, /)", "relevance": 1}
+{"query_id": "3b8ca880b836", "doc": "queue.md", "section": "queue > queue.Queue.empty(self)", "relevance": 1}
+{"query_id": "611740bd7da4", "doc": "queue.md", "section": "queue > queue.Queue.full(self)", "relevance": 1}
+{"query_id": "0dc45166d227", "doc": "queue.md", "section": "queue > queue.Queue.get(self, block=True, timeout=None)", "relevance": 1}
+{"query_id": "7dd1a89a0539", "doc": "queue.md", "section": "queue > queue.Queue.join(self)", "relevance": 1}
+{"query_id": "c02ab027522e", "doc": "queue.md", "section": "queue > queue.Queue.put(self, item, block=True, timeout=None)", "relevance": 1}
+{"query_id": "e22b98b8f40c", "doc": "queue.md", "section": "queue > queue.Queue.shutdown(self, immediate=False)", "relevance": 1}
+{"query_id": "ef87df9a8811", "doc": "queue.md", "section": "queue > queue.Queue.task_done(self)", "relevance": 1}
+{"query_id": "0790bb79b3d5", "doc": "quopri.md", "section": "quopri > quopri.encode(input, output, quotetabs, header=False)", "relevance": 1}
+{"query_id": "83f9de34d392", "doc": "quopri.md", "section": "quopri > quopri.needsquoting(c, quotetabs, header)", "relevance": 1}
+{"query_id": "46d7bd4673c2", "doc": "random.md", "section": "random > random.Random(x=None)", "relevance": 1}
+{"query_id": "5d9205651e98", "doc": "random.md", "section": "random > random.Random.sample(self, population, k, *, counts=None)", "relevance": 1}
+{"query_id": "30af32547fb0", "doc": "random.md", "section": "random > random.Random.seed(self, a=None, version=2)", "relevance": 1}
+{"query_id": "1c7b1a80ba4a", "doc": "random.md", "section": "random > random.Random.uniform(self, a, b)", "relevance": 1}
+{"query_id": "70780a17101b", "doc": "re.md", "section": "re > re.findall(pattern, string, flags=0)", "relevance": 1}
+{"query_id": "aa3d1cf2c412", "doc": "re.md", "section": "re > re.split(pattern, string, maxsplit=0, flags=0)", "relevance": 1}
+{"query_id": "eb51ca2b71cf", "doc": "readline.md", "section": "readline > readline.set_completer(function=None, /)", "relevance": 1}
+{"query_id": "295b8f206781", "doc": "rlcompleter.md", "section": "rlcompleter > rlcompleter.Completer.attr_matches(self, text)", "relevance": 1}
+{"query_id": "4b35e71159bf", "doc": "runpy.md", "section": "runpy > runpy.run_module(mod_name, init_globals=None, run_name=None, alter_sys=False)", "relevance": 1}
+{"query_id": "1217fa6ef177", "doc": "runpy.md", "section": "runpy > runpy.run_path(path_name, init_globals=None, run_name=None)", "relevance": 1}
+{"query_id": "6ffbb85edca3", "doc": "sched.md", "section": "sched > sched.scheduler.run(self, blocking=True)", "relevance": 1}
+{"query_id": "5d7f5b2c7620", "doc": "secrets.md", "section": "secrets > secrets.token_hex(nbytes=None)", "relevance": 1}
+{"query_id": "f8384f49b68d", "doc": "select.md", "section": "select > select.epoll.poll(self, /, timeout=None, maxevents=-1)", "relevance": 1}
+{"query_id": "f398d717886e", "doc": "select.md", "section": "select > select.epoll.register(...)", "relevance": 1}
+{"query_id": "301ab4c27c47", "doc": "select.md", "section": "select > select.select(rlist, wlist, xlist, timeout=None, /)", "relevance": 1}
+{"query_id": "ca77315f9e49", "doc": "selectors.md", "section": "selectors > selectors.BaseSelector.modify(self, fileobj, events, data=None)", "relevance": 1}
+{"query_id": "a0823948252a", "doc": "selectors.md", "section": "selectors > selectors.BaseSelector.select(self, timeout=None)", "relevance": 1}
+{"query_id": "00958caa2142", "doc": "shelve.md", "section": "shelve > shelve.BsdDbShelf(dict, protocol=None, writeback=False, keyencoding='utf-8')", "relevance": 1}
+{"query_id": "2136d4c27618", "doc": "shelve.md", "section": "shelve > shelve.open(filename, flag='c', protocol=None, writeback=False)", "relevance": 1}
+{"query_id": "750db7884567", "doc": "shutil.md", "section": "shutil > shutil.chown(path, user=None, group=None, *, dir_fd=None, follow_symlinks=True)", "relevance": 1}
+{"query_id": "68f5eba67dbe", "doc": "shutil.md", "section": "shutil > shutil.copy(src, dst, *, follow_symlinks=True)", "relevance": 1}
+{"query_id": "d0bc6bb1884b", "doc": "shutil.md", "section": "shutil > shutil.copyfile(src, dst, *, follow_symlinks=True)", "relevance": 1}
+{"query_id": "9079068251db", "doc": "shutil.md", "section": "shutil > shutil.copymode(src, dst, *, follow_symlinks=True)", "relevance": 1}
+{"query_id": "e2c4b243f527", "doc": "shutil.md", "section": "shutil > shutil.copytree(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x7fc8a0053060>, ignore_dangling_symlinks=False, dirs_exist_ok=False)", "relevance": 1}
+{"query_id": "132830bdf02c", "doc": "shutil.md", "section": "shutil > shutil.get_terminal_size(fallback=(80, 24))", "relevance": 1}
+{"query_id": "ac3b71de6f3c", "doc": "shutil.md", "section": "shutil > shutil.make_archive(base_name, format, root_dir=None, base_dir=None, verbose=0, dry_run=0, owner=None, group=None, logger=None)", "relevance": 1}
+{"query_id": "ee9e2916e458", "doc": "shutil.md", "section": "shutil > shutil.move(src, dst, copy_function=<function copy2 at 0x7fc8a0053060>)", "relevance": 1}
+{"query_id": "983cc432f039", "doc": "signal.md", "section": "signal > signal.getsignal(signalnum)", "relevance": 1}
+{"query_id": "3c9c53c824fa", "doc": "signal.md", "section": "signal > signal.signal(signalnum, handler)", "relevance": 1}
+{"query_id": "77803795dfcc", "doc": "signal.md", "section": "signal > signal.struct_siginfo(iterable=(), /)", "relevance": 1}
+{"query_id": "ca86b2326543", "doc": "site.md", "section": "site > site.check_enableusersite()", "relevance": 1}
+{"query_id": "3ffdd920a516", "doc": "site.md", "section": "site > site.getsitepackages(prefixes=None)", "relevance": 1}
+{"query_id": "1eaccc3ac95c", "doc": "site.md", "section": "site > site.getuserbase()", "relevance": 1}
+{"query_id": "2f27addf71c3", "doc": "site.md", "section": "site > site.register_readline()", "relevance": 1}
+{"query_id": "81f029543415", "doc": "smtplib.md", "section": "smtplib > smtplib.LMTP(host='', port=2003, local_hostname=None, source_address=None, timeout=<object object at 0x7fc8a19208c0>)", "relevance": 1}
+{"query_id": "43d2a4956cf2", "doc": "smtplib.md", "section": "smtplib > smtplib.SMTP(host='', port=0, local_hostname=None, timeout=<object object at 0x7fc8a19208c0>, source_address=None)", "relevance": 1}
+{"query_id": "199a64757d0f", "doc": "smtplib.md", "section": "smtplib > smtplib.SMTP.auth(self, mechanism, authobject, *, initial_response_ok=True)", "relevance": 1}
+{"query_id": "04089a8694e9", "doc": "smtplib.md", "section": "smtplib > smtplib.SMTP.connect(self, host='localhost', port=0, source_address=None)", "relevance": 1}
+{"query_id": "bf9df8397e43", "doc": "smtplib.md", "section": "smtplib > smtplib.SMTP.data(self, msg)", "relevance": 1}
+{"query_id": "0d4655d38949", "doc": "smtplib.md", "section": "smtplib > smtplib.SMTP.ehlo_or_helo_if_needed(self)", "relevance": 1}
+{"query_id": "c3252f2167ea", "doc": "smtplib.md", "section": "smtplib > smtplib.SMTP.getreply(self)", "relevance": 1}
+{"query_id": "739be09ddd38", "doc": "smtplib.md", "section": "smtplib > smtplib.SMTP.login(self, user, password, *, initial_response_ok=True)", "relevance": 1}
+{"query_id": "782f421befe1", "doc": "smtplib.md", "section": "smtplib > smtplib.SMTP.send_message(self, msg, from_addr=None, to_addrs=None, mail_options=(), rcpt_options=())", "relevance": 1}
+{"query_id": "ce4e9798f52a", "doc": "smtplib.md", "section": "smtplib > smtplib.SMTP.sendmail(self, from_addr, to_addrs, msg, mail_options=(), rcpt_options=())", "relevance": 1}
+{"query_id": "b36a21083de6", "doc": "smtplib.md", "section": "smtplib > smtplib.SMTP.starttls(self, *, context=None)", "relevance": 1}
+{"query_id": "f9a5de25d8fd", "doc": "smtplib.md", "section": "smtplib > smtplib.SMTPNotSupportedError(...)", "relevance": 1}
+{"query_id": "06ee6e91b9a8", "doc": "smtplib.md", "section": "smtplib > smtplib.SMTPResponseException(code, msg)", "relevance": 1}
+{"query_id": "c9497fa577a0", "doc": "smtplib.md", "section": "smtplib > smtplib.SMTPServerDisconnected(...)", "relevance": 1}
+{"query_id": "7ad54a675c0e", "doc": "smtplib.md", "section": "smtplib > smtplib.SMTP_SSL(host='', port=0, local_hostname=None, *, timeout=<object object at 0x7fc8a19208c0>, source_address=None, context=None)", "relevance": 1}
+{"query_id": "8901c2e3a69c", "doc": "socket.md", "section": "socket > socket.SocketIO.readinto(self, b)", "relevance": 1}
+{"query_id": "8253d14b71f7", "doc": "socket.md", "section": "socket > socket.SocketIO.write(self, b)", "relevance": 1}
+{"query_id": "e60607af5928", "doc": "socket.md", "section": "socket > socket.create_connection(address, timeout=<object object at 0x7fc8a19208c0>, source_address=None, *, all_errors=False)", "relevance": 1}
+{"query_id": "b5fc569a8f02", "doc": "socket.md", "section": "socket > socket.create_server(address, *, family=<AddressFamily.AF_INET: 2>, backlog=None, reuse_port=False, dualstack_ipv6=False)", "relevance": 1}
+{"query_id": "275898908363", "doc": "socket.md", "section": "socket > socket.getaddrinfo(host, port, family=0, type=0, proto=0, flags=0)", "relevance": 1}
+{"query_id": "b901f03486c5", "doc": "socket.md", "section": "socket > socket.getfqdn(name='')", "relevance": 1}
+{"query_id": "6b494b3d12b8", "doc": "socket.md", "section": "socket > socket.socket.sendfile(self, file, offset=0, count=None)", "relevance": 1}
+{"query_id": "e294f3a54c97", "doc": "socketserver.md", "section": "socketserver > socketserver.BaseRequestHandler(request, client_address, server)", "relevance": 1}
+{"query_id": "853c7bae4687", "doc": "socketserver.md", "section": "socketserver > socketserver.TCPServer(server_address, RequestHandlerClass, bind_and_activate=True)", "relevance": 1}
+{"query_id": "c4740e01ad26", "doc": "sqlite3.md", "section": "sqlite3 > sqlite3.Blob.read(self, length=-1, /)", "relevance": 1}
+{"query_id": "fa62e171756b", "doc": "sqlite3.md", "section": "sqlite3 > sqlite3.Blob.seek(self, offset, origin=0, /)", "relevance": 1}
+{"query_id": "4669d9819c94", "doc": "sqlite3.md", "section": "sqlite3 > sqlite3.Connection.create_window_function(self, name, num_params, aggregate_class, /)", "relevance": 1}
+{"query_id": "e06e416899e5", "doc": "sqlite3.md", "section": "sqlite3 > sqlite3.Connection.serialize(self, /, *, name='main')", "relevance": 1}
+{"query_id": "5a766fc507ff", "doc": "ssl.md", "section": "ssl > ssl.SSLObject(*args, **kwargs)", "relevance": 1}
+{"query_id": "4ae5bcae2566", "doc": "ssl.md", "section": "ssl > ssl.cert_time_to_seconds(cert_time)", "relevance": 1}
+{"query_id": "7c7bf5b6fb90", "doc": "ssl.md", "section": "ssl > ssl.get_server_certificate(addr, ssl_version=<_SSLMethod.PROTOCOL_TLS_CLIENT: 16>, ca_certs=None, timeout=<object object at 0x7fc8a19208c0>)", "relevance": 1}
+{"query_id": "4fa7f6c9c395", "doc": "statistics.md", "section": "statistics > statistics.NormalDist.inv_cdf(self, p)", "relevance": 1}
+{"query_id": "87beb93af694", "doc": "statistics.md", "section": "statistics > statistics.NormalDist.overlap(self, other)", "relevance": 1}
+{"query_id": "d98c3d8198ec", "doc": "statistics.md", "section": "statistics > statistics.NormalDist.quantiles(self, n=4)", "relevance": 1}
+{"query_id": "16d9cb21a55e", "doc": "statistics.md", "section": "statistics > statistics.fmean(data, weights=None)", "relevance": 1}
+{"query_id": "464c6f653676", "doc": "statistics.md", "section": "statistics > statistics.geometric_mean(data)", "relevance": 1}
+{"query_id": "c0c9d30463b7", "doc": "statistics.md", "section": "statistics > statistics.harmonic_mean(data, weights=None)", "relevance": 1}
+{"query_id": "ec1ed827a281", "doc": "statistics.md", "section": "statistics > statistics.kde(data, h, kernel='normal', *, cumulative=False)", "relevance": 1}
+{"query_id": "8ff25414f032", "doc": "statistics.md", "section": "statistics > statistics.kde_random(data, h, kernel='normal', *, seed=None)", "relevance": 1}
+{"query_id": "d8b39a021d39", "doc": "statistics.md", "section": "statistics > statistics.linear_regression(x, y, /, *, proportional=False)", "relevance": 1}
+{"query_id": "554e89a5b3fb", "doc": "statistics.md", "section": "statistics > statistics.mean(data)", "relevance": 1}
+{"query_id": "9839db59c743", "doc": "statistics.md", "section": "statistics > statistics.median(data)", "relevance": 1}
+{"query_id": "162d0eb13aa2", "doc": "statistics.md", "section": "statistics > statistics.median_grouped(data, interval=1.0)", "relevance": 1}
+{"query_id": "53d0079ef080", "doc": "statistics.md", "section": "statistics > statistics.median_high(data)", "relevance": 1}
+{"query_id": "63fa1594ac16", "doc": "statistics.md", "section": "statistics > statistics.median_low(data)", "relevance": 1}
+{"query_id": "90eac83ffe4e", "doc": "statistics.md", "section": "statistics > statistics.mode(data)", "relevance": 1}
+{"query_id": "fb90504c74d7", "doc": "statistics.md", "section": "statistics > statistics.multimode(data)", "relevance": 1}
+{"query_id": "ddeec5a2db2d", "doc": "statistics.md", "section": "statistics > statistics.pvariance(data, mu=None)", "relevance": 1}
+{"query_id": "85c7a9c1d9ab", "doc": "statistics.md", "section": "statistics > statistics.quantiles(data, *, n=4, method='exclusive')", "relevance": 1}
+{"query_id": "faf653f25607", "doc": "statistics.md", "section": "statistics > statistics.variance(data, xbar=None)", "relevance": 1}
+{"query_id": "6db5bdbc81f3", "doc": "string.md", "section": "string > string.capwords(s, sep=None)", "relevance": 1}
+{"query_id": "3319c3194b02", "doc": "subprocess.md", "section": "subprocess > subprocess.CompletedProcess(args, returncode, stdout=None, stderr=None)", "relevance": 1}
+{"query_id": "29e729f104d0", "doc": "subprocess.md", "section": "subprocess > subprocess.Popen(args, bufsize=-1, executable=None, stdin=None, stdout=None, stderr=None, preexec_fn=None, close_fds=True, shell=False, cwd=None, env=None, universal_newlines=None, startupinfo=None, creationflags=0, restore_signals=True, start_new_session=False, pass_fds=(), *, user=None, group=None, extra_groups=None, encoding=None, errors=None, text=None, umask=-1, pipesize=-1, process_group=None)", "relevance": 1}
+{"query_id": "655ece8521e4", "doc": "subprocess.md", "section": "subprocess > subprocess.Popen.communicate(self, input=None, timeout=None)", "relevance": 1}
+{"query_id": "385d8fad044c", "doc": "subprocess.md", "section": "subprocess > subprocess.check_output(*popenargs, timeout=None, **kwargs)", "relevance": 1}
+{"query_id": "d2e385e62dfa", "doc": "subprocess.md", "section": "subprocess > subprocess.getoutput(cmd, *, encoding=None, errors=None)", "relevance": 1}
+{"query_id": "6f14b7a856d9", "doc": "subprocess.md", "section": "subprocess > subprocess.getstatusoutput(cmd, *, encoding=None, errors=None)", "relevance": 1}
+{"query_id": "ed0dc73cff25", "doc": "subprocess.md", "section": "subprocess > subprocess.list2cmdline(seq)", "relevance": 1}
+{"query_id": "fa040df5f894", "doc": "subprocess.md", "section": "subprocess > subprocess.run(*popenargs, input=None, capture_output=False, timeout=None, check=False, **kwargs)", "relevance": 1}
+{"query_id": "b602512a2b19", "doc": "symtable.md", "section": "symtable > symtable.Symbol.is_namespace(self)", "relevance": 1}
+{"query_id": "c368caa29539", "doc": "sys.md", "section": "sys > sys.call_tracing(func, args, /)", "relevance": 1}
+{"query_id": "227453f6d944", "doc": "sys.md", "section": "sys > sys.exit(status=None, /)", "relevance": 1}
+{"query_id": "4ee9d30fe2aa", "doc": "sys.md", "section": "sys > sys.getrecursionlimit()", "relevance": 1}
+{"query_id": "07360eb024cb", "doc": "sys.md", "section": "sys > sys.set_coroutine_origin_tracking_depth(depth)", "relevance": 1}
+{"query_id": "f28ad24985ed", "doc": "sys.md", "section": "sys > sys.setdlopenflags(flags, /)", "relevance": 1}
+{"query_id": "11422b733aba", "doc": "sys.md", "section": "sys > sys.setswitchinterval(interval, /)", "relevance": 1}
+{"query_id": "d93d09d3f573", "doc": "sysconfig.md", "section": "sysconfig > sysconfig.expand_makefile_vars(s, vars)", "relevance": 1}
+{"query_id": "4bbf1d8339a7", "doc": "sysconfig.md", "section": "sysconfig > sysconfig.get_config_vars(*args)", "relevance": 1}
+{"query_id": "b394eac2e479", "doc": "sysconfig.md", "section": "sysconfig > sysconfig.get_platform()", "relevance": 1}
+{"query_id": "1e52a3a6ac18", "doc": "tabnanny.md", "section": "tabnanny > tabnanny.check(file)", "relevance": 1}
+{"query_id": "083654bf0f8a", "doc": "tarfile.md", "section": "tarfile > tarfile.TarFile.add(self, name, arcname=None, recursive=True, *, filter=None)", "relevance": 1}
+{"query_id": "b92dfdeb74e6", "doc": "tarfile.md", "section": "tarfile > tarfile.TarFile.addfile(self, tarinfo, fileobj=None)", "relevance": 1}
+{"query_id": "96d02cd5c75d", "doc": "tarfile.md", "section": "tarfile > tarfile.TarFile.extractall(self, path='.', members=None, *, numeric_owner=False, filter=None)", "relevance": 1}
+{"query_id": "3b73bfa3e8c6", "doc": "tarfile.md", "section": "tarfile > tarfile.TarFile.extractfile(self, member)", "relevance": 1}
+{"query_id": "e2393a4a5c33", "doc": "tarfile.md", "section": "tarfile > tarfile.TarFile.getmember(self, name)", "relevance": 1}
+{"query_id": "794e8e721dd6", "doc": "tarfile.md", "section": "tarfile > tarfile.TarFile.gettarinfo(self, name=None, arcname=None, fileobj=None)", "relevance": 1}
+{"query_id": "6cc4fd6b1271", "doc": "tarfile.md", "section": "tarfile > tarfile.TarFile.list(self, verbose=True, *, members=None)", "relevance": 1}
+{"query_id": "0defddc83b7c", "doc": "tarfile.md", "section": "tarfile > tarfile.TarFile.makelink_with_filter(self, tarinfo, targetpath, filter_function, extraction_root)", "relevance": 1}
+{"query_id": "2670c87b1305", "doc": "tarfile.md", "section": "tarfile > tarfile.TarFile.open(...)", "relevance": 1}
+{"query_id": "da9654443630", "doc": "tarfile.md", "section": "tarfile > tarfile.calc_chksums(buf)", "relevance": 1}
+{"query_id": "20f49e0798fb", "doc": "tempfile.md", "section": "tempfile > tempfile.TemporaryDirectory(suffix=None, prefix=None, dir=None, ignore_cleanup_errors=False, *, delete=True)", "relevance": 1}
+{"query_id": "c2ddfa4f4969", "doc": "tempfile.md", "section": "tempfile > tempfile.mkdtemp(suffix=None, prefix=None, dir=None)", "relevance": 1}
+{"query_id": "fd006882fe59", "doc": "tempfile.md", "section": "tempfile > tempfile.mkstemp(suffix=None, prefix=None, dir=None, text=False)", "relevance": 1}
+{"query_id": "0cdf873795c4", "doc": "tempfile.md", "section": "tempfile > tempfile.mktemp(suffix='', prefix='tmp', dir=None)", "relevance": 1}
+{"query_id": "ace4638b03cc", "doc": "termios.md", "section": "termios > termios.tcgetattr(fd, /)", "relevance": 1}
+{"query_id": "c52245af1304", "doc": "termios.md", "section": "termios > termios.tcsetattr(fd, when, attributes, /)", "relevance": 1}
+{"query_id": "623a2103ae5d", "doc": "textwrap.md", "section": "textwrap > textwrap.dedent(text)", "relevance": 1}
+{"query_id": "a70c128eb3f2", "doc": "textwrap.md", "section": "textwrap > textwrap.fill(text, width=70, **kwargs)", "relevance": 1}
+{"query_id": "f5e012dd5a0d", "doc": "textwrap.md", "section": "textwrap > textwrap.indent(text, prefix, predicate=None)", "relevance": 1}
+{"query_id": "59938514a0fc", "doc": "textwrap.md", "section": "textwrap > textwrap.shorten(text, width, **kwargs)", "relevance": 1}
+{"query_id": "a9c6f6d5ff9b", "doc": "textwrap.md", "section": "textwrap > textwrap.wrap(text, width=70, **kwargs)", "relevance": 1}
+{"query_id": "9abf31fbf168", "doc": "threading.md", "section": "threading > threading.Condition(lock=None)", "relevance": 1}
+{"query_id": "2d17df43cc9a", "doc": "threading.md", "section": "threading > threading.Condition.notify(self, n=1)", "relevance": 1}
+{"query_id": "5e07f454b839", "doc": "threading.md", "section": "threading > threading.Condition.wait(self, timeout=None)", "relevance": 1}
+{"query_id": "dfef3318d813", "doc": "threading.md", "section": "threading > threading.Condition.wait_for(self, predicate, timeout=None)", "relevance": 1}
+{"query_id": "51855f85abcb", "doc": "threading.md", "section": "threading > threading.Event.wait(self, timeout=None)", "relevance": 1}
+{"query_id": "49e7ba623e17", "doc": "threading.md", "section": "threading > threading.RLock(*args, **kwargs)", "relevance": 1}
+{"query_id": "8f78b55a2aeb", "doc": "threading.md", "section": "threading > threading.Semaphore.acquire(self, blocking=True, timeout=None)", "relevance": 1}
+{"query_id": "5e7675ec7689", "doc": "threading.md", "section": "threading > threading.Thread(group=None, target=None, name=None, args=(), kwargs=None, *, daemon=None)", "relevance": 1}
+{"query_id": "a4107640364e", "doc": "threading.md", "section": "threading > threading.enumerate()", "relevance": 1}
+{"query_id": "0d510765dd83", "doc": "time.md", "section": "time > time.gmtime(...)", "relevance": 1}
+{"query_id": "e28641d7d1b4", "doc": "time.md", "section": "time > time.mktime(object, /)", "relevance": 1}
+{"query_id": "d6b460f9ec7b", "doc": "time.md", "section": "time > time.strftime(...)", "relevance": 1}
+{"query_id": "a04a115a831b", "doc": "time.md", "section": "time > time.strptime(...)", "relevance": 1}
+{"query_id": "6608618147dc", "doc": "time.md", "section": "time > time.struct_time(iterable=(), /)", "relevance": 1}
+{"query_id": "e5ebba8f604d", "doc": "time.md", "section": "time > time.tzset()", "relevance": 1}
+{"query_id": "b9050da1dcd8", "doc": "timeit.md", "section": "timeit > timeit.Timer(stmt='pass', setup='pass', timer=<built-in function perf_counter>, globals=None)", "relevance": 1}
+{"query_id": "977a7a5289a8", "doc": "timeit.md", "section": "timeit > timeit.Timer.autorange(self, callback=None)", "relevance": 1}
+{"query_id": "e76fac20f28f", "doc": "timeit.md", "section": "timeit > timeit.Timer.print_exc(self, file=None)", "relevance": 1}
+{"query_id": "6522f57ca768", "doc": "timeit.md", "section": "timeit > timeit.Timer.timeit(self, number=1000000)", "relevance": 1}
+{"query_id": "a9fd0e8fa0fc", "doc": "timeit.md", "section": "timeit > timeit.main(args=None, *, _wrap_timer=None)", "relevance": 1}
+{"query_id": "35713b5dcbe2", "doc": "tokenize.md", "section": "tokenize > tokenize.detect_encoding(readline)", "relevance": 1}
+{"query_id": "f90574eda52a", "doc": "tokenize.md", "section": "tokenize > tokenize.tokenize(readline)", "relevance": 1}
+{"query_id": "f6dc9c1348e9", "doc": "tokenize.md", "section": "tokenize > tokenize.untokenize(iterable)", "relevance": 1}
+{"query_id": "89fd595ddbd9", "doc": "traceback.md", "section": "traceback > traceback.FrameSummary(filename, lineno, name, *, lookup_line=True, locals=None, line=None, end_lineno=None, colno=None, end_colno=None, **kwargs)", "relevance": 1}
+{"query_id": "bca24d7fff8e", "doc": "traceback.md", "section": "traceback > traceback.StackSummary.extract(...)", "relevance": 1}
+{"query_id": "802c8d1e389c", "doc": "traceback.md", "section": "traceback > traceback.StackSummary.format(self, **kwargs)", "relevance": 1}
+{"query_id": "4dfcfca153e1", "doc": "traceback.md", "section": "traceback > traceback.TracebackException.format_exception_only(self, *, show_group=False, _depth=0, **kwargs)", "relevance": 1}
+{"query_id": "f9619fcbd942", "doc": "traceback.md", "section": "traceback > traceback.extract_stack(f=None, limit=None)", "relevance": 1}
+{"query_id": "a43e64146f1b", "doc": "traceback.md", "section": "traceback > traceback.extract_tb(tb, limit=None)", "relevance": 1}
+{"query_id": "d0282fa15c49", "doc": "traceback.md", "section": "traceback > traceback.format_exception(exc, /, value=<implicit>, tb=<implicit>, limit=None, chain=True, **kwargs)", "relevance": 1}
+{"query_id": "2a233419af4a", "doc": "traceback.md", "section": "traceback > traceback.format_exception_only(exc, /, value=<implicit>, *, show_group=False, **kwargs)", "relevance": 1}
+{"query_id": "d159f86b47f7", "doc": "traceback.md", "section": "traceback > traceback.format_list(extracted_list)", "relevance": 1}
+{"query_id": "6806469d4bef", "doc": "traceback.md", "section": "traceback > traceback.print_exception(exc, /, value=<implicit>, tb=<implicit>, limit=None, file=None, chain=True, **kwargs)", "relevance": 1}
+{"query_id": "b6c2b140176e", "doc": "traceback.md", "section": "traceback > traceback.print_stack(f=None, limit=None, file=None)", "relevance": 1}
+{"query_id": "95b58116456b", "doc": "traceback.md", "section": "traceback > traceback.print_tb(tb, limit=None, file=None)", "relevance": 1}
+{"query_id": "12af74cb05d0", "doc": "types.md", "section": "types > types.DynamicClassAttribute(fget=None, fset=None, fdel=None, doc=None)", "relevance": 1}
+{"query_id": "5dfb9d4f03c6", "doc": "types.md", "section": "types > types.get_original_bases(cls, /)", "relevance": 1}
+{"query_id": "f12e148eedfb", "doc": "types.md", "section": "types > types.prepare_class(name, bases=(), kwds=None)", "relevance": 1}
+{"query_id": "01aaf107d7e6", "doc": "typing.md", "section": "typing > typing.Any(*args, **kwargs)", "relevance": 1}
+{"query_id": "ab7887d7221c", "doc": "typing.md", "section": "typing > typing.Generic()", "relevance": 1}
+{"query_id": "ee5e3d51b8fc", "doc": "typing.md", "section": "typing > typing.IO()", "relevance": 1}
+{"query_id": "081931bbfdb2", "doc": "typing.md", "section": "typing > typing.NewType(name, tp)", "relevance": 1}
+{"query_id": "f15cbd87b6f2", "doc": "typing.md", "section": "typing > typing.ParamSpecArgs(...)", "relevance": 1}
+{"query_id": "1172d914b735", "doc": "typing.md", "section": "typing > typing.ParamSpecKwargs(...)", "relevance": 1}
+{"query_id": "ba22ed79397d", "doc": "typing.md", "section": "typing > typing.assert_never(arg: Never, /) -> Never", "relevance": 1}
+{"query_id": "98f22d6326c5", "doc": "typing.md", "section": "typing > typing.assert_type(val, typ, /)", "relevance": 1}
+{"query_id": "e9bcc6f58225", "doc": "typing.md", "section": "typing > typing.cast(typ, val)", "relevance": 1}
+{"query_id": "81014360af35", "doc": "typing.md", "section": "typing > typing.dataclass_transform(*, eq_default: bool = True, order_default: bool = False, kw_only_default: bool = False, frozen_default: bool = False, field_specifiers: tuple[typing.Union[type[typing.Any], typing.Callable[..., typing.Any]], ...] = (), **kwargs: Any) -> <class '_IdentityCallable'>", "relevance": 1}
+{"query_id": "86d4e90e8a8a", "doc": "typing.md", "section": "typing > typing.final(f)", "relevance": 1}
+{"query_id": "65ef1098306d", "doc": "typing.md", "section": "typing > typing.get_args(tp)", "relevance": 1}
+{"query_id": "c6309ef135bb", "doc": "typing.md", "section": "typing > typing.get_origin(tp)", "relevance": 1}
+{"query_id": "986738dc60c5", "doc": "typing.md", "section": "typing > typing.get_protocol_members(tp: type, /) -> frozenset[str]", "relevance": 1}
+{"query_id": "fb0b9dc6d4d7", "doc": "typing.md", "section": "typing > typing.get_type_hints(obj, globalns=None, localns=None, include_extras=False)", "relevance": 1}
+{"query_id": "fe1e89099914", "doc": "typing.md", "section": "typing > typing.is_protocol(tp: type, /) -> bool", "relevance": 1}
+{"query_id": "ce66705bb06f", "doc": "typing.md", "section": "typing > typing.no_type_check(arg)", "relevance": 1}
+{"query_id": "07bd83b86893", "doc": "typing.md", "section": "typing > typing.override(method: F, /) -> F", "relevance": 1}
+{"query_id": "eb5bdbf7fc55", "doc": "typing.md", "section": "typing > typing.reveal_type(obj: T, /) -> T", "relevance": 1}
+{"query_id": "a8d739801140", "doc": "typing.md", "section": "typing > typing.runtime_checkable(cls)", "relevance": 1}
+{"query_id": "1c9c38571247", "doc": "uuid.md", "section": "uuid > uuid.UUID(hex=None, bytes=None, bytes_le=None, fields=None, int=None, version=None, *, is_safe=<SafeUUID.unknown: None>)", "relevance": 1}
+{"query_id": "27caca5e3840", "doc": "uuid.md", "section": "uuid > uuid.getnode()", "relevance": 1}
+{"query_id": "2874eeda854f", "doc": "uuid.md", "section": "uuid > uuid.uuid1(node=None, clock_seq=None)", "relevance": 1}
+{"query_id": "b7a6465cc0c5", "doc": "warnings.md", "section": "warnings > warnings.catch_warnings(*, record=False, module=None, action=None, category=<class 'Warning'>, lineno=0, append=False)", "relevance": 1}
+{"query_id": "035c5fd9a84f", "doc": "warnings.md", "section": "warnings > warnings.deprecated(message: str, /, *, category: type[Warning] | None = <class 'DeprecationWarning'>, stacklevel: int = 1) -> None", "relevance": 1}
+{"query_id": "1cf2f9f4d42a", "doc": "warnings.md", "section": "warnings > warnings.filterwarnings(action, message='', category=<class 'Warning'>, module='', lineno=0, append=False)", "relevance": 1}
+{"query_id": "169251264f69", "doc": "warnings.md", "section": "warnings > warnings.simplefilter(action, category=<class 'Warning'>, lineno=0, append=False)", "relevance": 1}
+{"query_id": "0af0d38fcd83", "doc": "weakref.md", "section": "weakref > weakref.KeyedRef(ob, callback, key)", "relevance": 1}
+{"query_id": "ec40e4e703fb", "doc": "weakref.md", "section": "weakref > weakref.WeakKeyDictionary(dict=None)", "relevance": 1}
+{"query_id": "6beb3a3fa9ba", "doc": "weakref.md", "section": "weakref > weakref.WeakKeyDictionary.keyrefs(self)", "relevance": 1}
+{"query_id": "31a335bbe5bf", "doc": "weakref.md", "section": "weakref > weakref.WeakValueDictionary.itervaluerefs(self)", "relevance": 1}
+{"query_id": "f0637b5982dd", "doc": "weakref.md", "section": "weakref > weakref.WeakValueDictionary.valuerefs(self)", "relevance": 1}
+{"query_id": "7b0817c969a7", "doc": "weakref.md", "section": "weakref > weakref.finalize(obj, func, /, *args, **kwargs)", "relevance": 1}
+{"query_id": "db8686d83f8b", "doc": "webbrowser.md", "section": "webbrowser > webbrowser.open(url, new=0, autoraise=True)", "relevance": 1}
+{"query_id": "a66e83d05b08", "doc": "zipapp.md", "section": "zipapp > zipapp.create_archive(source, target=None, interpreter=None, main=None, filter=None, compressed=False)", "relevance": 1}
+{"query_id": "4fc3c383aa48", "doc": "zipapp.md", "section": "zipapp > zipapp.main(args=None)", "relevance": 1}
+{"query_id": "2ed145401745", "doc": "zipfile.md", "section": "zipfile > zipfile.PyZipFile.writepy(self, pathname, basename='', filterfunc=None)", "relevance": 1}
+{"query_id": "6d91dcd65fe9", "doc": "zipfile.md", "section": "zipfile > zipfile.ZipFile(file, mode='r', compression=0, allowZip64=True, compresslevel=None, *, strict_timestamps=True, metadata_encoding=None)", "relevance": 1}
+{"query_id": "9615c3870965", "doc": "zipfile.md", "section": "zipfile > zipfile.ZipFile.writestr(self, zinfo_or_arcname, data, compress_type=None, compresslevel=None)", "relevance": 1}
+{"query_id": "297ff08c9907", "doc": "zipfile.md", "section": "zipfile > zipfile.ZipInfo.from_file(...)", "relevance": 1}
+{"query_id": "e24db7030261", "doc": "zipimport.md", "section": "zipimport > zipimport.zipimporter.load_module(self, fullname)", "relevance": 1}

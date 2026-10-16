@@ -1,0 +1,15 @@
+# Known limitations
+
+1. **Neural models were evaluated only on a sub-corpus.** nomic-embed-text-v1.5, Qwen2.5-0.5B-Instruct and SmolLM2-360M-Instruct run locally (llama.cpp, CPU) and were benchmarked on 31 of 122 documents (80 test retrieval queries, 20 generation queries, 10 injection queries per family), because the shared CPU was too slow for the full corpus. The full-corpus tables still use only LSA/hashing.
+2. **Neural reranker quality not measured.** Qwen3-Reranker-0.6B is implemented and unit-tested but took minutes per query here.
+3. **Small LLMs are weak.** Raw groundedness was 0.15 (Qwen2.5-0.5B) and 0.0 (SmolLM2-360M). Grounding enforcement makes shown sentences supported but abstains on 60–65 % of queries. The OpenAI-compatible provider is still tested only with a mock transport. Groundedness and citation precision of the extractive provider are 1.0 by construction.
+3a. **Answer relevance is an embedding-similarity proxy** (question vs. answer cosine with nomic), not a human or judge rating.
+3b. **Latency was measured on an overloaded shared machine** (load averages up to about 25 during runs, much higher at times); query embedding took about 3.5 s and LLM generation 1.6–3.5 s median. Idle-machine latency was not measured.
+3. **Grounding check is lexical.** `support_score` accepts a sentence whose content words occur in the cited source; it can accept a sentence that recombines source words into a false statement, and it rejects valid paraphrases. It is not an NLI model.
+4. **Prompt-injection detection is pattern-based.** Paraphrased injections were not detected at all in the benchmark (0/200); see `docs/security.md`.
+5. **One evaluation dataset.** pystdlib is a known-item benchmark over Python docstrings (one relevant section per query); it does not measure multi-hop questions or answer completeness. Chunking strategies that ignore sections are scored against section labels using the chunk's first section, which disadvantages `fixed`/`sentence` chunking beyond their intrinsic quality.
+6. **BM25 tuning hit the grid edge** (k1 = 0.6, b = 0.3 are the smallest values tried); a wider grid may do better.
+7. **Single process.** The query index is in memory per process and guarded by one lock; multiple replicas would each hold a copy and would need a shared invalidation channel (Redis generation counters are shared, the in-memory index is not).
+8. **pgvector filtering.** pgvector 0.6 filters by tenant after the HNSW scan; `ann_search` raises `ef_search` to ≥4k but a very selective filter can still return fewer than k rows. The production query path uses the exact in-memory matrix.
+9. **Not deployed.** The default Docker image was built and smoke-tested against host PostgreSQL/Redis (`scripts/docker_smoke.sh`). The `LOCAL_MODELS=1` image variant and `docker compose up` (which pulls `pgvector/pgvector`) were not run, to save disk on the shared machine. CI passes on GitHub Actions.
+10. **No real users.** No user feedback or adoption data exists.

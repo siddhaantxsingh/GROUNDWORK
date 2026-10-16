@@ -1,0 +1,70 @@
+{
+  "bm25 (default k1=1.2,b=0.75)": {
+    "ndcg@10": 0.4702,
+    "mrr@10": 0.404,
+    "recall@10": 0.6772
+  },
+  "bm25 (tuned)": {
+    "ndcg@10": 0.5279,
+    "mrr@10": 0.4722,
+    "recall@10": 0.7025
+  },
+  "dense hashing-384": {
+    "ndcg@10": 0.1994,
+    "mrr@10": 0.1598,
+    "recall@10": 0.3291
+  },
+  "dense lsa-384": {
+    "ndcg@10": 0.3508,
+    "mrr@10": 0.2826,
+    "recall@10": 0.5696
+  },
+  "hybrid rrf": {
+    "ndcg@10": 0.4644,
+    "mrr@10": 0.3891,
+    "recall@10": 0.7025
+  },
+  "hybrid weighted w=0.1": {
+    "ndcg@10": 0.5336,
+    "mrr@10": 0.4743,
+    "recall@10": 0.7215
+  },
+  "bm25 + rm3": {
+    "ndcg@10": 0.5492,
+    "mrr@10": 0.4842,
+    "recall@10": 0.7532
+  },
+  "bm25 + rerank (tuned)": {
+    "ndcg@10": 0.5496,
+    "mrr@10": 0.4937,
+    "recall@10": 0.7247
+  },
+  "hybrid weighted + rerank": {
+    "ndcg@10": 0.5488,
+    "mrr@10": 0.4916,
+    "recall@10": 0.7278
+  },
+  "_protocol": {
+    "chunking": {
+      "strategy": "structure",
+      "size": 100,
+      "overlap": 0
+    },
+    "bm25": {
+      "k1": 0.6,
+      "b": 0.3,
+      "ndcg@10": 0.5428
+    },
+    "lsa_dim": 384,
+    "fusion_weight": 0.1,
+    "rerank": {
+      "first_stage": 1.0,
+      "coverage": 0.0,
+      "proximity": 0.0,
+      "heading": 0.8,
+      "dense": 0.0
+    },
+    "split": "test",
+    "source_run": "benchmarks/results/2026-10-14"
+  }
+}

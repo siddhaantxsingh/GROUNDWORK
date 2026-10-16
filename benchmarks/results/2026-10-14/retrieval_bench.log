@@ -1,0 +1,19 @@
+ablation {'chunking': 'structure-200/0', 'chunks': 3189, 'mrr@10': 0.4166, 'recall@10': 0.7138, 'ndcg@10': 0.4879}
+ablation {'chunking': 'structure-100/0', 'chunks': 3401, 'mrr@10': 0.4242, 'recall@10': 0.7013, 'ndcg@10': 0.4908}
+ablation {'chunking': 'sentence-200/0', 'chunks': 556, 'mrr@10': 0.1876, 'recall@10': 0.3176, 'ndcg@10': 0.219}
+ablation {'chunking': 'fixed-200/40', 'chunks': 630, 'mrr@10': 0.2075, 'recall@10': 0.3553, 'ndcg@10': 0.2431}
+ablation {'chunking': 'fixed-100/20', 'chunks': 1227, 'mrr@10': 0.3058, 'recall@10': 0.5189, 'ndcg@10': 0.3571}
+bm25 best {'k1': 0.6, 'b': 0.3, 'ndcg@10': 0.5428}
+lsa dims [{'dim': 128, 'ndcg@10': 0.2612}, {'dim': 256, 'ndcg@10': 0.3345}, {'dim': 384, 'ndcg@10': 0.3645}]
+rerank best RerankWeights(first_stage=1.0, coverage=0.0, proximity=0.0, heading=0.8, dense=0.0)
+test bm25 (default k1=1.2,b=0.75) 0.4702 0.404 0.6772
+test bm25 (tuned) 0.5279 0.4722 0.7025
+test dense hashing-384 0.1994 0.1598 0.3291
+test dense lsa-384 0.3508 0.2826 0.5696
+test hybrid rrf 0.4644 0.3891 0.7025
+test hybrid weighted w=0.1 0.5336 0.4743 0.7215
+test bm25 + rm3 0.5492 0.4842 0.7532
+test bm25 + rerank (tuned) 0.5496 0.4937 0.7247
+test hybrid weighted + rerank 0.5488 0.4916 0.7278
+generation {'provider': 'extractive', 'retrieval': 'bm25 + rerank (tuned)', 'queries': 316, 'abstention_rate': 0.0601, 'groundedness_mean_answered': 1.0, 'citation_precision_mean_answered': 1.0, 'answers_citing_relevant_section': 0.4175, 'end_to_end_latency_ms': {'p50': 5.78, 'p95': 7.68, 'p99': 8.33}, 'note': 'groundedness/citation precision use the lexical support proxy in generate.support_score, not an NLI model'}
+pgvector {'vectors': 3401, 'dim': 384, 'hnsw_build_s': 1.053, 'runs': [{'ef_search': 10, 'recall@10_vs_exact': 0.9263, 'p50_ms': 0.462, 'p95_ms': 0.949}, {'ef_search': 40, 'recall@10_vs_exact': 0.9962, 'p50_ms': 0.8, 'p95_ms': 1.108}, {'ef_search': 100, 'recall@10_vs_exact': 0.9981, 'p50_ms': 1.242, 'p95_ms': 1.694}, {'ef_search': 200, 'recall@10_vs_exact': 0.9987, 'p50_ms': 2.381, 'p95_ms': 3.517}], 'exact_seqscan_p50_ms': 2.383}

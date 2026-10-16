@@ -1,0 +1,11 @@
+{
+  "name": "pystdlib-known-item",
+  "python": "3.13.16",
+  "documents": 122,
+  "sections_total": 3125,
+  "distractor_sections": 2491,
+  "queries": 634,
+  "dev": 318,
+  "test": 316,
+  "candidates_before_filter": 3436
+}

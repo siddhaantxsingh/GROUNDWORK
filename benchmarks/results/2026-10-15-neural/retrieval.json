@@ -1,0 +1,394 @@
+{
+  "env": {
+    "git": "16b38a3",
+    "python": "3.13.16",
+    "numpy": "2.5.3",
+    "llama_cpp_python": "0.3.36",
+    "cpus": 4,
+    "threads": 4,
+    "cpu_model": "Intel(R) Xeon(R) Processor @ 2.80GHz",
+    "date": "2026-10-15T08:37:50Z",
+    "loadavg_start": "22.67 25.46 19.00",
+    "models": {
+      "ai/nomic-embed-text-v1.5:latest": {
+        "sha256": "f7af6f66802f4df86eda10fe9bbcfc75c39562bed48ef6ace719a251cf1c2fdb",
+        "bytes": 274290560,
+        "licenses": [
+          "Apache-2.0"
+        ]
+      },
+      "ai/qwen2.5:0.5B-F16": {
+        "sha256": "f1ad9d1174ce6ab47b584d522634c47e411b75bffdffd9a4e106e21e882392e5",
+        "bytes": 994156864,
+        "licenses": [
+          "Apache-2.0"
+        ]
+      },
+      "ai/qwen3-reranker:0.6B": {
+        "sha256": "9c9c23f7de6dce710fe77bb698659d06179d42075b13834af260c3f2145af662",
+        "bytes": 1197634144,
+        "licenses": [
+          "Apache-2.0"
+        ]
+      },
+      "ai/smollm2:latest": {
+        "sha256": "bf6f20a603055433b4b998119e17928fc4a89b35c42855dd7eada105058cae0a",
+        "bytes": 270590624,
+        "licenses": [
+          "Apache License"
+        ]
+      }
+    },
+    "note": "shared 4 vCPU container; other agents ran builds and benchmarks concurrently"
+  },
+  "protocol": {
+    "chunking": {
+      "strategy": "structure",
+      "size": 100,
+      "overlap": 0
+    },
+    "bm25": {
+      "k1": 0.6,
+      "b": 0.3,
+      "ndcg@10": 0.5428
+    },
+    "lsa_dim": 384,
+    "fusion_weight": 0.1,
+    "rerank": {
+      "first_stage": 1.0,
+      "coverage": 0.0,
+      "proximity": 0.0,
+      "heading": 0.8,
+      "dense": 0.0
+    },
+    "split": "test",
+    "source_run": "benchmarks/results/2026-10-14"
+  },
+  "dataset": {
+    "root": "pystdlib-every4",
+    "documents": 31,
+    "dev": 66,
+    "test": 80
+  },
+  "index_build": {
+    "lsa": {
+      "chunks": 678,
+      "parse_chunk_s": 0.5681781979999414,
+      "embedder_fit_s": 71.07755545999999,
+      "index_s": 0.285786096000038,
+      "embedder": "lsa-384",
+      "chunking": {
+        "strategy": "structure",
+        "size": 100,
+        "overlap": 0
+      }
+    },
+    "nomic": {
+      "chunks": 678,
+      "parse_chunk_s": 0.027003008999827216,
+      "embedder_fit_s": 2.9820000690961024e-06,
+      "index_s": 696.3567266609998,
+      "embedder": "nomic-embed-text-v1.5",
+      "chunking": {
+        "strategy": "structure",
+        "size": 100,
+        "overlap": 0
+      },
+      "wall_s": 696.3838778559998
+    }
+  },
+  "nomic_embed_20_chunks_s": {
+    "seconds": 20.32,
+    "loadavg": "9.94 12.77 15.42",
+    "tokens": 1826
+  },
+  "tuning_dev": {
+    "nomic_fusion_weight": [
+      {
+        "dense_weight": 0.3,
+        "ndcg@10": 0.6287
+      },
+      {
+        "dense_weight": 0.5,
+        "ndcg@10": 0.6373
+      },
+      {
+        "dense_weight": 0.7,
+        "ndcg@10": 0.6679
+      }
+    ]
+  },
+  "query_embedding_ms": [
+    {
+      "run": 1,
+      "queries": 30,
+      "loadavg": "9.33 10.17 12.83",
+      "p50_ms": 3769.9,
+      "p95_ms": 4171.8
+    },
+    {
+      "run": 2,
+      "queries": 30,
+      "loadavg": "9.95 10.13 12.52",
+      "p50_ms": 3428.0,
+      "p95_ms": 3809.3
+    },
+    {
+      "run": 3,
+      "queries": 30,
+      "loadavg": "10.29 10.15 12.30",
+      "p50_ms": 3408.0,
+      "p95_ms": 3984.4
+    }
+  ],
+  "test_results": [
+    {
+      "config": "bm25",
+      "queries": 80,
+      "mrr@10": 0.5655,
+      "mrr@10_ci95": [
+        0.4708,
+        0.662
+      ],
+      "recall@1": 0.4625,
+      "recall@5": 0.7,
+      "recall@10": 0.825,
+      "recall@10_ci95": [
+        0.7375,
+        0.9
+      ],
+      "recall@20": 0.8875,
+      "ndcg@10": 0.6271,
+      "ndcg@10_ci95": [
+        0.5414,
+        0.7108
+      ],
+      "latency_ms": {
+        "p50": 0.2,
+        "p95": 0.42,
+        "p99": 0.44
+      },
+      "name": "bm25 (tuned)",
+      "loadavg": "10.16 11.03 14.03",
+      "note": ""
+    },
+    {
+      "config": "dense",
+      "queries": 80,
+      "mrr@10": 0.4202,
+      "mrr@10_ci95": [
+        0.3335,
+        0.5071
+      ],
+      "recall@1": 0.275,
+      "recall@5": 0.6125,
+      "recall@10": 0.775,
+      "recall@10_ci95": [
+        0.675,
+        0.8625
+      ],
+      "recall@20": 0.9,
+      "ndcg@10": 0.5045,
+      "ndcg@10_ci95": [
+        0.4206,
+        0.5825
+      ],
+      "latency_ms": {
+        "p50": 2.1,
+        "p95": 2.62,
+        "p99": 3.09
+      },
+      "name": "dense lsa-384",
+      "loadavg": "10.16 11.03 14.03",
+      "note": "",
+      "p_vs_bm25_tuned_ndcg@10": 0.0005
+    },
+    {
+      "config": "hybrid+rrf",
+      "queries": 80,
+      "mrr@10": 0.5192,
+      "mrr@10_ci95": [
+        0.4301,
+        0.6112
+      ],
+      "recall@1": 0.3875,
+      "recall@5": 0.7,
+      "recall@10": 0.825,
+      "recall@10_ci95": [
+        0.7375,
+        0.9
+      ],
+      "recall@20": 0.8875,
+      "ndcg@10": 0.5921,
+      "ndcg@10_ci95": [
+        0.5078,
+        0.6748
+      ],
+      "latency_ms": {
+        "p50": 3.33,
+        "p95": 4.34,
+        "p99": 5.21
+      },
+      "name": "hybrid rrf (lsa)",
+      "loadavg": "10.16 11.03 14.03",
+      "note": "",
+      "p_vs_bm25_tuned_ndcg@10": 0.0435
+    },
+    {
+      "config": "bm25+rerank",
+      "queries": 80,
+      "mrr@10": 0.609,
+      "mrr@10_ci95": [
+        0.5145,
+        0.6981
+      ],
+      "recall@1": 0.5,
+      "recall@5": 0.775,
+      "recall@10": 0.8625,
+      "recall@10_ci95": [
+        0.775,
+        0.9375
+      ],
+      "recall@20": 0.925,
+      "ndcg@10": 0.6698,
+      "ndcg@10_ci95": [
+        0.5826,
+        0.7487
+      ],
+      "latency_ms": {
+        "p50": 4.84,
+        "p95": 6.6,
+        "p99": 9.03
+      },
+      "name": "bm25 + feature rerank",
+      "loadavg": "9.91 10.97 14.00",
+      "note": "",
+      "p_vs_bm25_tuned_ndcg@10": 0.0015
+    },
+    {
+      "config": "dense",
+      "queries": 80,
+      "mrr@10": 0.6083,
+      "mrr@10_ci95": [
+        0.5184,
+        0.697
+      ],
+      "recall@1": 0.4875,
+      "recall@5": 0.75,
+      "recall@10": 0.925,
+      "recall@10_ci95": [
+        0.8625,
+        0.975
+      ],
+      "recall@20": 0.975,
+      "ndcg@10": 0.6827,
+      "ndcg@10_ci95": [
+        0.6068,
+        0.758
+      ],
+      "latency_ms": {
+        "p50": 3663.92,
+        "p95": 4270.65,
+        "p99": 6291.55
+      },
+      "name": "dense nomic-embed-text-v1.5",
+      "loadavg": "9.91 10.97 14.00",
+      "note": "latency excludes query embedding (memoised); see query_embedding_ms",
+      "p_vs_bm25_tuned_ndcg@10": 0.1609
+    },
+    {
+      "config": "hybrid+rrf",
+      "queries": 80,
+      "mrr@10": 0.6346,
+      "mrr@10_ci95": [
+        0.5417,
+        0.7218
+      ],
+      "recall@1": 0.525,
+      "recall@5": 0.7625,
+      "recall@10": 0.9125,
+      "recall@10_ci95": [
+        0.85,
+        0.975
+      ],
+      "recall@20": 0.9625,
+      "ndcg@10": 0.7,
+      "ndcg@10_ci95": [
+        0.619,
+        0.7754
+      ],
+      "latency_ms": {
+        "p50": 11.75,
+        "p95": 21.11,
+        "p99": 24.15
+      },
+      "name": "hybrid rrf (nomic)",
+      "loadavg": "9.76 10.28 12.89",
+      "note": "latency excludes query embedding (memoised); see query_embedding_ms",
+      "p_vs_bm25_tuned_ndcg@10": 0.005
+    },
+    {
+      "config": "hybrid+w0.7",
+      "queries": 80,
+      "mrr@10": 0.6294,
+      "mrr@10_ci95": [
+        0.5419,
+        0.7139
+      ],
+      "recall@1": 0.4875,
+      "recall@5": 0.7875,
+      "recall@10": 0.9125,
+      "recall@10_ci95": [
+        0.85,
+        0.975
+      ],
+      "recall@20": 0.975,
+      "ndcg@10": 0.6979,
+      "ndcg@10_ci95": [
+        0.6223,
+        0.7706
+      ],
+      "latency_ms": {
+        "p50": 11.85,
+        "p95": 19.94,
+        "p99": 27.73
+      },
+      "name": "hybrid weighted w=0.7 (nomic)",
+      "loadavg": "9.54 10.22 12.86",
+      "note": "latency excludes query embedding (memoised); see query_embedding_ms",
+      "p_vs_bm25_tuned_ndcg@10": 0.013
+    },
+    {
+      "config": "hybrid+w0.7+rerank",
+      "queries": 80,
+      "mrr@10": 0.6462,
+      "mrr@10_ci95": [
+        0.5579,
+        0.7309
+      ],
+      "recall@1": 0.525,
+      "recall@5": 0.825,
+      "recall@10": 0.9125,
+      "recall@10_ci95": [
+        0.85,
+        0.9625
+      ],
+      "recall@20": 0.975,
+      "ndcg@10": 0.7103,
+      "ndcg@10_ci95": [
+        0.6328,
+        0.7839
+      ],
+      "latency_ms": {
+        "p50": 26.6,
+        "p95": 44.13,
+        "p99": 49.77
+      },
+      "name": "hybrid weighted w=0.7 (nomic) + feature rerank",
+      "loadavg": "9.54 10.22 12.86",
+      "note": "latency excludes query embedding (memoised); see query_embedding_ms",
+      "p_vs_bm25_tuned_ndcg@10": 0.007
+    }
+  ],
+  "loadavg_end": "10.06 10.09 12.08"
+}

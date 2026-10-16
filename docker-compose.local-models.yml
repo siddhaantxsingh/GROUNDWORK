@@ -1,0 +1,13 @@
+# Overlay: local models (llama.cpp, CPU). Fetch models first: python scripts/fetch_models.py
+#   docker compose -f docker-compose.yml -f docker-compose.local-models.yml up --build
+services:
+  api:
+    build: { context: ., args: { LOCAL_MODELS: "1" } }
+    image: groundwork:local
+    environment:
+      GW_DIM: "768"
+      GW_EMBEDDER: nomic
+      GW_LLM_PROVIDER: llamacpp
+      GW_LLM_GGUF: qwen2.5-0.5b
+      GW_THREADS: "${GW_THREADS:-4}"
+    volumes: ["${GW_MODEL_DIR_HOST:-/home/user/models}:/models:ro"]

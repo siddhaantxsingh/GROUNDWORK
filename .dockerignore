@@ -1,0 +1,9 @@
+**/__pycache__
+**/.pytest_cache
+**/.hypothesis
+**/*.egg-info
+docs
+test-logs
+benchmarks
+data
+tests

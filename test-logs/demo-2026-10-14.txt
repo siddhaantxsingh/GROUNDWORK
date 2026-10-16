@@ -1,0 +1,20 @@
+== upload
+{"id":"f9d78fab-3c32-4dc7-bbd8-57bf63cf168d","name":"Wind Turbine Maintenance Manual (example document, fictional)","media_type":"text/markdown","pages":1,"chunks":3,"created":true,"empty_pages":[]}
+{"id":"42268c89-84ae-42a4-afd5-10c3c0de63ab","name":"gw-demo-pitch","media_type":"application/pdf","pages":3,"chunks":3,"created":true,"empty_pages":[]}
+== query: How often must the gearbox be lubricated?
+ answer: The gearbox must be lubricated every 500 operating hours [1].
+ sources: [('Wind Turbine Maintenance Manual (example document, fictional)', [1, 1], 'Wind Turbine Maintenance Manual (example document, fictional) > Gearbox')]
+ grounding: {'groundedness': 1.0, 'citation_precision': 1.0}
+ timings_ms: {'rewrite_ms': 0.0, 'bm25_ms': 0.09, 'dense_ms': 0.0, 'fuse_rerank_ms': 0.38, 'total_ms': 0.47, 'generate_ms': 0.28, 'request_ms': 0.78}
+== query: When is the pitch accumulator pressure checked?
+ answer: The pitch accumulator pressure must be checked every 6 months [1].
+ sources: [('gw-demo-pitch', [2, 2], ''), ('gw-demo-pitch', [1, 1], '')]
+ grounding: {'groundedness': 1.0, 'citation_precision': 1.0}
+ timings_ms: {'rewrite_ms': 0.0, 'bm25_ms': 0.1, 'dense_ms': 0.0, 'fuse_rerank_ms': 0.28, 'total_ms': 0.38, 'generate_ms': 0.38, 'request_ms': 0.79}
+== query: Who won the 1998 World Cup?
+ answer: I could not find an answer to this question in the provided documents.
+ sources: []
+ grounding: {'groundedness': 1.0, 'citation_precision': 1.0}
+ timings_ms: {'rewrite_ms': 0.0, 'bm25_ms': 0.05, 'dense_ms': 0.0, 'fuse_rerank_ms': 0.0, 'total_ms': 0.05, 'generate_ms': 0.07, 'request_ms': 0.13}
+== usage
+{"queries":3,"latency_ms_avg":0.5672633333233534,"latency_ms_p95":0.7869753000477431,"tokens_in":0,"tokens_out":0,"cost_usd":0.0,"groundedness_avg":1.0}
